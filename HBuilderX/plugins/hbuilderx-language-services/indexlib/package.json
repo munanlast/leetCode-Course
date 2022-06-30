@@ -1,0 +1,11 @@
+{
+  "name": "indexlib",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "./out/node.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "unicloud-dbschema",
+  "name": "%uniclouddbschema.plugin.name%",
+  "description": "%uniclouddbschema.plugin.description%",
+  "displayName": "%uniclouddbschema.plugin.displayName%",
+  "version": "0.0.4.2021102219",
+  "publisher": "your name",
+  "__private": true,
+  "engines": {
+    "HBuilderX": "^3.2.10"
+  },
+  "categories": [
+    "Other"
+  ],
+  "main": "./out/extension.js",
+  "activationEvents": [
+    "onCommand:uniClound.newdbSchemaResource"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "uniClound.newdbSchemaResource",
+        "title": "%uniclouddbschema.command.newdbSchemaResource%"
+      }
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "uniClound.newdbSchemaResource",
+          "group": "_top",
+          "when": "explorerResourceCount == 1 && (workspaceFolderRelativePath =~ /^uniCloud\\-(tcb|aliyun)\\/database$/ || workspaceFolderRelativePath =~ /^uni_modules\\/.*\\/uniCloud\\/database$/)"
+        }
+      ]
+    }
+  },
+  "extensionDependencies": [
+    "plugin-manager"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-rename": "^2.0.0",
+    "vscode-nls-dev": "^3.3.2"
+  },
+  "_dc_signatures": "333109addc881ce308c09626b6c4c553daf403bea4828bd21866a0c8524de49777bfb17288af1492f110ff464d76d135"
+}

@@ -1,0 +1,55 @@
+{
+	"name": "hx-language-pack-zh-cn",
+	"displayName": "HBuilderX中文语言包",
+	"description": "HBuilderX中文语言包",
+	"version": "0.1.0-2022041519",
+	"publisher": "HBuilderX",	
+	"license": "SEE MIT LICENSE IN LICENSE.md",
+	"__private": true,
+	"engines": {
+		"HBuilderX": "^3.1.21"
+	},
+	"icon": "languagepack.png",
+	"categories": [
+		"Language Packs"
+	],
+	"tips":{
+		"setLanguageMessage": "当前语言已经设置为{1}, 重启应用程序后生效",
+		"missingLanguageMessage": "在语言包({2})中没有找到对应语言({1})",
+		"askChangeLanguageMessage": "当前设置的语言与系统语言不同({1})",
+		"changeToButton": "设置与系统语言一致并重启",
+		"restartButton": "重启HBuilderX",
+		"downloadButton": "下载语言包"
+	},
+	"contributes": {
+		"localizations": [
+			{
+				"languageId": "zh_CN",
+				"languageName": "Chinese Simplified",
+				"localizedLanguageName": "缺省中文(简体)",
+				"translations": [
+					{
+						"id": "hbuilderx",
+						"path": "./main.i18n.json"
+					},
+					{
+						"id": "ls",
+						"path":"./extensions/ls.i18n.json"
+					},
+					{
+						"id": "templates",
+						"path":"./extensions/templates.i18n.json"
+					},
+					{
+						"id": "html",
+						"path":"./extensions/html.i18n.json"
+					},
+					{
+						"id": "javascript",
+						"path":"./extensions/javascript.i18n.json"
+					}
+				]
+			}
+		]
+	}
+}

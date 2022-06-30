@@ -1,0 +1,15 @@
+{
+	"lark.publish": "飞书小程序发行",
+	"lark.nameInput.placeholder": "输入飞书小程序名称",
+	"lark.appidInput.placeholder": "输入飞书小程序AppId",
+	"lark.behavior.text": "发行为混合包",
+	"lark.subPackgeInput.placeholder": "输入分包名称",
+	"lark.footerText": "<a href='https://uniapp.dcloud.net.cn/hybrid'>查看混合发版文档</a>",
+	"lark.submitText": "发行(&P)",
+	"lark.cancelText": "取消(&C)",
+	"lark.plesaseInputName": "飞书小程序名称不能为空",
+	"lark.plesaseInputAppid": "飞书小程序AppId不能为空",
+	"lark.plesaseInputAppidsubPack": "分包名称不能为空",
+	"lark.okText": "确定(&O)",
+	"lark.continueOperation": "当前项目没有绑定服务空间,确定要继续操作?"
+}

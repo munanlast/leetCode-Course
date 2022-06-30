@@ -1,0 +1,9 @@
+{
+	"newschema.title": "新建数据集合Schema文件",
+	"newschema.defualtTemplateName": "默认模板",
+	"newschema.customTemplateName": "自定义模板",
+	"newschema.plesaseInputFileName": "请输入文件名",
+	"newschema.plesaseSelectPath": "请选择文件路径",
+	"newschema.plesaseSelectTemplate": "请选择模板",
+	"newschema.locationSmameSchema": "选择的位置已存在同名的数据集合Schema"
+}

@@ -1,0 +1,6 @@
+{
+	"uniclouddbschema.plugin.name": "unicloud-dbschema插件",
+	"uniclouddbschema.plugin.description": "unicloud-dbschema插件(支持dbschema)",
+	"uniclouddbschema.plugin.displayName": "unicloud-dbschema插件",
+	"uniclouddbschema.command.newdbSchemaResource": "新建DB Schema(&S)"
+}

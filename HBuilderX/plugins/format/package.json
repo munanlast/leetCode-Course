@@ -1,0 +1,49 @@
+{
+    "name": "jsbeautify",
+    "version": "1.0.1-2022032413",
+    "__private": true,
+    "external": {
+        "type": "node"
+    },
+    "engines": {
+        "HBuilderX": "^3.2.6"
+    },
+    "contributes": {
+        "formator": {
+            "name": "jsbeautify",
+            "class": "js_beautify.js",
+            "filetypes": [
+                "json",
+                "js",
+                "njs",
+                "html",
+                "css",
+                "vue",
+                "nvue",
+                "ux",
+                "nml",
+                "nss",
+                "wxml",
+                "qml",
+                "qss",
+                "wxss",
+                "sjs",
+                "ttml",
+                "ttss",
+                "acss",
+                "swan"
+            ]
+        }
+    },
+    "configurationFiles": [
+        "jsbeautifyrc.js"
+    ],
+    "configurationFileInfos": {
+        "jsbeautifyrc.js": {
+            "description": "%configurationFileInfos.jsbeautifyrc.js.description%"
+        }
+    },
+    "dependencies": {
+        "js-beautify": "^1.13.5"
+    }
+}

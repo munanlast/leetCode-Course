@@ -1,0 +1,64 @@
+{
+	"extends": "./shared.tsconfig.json",
+	"compilerOptions": {
+		"outDir": "./out",
+		"sourceMap": true
+	},
+	"include": [
+		"src/**/*"
+	],
+	"_comment":"以下引用的项目顺序不能改变！！！",
+	"references": [
+		{
+			"path": "./indexlib"
+		},
+		{
+			"path": "./utils"
+		},
+		{
+			"path": "./utils/client"
+		},
+		{
+			"path": "./serverinterface"
+		},
+		{
+			"path": "./htmlservice/entry"
+		},
+		{
+			"path": "./cssservice/entry"
+		},
+		{
+			"path": "./stylusservice"
+		},
+		{
+			"path": "./stylusservice/server"
+		},
+		{
+			"path": "./htmlservice/client"
+		},
+		{
+			"path": "./htmlservice/index"
+		},
+		{
+			"path": "./htmlservice/server"
+		},
+		{
+			"path": "./cssservice/client"
+		},
+		{
+			"path": "./cssservice/server"
+		},
+		{
+			"path": "./jsservice"
+		},
+		{
+			"path":"./jsservice/src/tsplugins/node_modules/dcloudio"
+		},
+		{
+			"path": "./indexservice"
+		},
+		{
+			"path": "./emmet"
+		}
+	]
+}

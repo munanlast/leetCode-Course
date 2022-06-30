@@ -1,0 +1,33 @@
+{
+	"compilerOptions": {
+		"outDir": "./out",
+		"sourceMap": true,
+		"types": [
+			"node"
+		],
+		"target": "es2018",
+		"lib": [
+			"es2018"
+		],
+		"module": "commonjs",
+		"composite": true,
+		"declaration": true,
+		"declarationMap": true,
+		"rootDir": "./src",
+		"downlevelIteration": true
+	},
+	"include": [
+		"src/**/*",
+		"../../src/vscode-dts/vscode.d.ts",
+		"../../src/vscode-dts/vscode.proposed.languageStatus.d.ts",
+		"../../src/vscode-dts/vscode.proposed.d.ts",
+		"../../src/vscode-dts/collections.d.ts"
+	],
+	"strict": true,
+	"alwaysStrict": true,
+	"noImplicitAny": true,
+	"noImplicitReturns": true,
+	"noUnusedLocals": false,
+	"noUnusedParameters": false,
+	"skipLibCheck": true
+}

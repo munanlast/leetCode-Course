@@ -1,0 +1,118 @@
+{
+  "__private":true,
+  "name": "uni_modules_proxy",
+  "displayName": "uni_modules\u63d2\u4ef6",
+  "version": "1.0.1-2021083017",
+  "description": "\u7ba1\u7406\u7b26\u5408uni_modules\u89c4\u8303\u7684uni-app\u63d2\u4ef6\uff0c\u652f\u6301\u4e0a\u4f20\uff0c\u66f4\u65b0\uff0c\u5220\u9664\u7b49\u64cd\u4f5c\u3002",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "publisher": "DCloud",
+  "engines": {
+    "HBuilderX": "^2.9.9"
+  },
+  "categories": [
+    "Other"
+  ],
+  "contributes": {
+	  "commandInterceptors":[{
+	  	  "id":"interceptor.checkPluginExists",
+		  "patterns":[
+			  "uni_modules.*"
+		  ],
+	  	  "args":{
+	  		  "pluginId":"uni_modules",
+	  		  "pluginName":"uniModules插件"
+	  	  }
+	  }],
+    "commands": [
+      {
+        "command": "uni_modules.mkdir.proxy",
+        "title": "\u65b0\u5efauni_modules\u76ee\u5f55(&X)"
+      },
+      {
+        "command": "uni_modules.create.proxy",
+        "title": "\u65b0\u5efauni_modules\u63d2\u4ef6(&H)"
+      },
+      {
+        "command": "uni_modules.upload.proxy",
+        "title": "\u53d1\u5e03\u5230\u63d2\u4ef6\u5e02\u573a(&J)"
+      },
+      {
+        "command": "uni_modules.update.proxy",
+        "title": "\u4ece\u63d2\u4ef6\u5e02\u573a\u66f4\u65b0(&W)"
+      },
+      {
+        "command": "uni_modules.install.proxy",
+        "title": "\u5b89\u88c5\u63d2\u4ef6\u4e09\u65b9\u4f9d\u8d56(&Q)"
+      },
+      {
+        "command": "uni_modules.updateInfo.proxy",
+        "title": "\u4fee\u6539\u63d2\u4ef6\u57fa\u672c\u4fe1\u606f(&L)"
+      },
+      {
+        "command": "uni_modules.view.proxy",
+        "title": "\u6d4f\u89c8\u63d2\u4ef6\u5e02\u573a\u8be6\u60c5\u9875(&V)"
+      }
+    ],
+    "expressions": {
+      "isUniAppPackageJson": "workspaceFolder.type == 'UniApp_Vue' && workspaceFolderRelativePath == 'package.json'",
+      "isExtensionPackageJson": "workspaceFolder.type == 'Extension' && workspaceFolderRelativePath == 'package.json'",
+      "isUniModulePluginRoot": "explorerResourceIsFolder && workspaceFolder.type == 'UniApp_Vue' && ...workspaceFolderRelativePath =~ /^(uni_modules|src\\/uni_modules)\\/[^\\/]*$/",
+      "mkdir": "!(file.exists <- '${workspaceFolder}/uni_modules') && explorerResourceCount == 1 && explorerResourceIsWorkspaceFolder && workspaceFolder.type == 'UniApp_Vue'",
+      "create": "explorerResourceCount == 1 && explorerResourceIsFolder && workspaceFolder.type == 'UniApp_Vue' && ...workspaceFolderRelativePath =~ /^(uni_modules|src\\/uni_modules)$/",
+      "uploadOrView": "explorerResourceCount == 1 && (expression.isExtensionPackageJson || expression.isUniModulePluginRoot || expression.isUniAppPackageJson)",
+      "install": "explorerResourceCount == 1 && expression.isUniModulePluginRoot",
+      "update": "expression.isUniModulePluginRoot || expression.isUniAppPackageJson",
+	  "isExtensionExists":"plugin.isInstalled <- 'uni_modules'"
+    },
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "uni_modules.mkdir.proxy",
+          "group": "new",
+          "when": "!expression.isExtensionExists && expression.mkdir && localeId == 'zh_CN'"
+        },
+        {
+          "command": "uni_modules.create.proxy",
+          "group": "new",
+          "when": "!expression.isExtensionExists && expression.create && localeId == 'zh_CN'"
+        },
+        {
+          "command": "uni_modules.upload.proxy",
+          "group": "new",
+          "when": "!expression.isExtensionExists && expression.uploadOrView && localeId == 'zh_CN'"
+        },
+        {
+          "command": "uni_modules.update.proxy",
+          "group": "new",
+          "when": "!expression.isExtensionExists && expression.update && localeId == 'zh_CN'"
+        },
+        {
+          "command": "uni_modules.update.proxy",
+          "group": "new",
+          "when": "!expression.isExtensionExists && expression.create && localeId == 'zh_CN'",
+          "title": "\u4ece\u63d2\u4ef6\u5e02\u573a\u66f4\u65b0\u6240\u6709\u63d2\u4ef6(&W)"
+        },
+        {
+          "command": "uni_modules.install.proxy",
+          "group": "new",
+          "when": "!expression.isExtensionExists && expression.install && localeId == 'zh_CN'"
+        },
+        {
+          "command": "uni_modules.updateInfo.proxy",
+          "group": "new",
+          "when": "!expression.isExtensionExists && expression.uploadOrView && localeId == 'zh_CN'"
+        },
+        {
+          "command": "uni_modules.view.proxy",
+          "group": "new",
+          "when": "!expression.isExtensionExists && expression.uploadOrView && localeId == 'zh_CN'"
+        },
+        {
+          "group": "new"
+        }
+      ]
+    }
+  }
+}

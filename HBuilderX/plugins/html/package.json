@@ -1,0 +1,60 @@
+{
+    "name": "html",
+    "version": "0.1.1.2022022117",
+    "publisher": "vscode",
+    "aiKey": "AIF-d9b70cd4-b9f9-4d70-929b-a071c400b217",
+    "__private": true,
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/html.json"
+            },
+            {
+                "project": "Web,App,Wap2App",
+                "language": "html",
+                "path": "./snippets/mui.json"
+            },
+            {
+                "language": "nml",
+                "path": "./snippets/nml.json"
+            },
+            {
+                "language": "ux",
+                "path": "./snippets/ux.json"
+            },
+            {
+                "language": "vue",
+                "path": "./snippets/vue.json"
+            },
+            {
+                "project": "Web",
+                "language": "vue",
+                "path": "./snippets/html.json"
+            },
+            {
+                "project": "uni-app",
+                "language": "vue",
+                "path": "./snippets/uni_vue_tag.json",
+                "scope": "text.html.vue ! (expression , meta.tag)"
+            },
+            {
+                "language": "vue",
+                "path": "./snippets/vue-template.json",
+                "scope": "text.html.vue ! (expression , meta.tag)"
+            },
+            {
+                "project": "uni-app",
+                "language": "vue",
+                "path": "./snippets/condition_comment.json"
+            },
+            {
+                "project": "uni-app",
+                "language": "pug",
+                "path": "./snippets/condition_comment.json"
+            }
+        ]
+    },
+    "dependencies": {},
+    "devDependencies": {}
+}

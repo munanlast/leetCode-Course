@@ -1,0 +1,26 @@
+{
+	"name": "vscode-theme-seti",
+	"private": true,
+	"version": "1.0.1.2021082616",
+	"displayName": "vscode-theme-seti", 
+	"description": "vscode-theme-seti",
+	"publisher": "vscode",
+	"icon": "icons/seti-circular-128x128.png",
+    "__private":true,
+	"scripts": {
+		"update": "node ./build/update-icon-theme.js"
+	},
+	"engines": {
+		"HBuilderX": "^3.2.6"
+	},
+	"contributes": {
+		"iconThemes": [
+			{
+				"id": "vs-seti",
+				"label": "%contributes.iconThemes.label%",
+				"path": "./icons/vs-seti-icon-theme.json"
+			}
+		]
+	},
+	"extensionDependencies":["theme-icons-default"]
+}

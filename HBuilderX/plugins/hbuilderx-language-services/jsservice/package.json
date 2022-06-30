@@ -1,0 +1,281 @@
+{
+  "name": "typescript-language-features",
+  "description": "%description%",
+  "displayName": "%displayName%",
+  "version": "1.0.0",
+  "icon": "icon.png",
+  "author": "vscode",
+  "publisher": "vscode",
+  "license": "MIT",
+  "aiKey": "AIF-d9b70cd4-b9f9-4d70-929b-a071c400b217",
+  "enableProposedApi": true,
+  "engines": {
+  	"HBuilderX": "^2.7.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+  },
+  "activationEvents": [
+    "*",
+    "onLanguage:javascript",
+    "onLanguage:javascriptreact",
+    "onLanguage:typescript",
+    "onLanguage:typescriptreact",
+    "onLanguage:jsx-tags",
+    "onCommand:typescript.reloadProjects",
+    "onCommand:javascript.reloadProjects",
+    "onCommand:typescript.selectTypeScriptVersion",
+    "onCommand:javascript.goToProjectConfig",
+    "onCommand:typescript.goToProjectConfig",
+    "onCommand:typescript.openTsServerLog",
+    "onCommand:workbench.action.tasks.runTask",
+    "onCommand:_typescript.configurePlugin",
+    "onCommand:_typescript.learnMoreAboutRefactorings",
+    "onLanguage:jsonc"
+  ],
+  "main": "./out/extension",
+  "browser": "./dist/browser/extension",
+  "contributes": {
+    "jsonValidation": [
+      {
+        "fileMatch": "package.json",
+        "url": "./schemas/package.schema.json"
+      },
+      {
+        "fileMatch": "tsconfig.json",
+        "url": "https://json.schemastore.org/tsconfig"
+      },
+      {
+        "fileMatch": "tsconfig.json",
+        "url": "./schemas/tsconfig.schema.json"
+      },
+      {
+        "fileMatch": "tsconfig.*.json",
+        "url": "https://json.schemastore.org/tsconfig"
+      },
+      {
+        "fileMatch": "tsconfig-*.json",
+        "url": "./schemas/tsconfig.schema.json"
+      },
+      {
+        "fileMatch": "tsconfig-*.json",
+        "url": "https://json.schemastore.org/tsconfig"
+      },
+      {
+        "fileMatch": "tsconfig.*.json",
+        "url": "./schemas/tsconfig.schema.json"
+      },
+      {
+        "fileMatch": "typings.json",
+        "url": "https://json.schemastore.org/typings"
+      },
+      {
+        "fileMatch": ".bowerrc",
+        "url": "https://json.schemastore.org/bowerrc"
+      },
+      {
+        "fileMatch": ".babelrc",
+        "url": "https://json.schemastore.org/babelrc"
+      },
+      {
+        "fileMatch": ".babelrc.json",
+        "url": "https://json.schemastore.org/babelrc"
+      },
+      {
+        "fileMatch": "babel.config.json",
+        "url": "https://json.schemastore.org/babelrc"
+      },
+      {
+        "fileMatch": "jsconfig.json",
+        "url": "https://json.schemastore.org/jsconfig"
+      },
+      {
+        "fileMatch": "jsconfig.json",
+        "url": "./schemas/jsconfig.schema.json"
+      },
+      {
+        "fileMatch": "jsconfig.*.json",
+        "url": "https://json.schemastore.org/jsconfig"
+      },
+      {
+        "fileMatch": "jsconfig.*.json",
+        "url": "./schemas/jsconfig.schema.json"
+      }
+    ],
+    "commands": [
+      {
+        "command": "typescript.reloadProjects",
+        "title": "%reloadProjects.title%",
+        "category": "TypeScript"
+      },
+      {
+        "command": "javascript.reloadProjects",
+        "title": "%reloadProjects.title%",
+        "category": "JavaScript"
+      },
+      {
+        "command": "typescript.selectTypeScriptVersion",
+        "title": "%typescript.selectTypeScriptVersion.title%",
+        "category": "TypeScript"
+      },
+      {
+        "command": "typescript.goToProjectConfig",
+        "title": "%goToProjectConfig.title%",
+        "category": "TypeScript"
+      },
+      {
+        "command": "javascript.goToProjectConfig",
+        "title": "%goToProjectConfig.title%",
+        "category": "JavaScript"
+      },
+      {
+        "command": "typescript.openTsServerLog",
+        "title": "%typescript.openTsServerLog.title%",
+        "category": "TypeScript"
+      },
+      {
+        "command": "typescript.restartTsServer",
+        "title": "%typescript.restartTsServer%",
+        "category": "TypeScript"
+      }
+    ],
+    "menus": {
+      "commandPalette": [
+        {
+          "command": "typescript.reloadProjects",
+          "when": "editorLangId == typescript && typescript.isManagedFile"
+        },
+        {
+          "command": "typescript.reloadProjects",
+          "when": "editorLangId == typescriptreact && typescript.isManagedFile"
+        },
+        {
+          "command": "javascript.reloadProjects",
+          "when": "editorLangId == javascript && typescript.isManagedFile"
+        },
+        {
+          "command": "javascript.reloadProjects",
+          "when": "editorLangId == javascriptreact && typescript.isManagedFile"
+        },
+        {
+          "command": "typescript.goToProjectConfig",
+          "when": "editorLangId == typescript && typescript.isManagedFile"
+        },
+        {
+          "command": "typescript.goToProjectConfig",
+          "when": "editorLangId == typescriptreact"
+        },
+        {
+          "command": "javascript.goToProjectConfig",
+          "when": "editorLangId == javascript && typescript.isManagedFile"
+        },
+        {
+          "command": "javascript.goToProjectConfig",
+          "when": "editorLangId == javascriptreact && typescript.isManagedFile"
+        },
+        {
+          "command": "typescript.selectTypeScriptVersion",
+          "when": "typescript.isManagedFile"
+        },
+        {
+          "command": "typescript.openTsServerLog",
+          "when": "typescript.isManagedFile"
+        },
+        {
+          "command": "typescript.restartTsServer",
+          "when": "typescript.isManagedFile"
+        }
+      ]
+    },
+    "breakpoints": [
+      {
+        "language": "typescript"
+      },
+      {
+        "language": "typescriptreact"
+      }
+    ],
+    "taskDefinitions": [
+      {
+        "type": "typescript",
+        "required": [
+          "tsconfig"
+        ],
+        "properties": {
+          "tsconfig": {
+            "type": "string",
+            "description": "%taskDefinition.tsconfig.description%"
+          },
+          "option": {
+            "type": "string"
+          }
+        }
+      }
+    ],
+    "problemPatterns": [
+      {
+        "name": "tsc",
+        "regexp": "^([^\\s].*)[\\(:](\\d+)[,:](\\d+)(?:\\):\\s+|\\s+-\\s+)(error|warning|info)\\s+TS(\\d+)\\s*:\\s*(.*)$",
+        "file": 1,
+        "line": 2,
+        "column": 3,
+        "severity": 4,
+        "code": 5,
+        "message": 6
+      }
+    ],
+    "problemMatchers": [
+      {
+        "name": "tsc",
+        "label": "%typescript.problemMatchers.tsc.label%",
+        "owner": "typescript",
+        "source": "ts",
+        "applyTo": "closedDocuments",
+        "fileLocation": [
+          "relative",
+          "${cwd}"
+        ],
+        "pattern": "$tsc"
+      },
+      {
+        "name": "tsc-watch",
+        "label": "%typescript.problemMatchers.tscWatch.label%",
+        "owner": "typescript",
+        "source": "ts",
+        "applyTo": "closedDocuments",
+        "fileLocation": [
+          "relative",
+          "${cwd}"
+        ],
+        "pattern": "$tsc",
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": {
+            "regexp": "^\\s*(?:message TS6032:|\\[?\\D*\\d{1,2}[:.]\\d{1,2}[:.]\\d{1,2}\\D*(├\\D*\\d{1,2}\\D+┤)?(?:\\]| -)) File change detected\\. Starting incremental compilation\\.\\.\\."
+          },
+          "endsPattern": {
+            "regexp": "^\\s*(?:message TS6042:|\\[?\\D*\\d{1,2}[:.]\\d{1,2}[:.]\\d{1,2}\\D*(├\\D*\\d{1,2}\\D+┤)?(?:\\]| -)) (?:Compilation complete\\.|Found \\d+ errors?\\.) Watching for file changes\\."
+          }
+        }
+      }
+    ],
+    "typescriptServerPlugins": [
+      {
+        "name": "typescript-vscode-sh-plugin",
+        "enableForWorkspaceTypeScriptVersions": true
+      }
+    ],
+    "indexProcessors": [
+      {
+        "language": "javascript",
+        "url": "./out/index/indexProc.js"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+	"lark.publish": "Publish Program-Lark",
+	"lark.nameInput.placeholder": "Enter applet name",
+	"lark.appidInput.placeholder": "Enter applet appid",
+	"lark.behavior.text": "Release as mixed package",
+	"lark.subPackgeInput.placeholder": "Enter subcontract name",
+	"lark.footerText": "<a href='https://uniapp.dcloud.net.cn/hybrid'>View mixed release documents</a>",
+	"lark.submitText": "&Publish",
+	"lark.cancelText": "&Cancel",
+	"lark.plesaseInputName": "Name cannot be empty",
+	"lark.plesaseInputAppid": "Appid cannot be empty",
+	"lark.plesaseInputAppidsubPack": "Subcontracting name cannot be empty",
+	"lark.okText": "&OK",
+	"lark.continueOperation": "The current project has no bound service space. Are you sure you want to continue?"
+}

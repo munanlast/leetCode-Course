@@ -1,0 +1,62 @@
+{
+  "__private": true,
+  "name": "codechina_proxy",
+  "displayName": "%displayname%",
+  "version": "1.0.2-2021122317",
+  "description": "%description%",
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "publisher": "DCloud",
+  "engines": {
+    "HBuilderX": "^3.2.6"
+  },
+  "categories": [
+    "Other"
+  ],
+  "contributes": {
+    "commandInterceptors": [
+      {
+        "id": "interceptor.checkPluginExists",
+        "patterns": [
+          "api.main_project_create.proxy",
+          "api.main_project_visit.proxy"
+        ],
+        "args": {
+          "pluginId": "codechina-workflow",
+          "pluginName": "%contributes.commandInterceptors.args.pluginName%"
+        }
+      }
+    ],
+    "commands": [
+      {
+        "command": "api.main_project_create.proxy",
+        "title": "%api.main_project_create.proxy.title%"
+      },
+      {
+        "command": "api.main_project_visit.proxy",
+        "title": "%api.main_project_visit.proxy.title%"
+      }
+    ],
+    "expressions": {
+      "iscodechinaExtensionExists": "plugin.isInstalled <- 'codechina-workflow'"
+    },
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "api.main_project_create.proxy",
+          "group": "z_commands",
+          "when": "!expression.iscodechinaExtensionExists && explorerResourceIsWorkspaceFolder && !(file.exists <- '${workspaceFolder}/.git/codechina.yaml') && localeId == 'zh_CN'"
+        },
+        {
+          "command": "api.main_project_visit.proxy",
+          "group": "z_commands",
+          "when": "!expression.iscodechinaExtensionExists && explorerResourceIsWorkspaceFolder && file.exists <- '${workspaceFolder}/.git/codechina.yaml'  && localeId == 'zh_CN'"
+        },
+        {
+          "group": "z_commands"
+        }
+      ]
+    }
+  }
+}

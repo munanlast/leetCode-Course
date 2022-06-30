@@ -1,0 +1,7 @@
+{
+  "displayname": "CSDN GitCode 代码托管服务",
+  "description": "CSDN GitCode 代码托管服务",
+  "contributes.commandInterceptors.args.pluginName": "CSDN GitCode 代码托管服务",
+  "api.main_project_create.proxy.title": "托管项目到Git平台（CSDN GitCode）",
+  "api.main_project_visit.proxy.title": "访问托管项目Web页..."
+}

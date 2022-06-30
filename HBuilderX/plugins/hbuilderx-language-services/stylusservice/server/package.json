@@ -1,0 +1,11 @@
+{
+  "name": "stylus-languageserver",
+  "description": "stylus language server",
+  "version": "1.0.0",
+  "author": "Microsoft Corporation",
+  "license": "MIT",
+  "engines": {
+    "node": "*"
+  },
+  "main": "./out/entry"
+}

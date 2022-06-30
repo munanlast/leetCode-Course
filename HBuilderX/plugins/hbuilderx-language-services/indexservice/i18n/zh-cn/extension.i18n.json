@@ -1,0 +1,6 @@
+{
+	"index.build.processing": "正在构建项目[{0}]索引...",
+	"index.build.finish": "项目[{0}]构建索引完成",
+	"index.build.error": "项目[{0}]构建索引失败",
+	"index.build.error.invalidProject": "构建索引失败: 无效的项目"
+}

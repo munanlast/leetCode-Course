@@ -1,0 +1,149 @@
+{
+    "name": "vue页面模板",
+    "description": "vue页面模板",
+    "sortgroup": ["base", "custom", ""],
+    "templates": [{
+            "file": "默认模板.vue",
+            "name": "%default.name%"
+        },
+        {
+            "file": "使用less的页面.vue",
+            "name": "%less.name%"
+        },
+        {
+            "file": "使用scss的页面.vue",
+            "name": "%scss.name%"
+        },
+        {
+            "file": "使用stylus的页面.vue",
+            "name": "%stylus.name%"
+        },
+        {
+            "file": "使用typescript的页面.vue",
+            "name": "%typescript.name%"
+        },
+        {
+            "file": "https://ext.dcloud.net.cn/hbuilder/download?pluginId=2588",
+            "author": "DCloud",
+            "name": "%uni.noThumbnail.newsList.name%",
+            "description": "%uni.noThumbnail.newsList.description%",
+            "support": ["tcb", "aliyun"],
+            "url": "https://ext.dcloud.net.cn/plugin?id=2588",
+            "preview": "https://img-cdn-aliyun.dcloud.net.cn/stream/plugin_screens/0ba30690-e354-11ea-9e60-298807c7337d_0.jpg"
+        },
+        {
+            "file": "https://ext.dcloud.net.cn/hbuilder/download?pluginId=2587",
+            "author": "DCloud",
+            "name": "%uni.rightPicture.newsList.name%",
+            "description": "%uni.rightPicture.newsList.description%",
+            "support": ["tcb", "aliyun"],
+            "url": "https://ext.dcloud.net.cn/plugin?id=2587",
+            "preview": "https://img-cdn-aliyun.dcloud.net.cn/stream/plugin_screens/86a2da50-e353-11ea-893c-3be5af1d1197_0.jpg"
+        },
+        {
+            "file": "https://ext.dcloud.net.cn/hbuilder/download?pluginId=2586",
+            "author": "DCloud",
+            "name": "%uni.leftPicture.newsList.name%",
+            "description": "%uni.leftPicture.newsList.description%",
+            "support": ["tcb", "aliyun"],
+            "url": "https://ext.dcloud.net.cn/plugin?id=2586",
+            "preview": "https://img-cdn-aliyun.dcloud.net.cn/stream/plugin_screens/23535cc0-e353-11ea-b429-91ac0db5a63b_0.jpg"
+        },
+        {
+            "file": "https://ext.dcloud.net.cn/hbuilder/download?pluginId=2585",
+            "author": "DCloud",
+            "name": "%uni.multiGraph.newsList.name%",
+            "description": "%uni.multiGraph.newsList.description%",
+            "support": ["tcb", "aliyun"],
+            "url": "https://ext.dcloud.net.cn/plugin?id=2585",
+            "preview": "https://img-cdn-aliyun.dcloud.net.cn/stream/plugin_screens/8830ba00-e352-11ea-80c3-eda2d9f9dbf7_0.jpg"
+        },
+        {
+            "file": "https://ext.dcloud.net.cn/hbuilder/download?pluginId=2584",
+            "author": "DCloud",
+            "name": "%uni.imageAndText.newsList.name%",
+            "description": "%uni.imageAndText.newsList.description%",
+            "support": ["tcb", "aliyun"],
+            "url": "https://ext.dcloud.net.cn/plugin?id=2584",
+            "preview": "https://img-cdn-aliyun.dcloud.net.cn/stream/plugin_screens/a4542a60-e351-11ea-9424-d7d30561df66_0.jpg"
+        },
+        {
+            "file": "https://ext.dcloud.net.cn/hbuilder/download?pluginId=2583",
+            "author": "DCloud",
+            "name": "%uni.bigImage.newsList.name%",
+            "description": "%uni.bigImage.newsList.description%",
+            "support": ["tcb", "aliyun"],
+            "url": "https://ext.dcloud.net.cn/plugin?id=2583",
+            "preview": "https://img-cdn-aliyun.dcloud.net.cn/stream/plugin_screens/c3bd7be0-e350-11ea-bb66-83c9aef46e19_0.jpg"
+        },
+        {
+            "file": "https://ext.dcloud.net.cn/hbuilder/download?pluginId=2546",
+            "author": "DCloud",
+            "name": "%uni.blend.newsList.name%",
+            "description": "%uni.blend.newsList.description%",
+            "support": ["tcb", "aliyun"],
+            "url": "https://ext.dcloud.net.cn/plugin?id=2546",
+            "preview": "https://img-cdn-aliyun.dcloud.net.cn/stream/plugin_screens/9c8eba70-e075-11ea-b982-f138accd47bd_0.jpg"
+        },
+        {
+            "file": "https://ext.dcloud.net.cn/hbuilder/download?pluginId=2717",
+            "author": "DCloud",
+            "name": "%uni.newsDetail.name%",
+            "description": "%uni.newsDetail.description%",
+            "support": ["tcb", "aliyun"],
+            "url": "https://ext.dcloud.net.cn/plugin?id=2717",
+            "preview": "https://img-cdn-aliyun.dcloud.net.cn/stream/plugin_screens/b86230f0-f17e-11ea-a9ff-c51504b44f96_0.jpg"
+        },
+        {
+            "file": "https://ext.dcloud.net.cn/hbuilder/download?pluginId=2651",
+            "author": "DCloud",
+            "name": "%uni.productList.name%",
+            "description": "%uni.productList.description%",
+            "support": ["tcb", "aliyun"],
+            "url": "https://ext.dcloud.net.cn/plugin?id=2651",
+            "preview": "https://img-cdn-aliyun.dcloud.net.cn/stream/plugin_screens/5f5372e0-e9a1-11ea-8ffb-a91ad2d78303_0.jpg"
+        },
+        {
+            "file": "https://ext.dcloud.net.cn/hbuilder/download?pluginId=2672",
+            "author": "DCloud",
+            "name": "%uni.listProductList.name%",
+            "description": "%uni.listProductList.description%",
+            "support": ["tcb", "aliyun"],
+            "url": "https://ext.dcloud.net.cn/plugin?id=2672",
+            "preview": "https://img-cdn-aliyun.dcloud.net.cn/stream/plugin_screens/31e4a700-ec03-11ea-8b41-0141d50d089e_0.jpg"
+        },
+        {
+            "file": "https://ext.dcloud.net.cn/hbuilder/download?pluginId=2671",
+            "author": "DCloud",
+            "name": "%uni.palaceGridProductList.name%",
+            "description": "%uni.palaceGridProductList.description%",
+            "support": ["tcb", "aliyun"],
+            "url": "https://ext.dcloud.net.cn/plugin?id=2671",
+            "preview": "https://img-cdn-aliyun.dcloud.net.cn/stream/plugin_screens/28e6e6b0-ec00-11ea-bc8d-5319a48e9ad5_0.jpg"
+        },
+        {
+            "file": "https://ext.dcloud.net.cn/hbuilder/download?pluginId=6789",
+            "author": "DCloud",
+            "name": "%uni.stickyList.name%",
+            "description": "%uni.stickyList.description%",
+            "url": "https://ext.dcloud.net.cn/plugin?id=6789",
+            "preview": "https://img-cdn-aliyun.dcloud.net.cn/stream/plugin_screens/sticky-list_0.jpg"
+        },
+        {
+            "file": "https://ext.dcloud.net.cn/hbuilder/download?pluginId=6791",
+            "author": "DCloud",
+            "name": "%uni.nvueSwiper.name%",
+            "description": "%uni.nvueSwiper.description%",
+            "url": "https://ext.dcloud.net.cn/plugin?id=6791",
+            "preview": "https://img-cdn-aliyun.dcloud.net.cn/stream/plugin_screens/nvue-swiper_0.jpg"
+        },
+        {
+            "file": "https://ext.dcloud.net.cn/hbuilder/download?pluginId=6790",
+            "author": "DCloud",
+            "name": "%uni.swiperSticky.name%",
+            "description": "%uni.swiperSticky.description%",
+            "url": "https://ext.dcloud.net.cn/plugin?id=6790",
+            "preview": "https://img-cdn-aliyun.dcloud.net.cn/stream/plugin_screens/swiper-sticky_0.jpg"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+	"name": "hx-explorer-icons",
+	"id":"hx-explorer-icons",
+	"private": true,
+	"version": "1.0.1.2022022218",
+	"displayName": "HbuilderX File Icon Theme",
+	"description": "%description%",
+	"publisher": "hbuilderx",
+	"engines": {
+		"HBuilderX": "^3.2.6"
+	},
+    "__private":true,
+	"contributes": {
+		"iconThemes": [
+			{
+				"id": "hx-file-icons",
+				"label": "%contributes.iconThemes.label%",
+				"path": "./icons/hx-build-in-icon-theme.json"
+			}
+		]
+	}
+}

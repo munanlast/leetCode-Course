@@ -1,0 +1,22 @@
+{
+	"extends": "../shared.tsconfig.json",
+	"compilerOptions": {
+		"outDir": "./out",
+		"sourceMap": true,
+		"experimentalDecorators": true,
+		"types": [
+			"node"
+		],
+		"composite": true,
+		"declaration": true,
+		"declarationMap": true,
+		"rootDir":"./src"
+	},
+	"include": [
+		"src/**/*",
+		"../src/vscode-dts/vscode.d.ts",
+		"../src/vscode-dts/vscode.proposed.languageStatus.d.ts",
+		"../src/vscode-dts/vscode.proposed.d.ts",
+		"../src/vscode-dts/collections.d.ts"
+	]
+}

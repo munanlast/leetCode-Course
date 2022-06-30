@@ -1,0 +1,21 @@
+{
+	"name":"vue组件模板",
+	"description":"vue组件模板",
+	"templates":[
+		{
+			"file": "default component.vue"
+		},
+		{
+			"file": "less component.vue"
+		},
+		{
+			"file": "scss component.vue"
+		},
+		{
+			"file": "stylus component.vue"
+		},
+		{
+			"file": "typescript component.vue"
+		}
+	]
+}

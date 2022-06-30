@@ -1,0 +1,6 @@
+{
+	"index.build.processing": "Building index for project [{0}] ...",
+	"index.build.finish": "Build index for [{0}] finised",
+	"index.build.error": "Build index for [{0}] failed",
+	"index.build.error.invalidProject": "Build index failed: invalid project"
+}

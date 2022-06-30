@@ -1,0 +1,7 @@
+{
+  "displayname": "CSDN CodeChina code hosting service",
+  "description": "CSDN CodeChina code hosting service",
+  "contributes.commandInterceptors.args.pluginName": "CSDN CodeChina code hosting service",
+  "api.main_project_create.proxy.title": "Host project to Git platform (CODE CHINA)",
+  "api.main_project_visit.proxy.title": "Visit the hosted project web page..."
+}

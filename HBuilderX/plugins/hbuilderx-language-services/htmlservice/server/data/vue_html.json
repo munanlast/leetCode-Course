@@ -1,0 +1,541 @@
+{
+    "tags": [
+        {
+            "name": "slot",
+            "description": {
+                "value": "<slot> \u5143\u7d20\u4f5c\u4e3a\u7ec4\u4ef6\u6a21\u677f\u4e4b\u4e2d\u7684\u5185\u5bb9\u5206\u53d1\u63d2\u69fd\u3002<slot> \u5143\u7d20\u81ea\u8eab\u5c06\u88ab\u66ff\u6362\u3002\n\t\t\t\t\n\t\t\t",
+                "type": "html"
+            },
+            "attributes": [
+                {
+                    "name": "name",
+                    "description": {
+                        "value": "\u7528\u4e8e\u547d\u540d\u63d2\u69fd\u3002\n\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                }
+            ],
+            "references": [
+                {
+                    "url": "https://cn.vuejs.org/v2/api/#slot",
+                    "name": "Reference"
+                }
+            ]
+        },
+        {
+            "name": "script",
+            "attributes": [
+                {
+                    "name": "lang",
+                    "values": [
+                        {
+                            "name": "ts",
+                            "description": "typescript"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "style",
+            "attributes": [
+                {
+                    "name": "lang",
+                    "values": [
+                        {
+                            "name": "scss"
+                        },
+                        {
+                            "name": "less"
+                        },
+                        {
+                            "name": "stylus"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "keep-alive",
+            "description": {
+                "value": "<keep-alive> \u5305\u88f9\u52a8\u6001\u7ec4\u4ef6\u65f6\uff0c\u4f1a\u7f13\u5b58\u4e0d\u6d3b\u52a8\u7684\u7ec4\u4ef6\u5b9e\u4f8b\uff0c\u800c\u4e0d\u662f\u9500\u6bc1\u5b83\u4eec\u3002\u548c <transition> \u76f8\u4f3c\uff0c<keep-alive> \u662f\u4e00\u4e2a\u62bd\u8c61\u7ec4\u4ef6\uff1a\u5b83\u81ea\u8eab\u4e0d\u4f1a\u6e32\u67d3\u4e00\u4e2a DOM \u5143\u7d20\uff0c\u4e5f\u4e0d\u4f1a\u51fa\u73b0\u5728\u7236\u7ec4\u4ef6\u94fe\u4e2d\u3002\n\t\t\t\t\n\t\t\t",
+                "type": "html"
+            },
+            "attributes": [
+                {
+                    "name": "include",
+                    "description": {
+                        "value": "\u5b57\u7b26\u4e32\u6216\u6b63\u5219\u8868\u8fbe\u5f0f\u3002\u53ea\u6709\u540d\u79f0\u5339\u914d\u7684\u7ec4\u4ef6\u4f1a\u88ab\u7f13\u5b58\u3002\n\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "exclude",
+                    "description": {
+                        "value": "\u5b57\u7b26\u4e32\u6216\u6b63\u5219\u8868\u8fbe\u5f0f\u3002\u4efb\u4f55\u540d\u79f0\u5339\u914d\u7684\u7ec4\u4ef6\u90fd\u4e0d\u4f1a\u88ab\u7f13\u5b58\u3002\n\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "max",
+                    "description": {
+                        "value": "\u6700\u591a\u53ef\u4ee5\u7f13\u5b58\u591a\u5c11\u7ec4\u4ef6\u5b9e\u4f8b\u3002\n\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                }
+            ],
+            "references": [
+                {
+                    "url": "https://cn.vuejs.org/v2/api/#keep-alive",
+                    "name": "Reference"
+                }
+            ]
+        },
+        {
+            "name": "component",
+            "description": {
+                "value": "\u6e32\u67d3\u4e00\u4e2a\u201c\u5143\u7ec4\u4ef6\u201d\u4e3a\u52a8\u6001\u7ec4\u4ef6\u3002\u4f9d is \u7684\u503c\uff0c\u6765\u51b3\u5b9a\u54ea\u4e2a\u7ec4\u4ef6\u88ab\u6e32\u67d3\u3002",
+                "type": "html"
+            },
+            "attributes": [
+                {
+                    "name": "is"
+                },
+                {
+                    "name": "inline-template",
+                    "valueSet": "b"
+                }
+            ],
+            "references": [
+                {
+                    "url": "https://cn.vuejs.org/v2/api/#component",
+                    "name": "Reference"
+                }
+            ]
+        },
+        {
+            "name": "transition",
+            "description": {
+                "value": "<transition> \u5143\u7d20\u4f5c\u4e3a\u5355\u4e2a\u5143\u7d20/\u7ec4\u4ef6\u7684\u8fc7\u6e21\u6548\u679c\u3002<transition> \u53ea\u4f1a\u628a\u8fc7\u6e21\u6548\u679c\u5e94\u7528\u5230\u5176\u5305\u88f9\u7684\u5185\u5bb9\u4e0a\uff0c\u800c\u4e0d\u4f1a\u989d\u5916\u6e32\u67d3 DOM \u5143\u7d20\uff0c\u4e5f\u4e0d\u4f1a\u51fa\u73b0\u5728\u68c0\u6d4b\u8fc7\u7684\u7ec4\u4ef6\u5c42\u7ea7\u4e2d\u3002\n\t\t\t\t\n\t\t\t",
+                "type": "html"
+            },
+            "attributes": [
+                {
+                    "name": "name",
+                    "description": {
+                        "value": "\u7528\u4e8e\u81ea\u52a8\u751f\u6210 CSS \u8fc7\u6e21\u7c7b\u540d\u3002\u4f8b\u5982\uff1aname: 'fade' \u5c06\u81ea\u52a8\u62d3\u5c55\u4e3a.fade-enter\uff0c.fade-enter-active\u7b49\u3002\u9ed8\u8ba4\u7c7b\u540d\u4e3a \"v\"\n\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "appear",
+                    "description": {
+                        "value": "\u662f\u5426\u5728\u521d\u59cb\u6e32\u67d3\u65f6\u4f7f\u7528\u8fc7\u6e21\u3002\u9ed8\u8ba4\u4e3a false\u3002\n\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    },
+                    "valueSet": "b"
+                },
+                {
+                    "name": "css",
+                    "description": {
+                        "value": "\u662f\u5426\u4f7f\u7528 CSS \u8fc7\u6e21\u7c7b\u3002\u9ed8\u8ba4\u4e3a true\u3002\u5982\u679c\u8bbe\u7f6e\u4e3a false\uff0c\u5c06\u53ea\u901a\u8fc7\u7ec4\u4ef6\u4e8b\u4ef6\u89e6\u53d1\u6ce8\u518c\u7684 JavaScript \u94a9\u5b50\u3002\n\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    },
+                    "valueSet": "b"
+                },
+                {
+                    "name": "type",
+                    "description": {
+                        "value": "\u6307\u5b9a\u8fc7\u6e21\u4e8b\u4ef6\u7c7b\u578b\uff0c\u4fa6\u542c\u8fc7\u6e21\u4f55\u65f6\u7ed3\u675f\u3002\u6709\u6548\u503c\u4e3a \"transition\" \u548c \"animation\"\u3002\u9ed8\u8ba4 Vue.js \u5c06\u81ea\u52a8\u68c0\u6d4b\u51fa\u6301\u7eed\u65f6\u95f4\u957f\u7684\u4e3a\u8fc7\u6e21\u4e8b\u4ef6\u7c7b\u578b\u3002\n\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    },
+                    "values": [
+                        {
+                            "name": "transition"
+                        },
+                        {
+                            "name": "animation"
+                        }
+                    ]
+                },
+                {
+                    "name": "mode",
+                    "description": {
+                        "value": "\u63a7\u5236\u79bb\u5f00/\u8fdb\u5165\u7684\u8fc7\u6e21\u65f6\u95f4\u5e8f\u5217\u3002\u6709\u6548\u7684\u6a21\u5f0f\u6709 \"out-in\" \u548c \"in-out\"\uff1b\u9ed8\u8ba4\u540c\u65f6\u751f\u6548\u3002\n\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    },
+                    "values": [
+                        {
+                            "name": "out-in"
+                        },
+                        {
+                            "name": "in-out"
+                        }
+                    ]
+                },
+                {
+                    "name": "duration",
+                    "description": {
+                        "value": "\u6307\u5b9a\u8fc7\u6e21\u7684\u6301\u7eed\u65f6\u95f4\u3002\u9ed8\u8ba4\u60c5\u51b5\u4e0b\uff0cVue \u4f1a\u7b49\u5f85\u8fc7\u6e21\u6240\u5728\u6839\u5143\u7d20\u7684\u7b2c\u4e00\u4e2a transitionend \u6216 animationend \u4e8b\u4ef6\u3002\n\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "enter-class"
+                },
+                {
+                    "name": "leave-class"
+                },
+                {
+                    "name": "appear-class"
+                },
+                {
+                    "name": "enter-to-class"
+                },
+                {
+                    "name": "leave-to-class"
+                },
+                {
+                    "name": "appear-to-class"
+                },
+                {
+                    "name": "enter-active-class"
+                },
+                {
+                    "name": "leave-active-class"
+                },
+                {
+                    "name": "appear-active-class"
+                },
+                {
+                    "name": "[event]before-enter"
+                },
+                {
+                    "name": "[event]before-leave"
+                },
+                {
+                    "name": "[event]before-appear"
+                },
+                {
+                    "name": "[event]enter"
+                },
+                {
+                    "name": "[event]leave"
+                },
+                {
+                    "name": "[event]appear"
+                },
+                {
+                    "name": "[event]after-enter"
+                },
+                {
+                    "name": "[event]after-leave"
+                },
+                {
+                    "name": "[event]after-appear"
+                },
+                {
+                    "name": "[event]enter-cancelled"
+                },
+                {
+                    "name": "[event]leave-cancelled",
+                    "description": {
+                        "value": "v-show only",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]appear-cancelled"
+                }
+            ],
+            "references": [
+                {
+                    "url": "https://cn.vuejs.org/v2/api/#transition",
+                    "name": "Reference"
+                }
+            ]
+        },
+        {
+            "name": "transition-group",
+            "description": {
+                "value": "<transition-group> \u5143\u7d20\u4f5c\u4e3a\u591a\u4e2a\u5143\u7d20/\u7ec4\u4ef6\u7684\u8fc7\u6e21\u6548\u679c\u3002<transition-group> \u6e32\u67d3\u4e00\u4e2a\u771f\u5b9e\u7684 DOM \u5143\u7d20\u3002\u9ed8\u8ba4\u6e32\u67d3 <span>\uff0c\u53ef\u4ee5\u901a\u8fc7 tag \u5c5e\u6027\u914d\u7f6e\u54ea\u4e2a\u5143\u7d20\u5e94\u8be5\u88ab\u6e32\u67d3\u3002\n\t\t\t\t\n\t\t\t",
+                "type": "html"
+            },
+            "attributes": [
+                {
+                    "name": "tag",
+                    "description": {
+                        "value": "\u9ed8\u8ba4\u4e3a span\u3002\n\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "move-class",
+                    "description": {
+                        "value": "\u8986\u76d6\u79fb\u52a8\u8fc7\u6e21\u671f\u95f4\u5e94\u7528\u7684 CSS \u7c7b\u3002\n\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "name",
+                    "description": {
+                        "value": "\u7528\u4e8e\u81ea\u52a8\u751f\u6210 CSS \u8fc7\u6e21\u7c7b\u540d\u3002\u4f8b\u5982\uff1aname: 'fade' \u5c06\u81ea\u52a8\u62d3\u5c55\u4e3a.fade-enter\uff0c.fade-enter-active\u7b49\u3002\u9ed8\u8ba4\u7c7b\u540d\u4e3a \"v\"\n\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "appear",
+                    "description": {
+                        "value": "\u662f\u5426\u5728\u521d\u59cb\u6e32\u67d3\u65f6\u4f7f\u7528\u8fc7\u6e21\u3002\u9ed8\u8ba4\u4e3a false\u3002\n\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    },
+                    "valueSet": "b"
+                },
+                {
+                    "name": "css",
+                    "description": {
+                        "value": "\u662f\u5426\u4f7f\u7528 CSS \u8fc7\u6e21\u7c7b\u3002\u9ed8\u8ba4\u4e3a true\u3002\u5982\u679c\u8bbe\u7f6e\u4e3a false\uff0c\u5c06\u53ea\u901a\u8fc7\u7ec4\u4ef6\u4e8b\u4ef6\u89e6\u53d1\u6ce8\u518c\u7684 JavaScript \u94a9\u5b50\u3002\n\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    },
+                    "valueSet": "b"
+                },
+                {
+                    "name": "type",
+                    "description": {
+                        "value": "\u6307\u5b9a\u8fc7\u6e21\u4e8b\u4ef6\u7c7b\u578b\uff0c\u4fa6\u542c\u8fc7\u6e21\u4f55\u65f6\u7ed3\u675f\u3002\u6709\u6548\u503c\u4e3a \"transition\" \u548c \"animation\"\u3002\u9ed8\u8ba4 Vue.js \u5c06\u81ea\u52a8\u68c0\u6d4b\u51fa\u6301\u7eed\u65f6\u95f4\u957f\u7684\u4e3a\u8fc7\u6e21\u4e8b\u4ef6\u7c7b\u578b\u3002\n\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    },
+                    "values": [
+                        {
+                            "name": "transition"
+                        },
+                        {
+                            "name": "animation"
+                        }
+                    ]
+                },
+                {
+                    "name": "mode"
+                },
+                {
+                    "name": "duration",
+                    "description": {
+                        "value": "\u6307\u5b9a\u8fc7\u6e21\u7684\u6301\u7eed\u65f6\u95f4\u3002\u9ed8\u8ba4\u60c5\u51b5\u4e0b\uff0cVue \u4f1a\u7b49\u5f85\u8fc7\u6e21\u6240\u5728\u6839\u5143\u7d20\u7684\u7b2c\u4e00\u4e2a transitionend \u6216 animationend \u4e8b\u4ef6\u3002\n\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "enter-class"
+                },
+                {
+                    "name": "leave-class"
+                },
+                {
+                    "name": "appear-class"
+                },
+                {
+                    "name": "enter-to-class"
+                },
+                {
+                    "name": "leave-to-class"
+                },
+                {
+                    "name": "appear-to-class"
+                },
+                {
+                    "name": "enter-active-class"
+                },
+                {
+                    "name": "leave-active-class"
+                },
+                {
+                    "name": "appear-active-class"
+                },
+                {
+                    "name": "[event]before-enter"
+                },
+                {
+                    "name": "[event]before-leave"
+                },
+                {
+                    "name": "[event]before-appear"
+                },
+                {
+                    "name": "[event]enter"
+                },
+                {
+                    "name": "[event]leave"
+                },
+                {
+                    "name": "[event]appear"
+                },
+                {
+                    "name": "[event]after-enter"
+                },
+                {
+                    "name": "[event]after-leave"
+                },
+                {
+                    "name": "[event]after-appear"
+                },
+                {
+                    "name": "[event]enter-cancelled"
+                },
+                {
+                    "name": "[event]leave-cancelled",
+                    "description": {
+                        "value": "v-show only",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]appear-cancelled"
+                }
+            ],
+            "references": [
+                {
+                    "url": "https://cn.vuejs.org/v2/api/#transition-group",
+                    "name": "Reference"
+                }
+            ]
+        }
+    ],
+    "globalAttributes": [
+        {
+            "name": "v-text",
+            "description": {
+                "value": "\u66f4\u65b0\u5143\u7d20\u7684 textContent\u3002\u5982\u679c\u8981\u66f4\u65b0\u90e8\u5206\u7684 textContent \uff0c\u9700\u8981\u4f7f\u7528 {{ Mustache }} \u63d2\u503c\u3002\n\t\t\t\t\t<br />\n\t\t\t\t\t\u4ece 2.4.0 \u5f00\u59cb\uff0cv-on \u540c\u6837\u652f\u6301\u4e0d\u5e26\u53c2\u6570\u7ed1\u5b9a\u4e00\u4e2a\u4e8b\u4ef6/\u76d1\u542c\u5668\u952e\u503c\u5bf9\u7684\u5bf9\u8c61\u3002\u6ce8\u610f\u5f53\u4f7f\u7528\u5bf9\u8c61\u8bed\u6cd5\u65f6\uff0c\u662f\u4e0d\u652f\u6301\u4efb\u4f55\u4fee\u9970\u5668\u7684\u3002\n\t\t\t\t\t<br />\n\t\t\t\t\t<b>\u53c2\u8003\uff1a</b>\n\t\t\t\t\t<br />\n\t\t\t\t\t<a href=\"https://cn.vuejs.org/v2/api/#v-text\">https://cn.vuejs.org/v2/api/#v-text</a>\n\t\t\t\t\n\t\t\t",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "v-html",
+            "description": {
+                "value": "\u66f4\u65b0\u5143\u7d20\u7684 innerHTML \u3002\u6ce8\u610f\uff1a\u5185\u5bb9\u6309\u666e\u901a HTML \u63d2\u5165 - \u4e0d\u4f1a\u4f5c\u4e3a Vue \u6a21\u677f\u8fdb\u884c\u7f16\u8bd1 \u3002\u5982\u679c\u8bd5\u56fe\u4f7f\u7528 v-html \u7ec4\u5408\u6a21\u677f\uff0c\u53ef\u4ee5\u91cd\u65b0\u8003\u8651\u662f\u5426\u901a\u8fc7\u4f7f\u7528\u7ec4\u4ef6\u6765\u66ff\u4ee3\u3002\n\t\t\t\t\t<br />\n\t\t\t\t\t<b>\u53c2\u8003\uff1a</b>\n\t\t\t\t\t<br />\n\t\t\t\t\t<a href=\"https://cn.vuejs.org/v2/api/#v-html\">https://cn.vuejs.org/v2/api/#v-html</a>\n\t\t\t\t\n\t\t\t",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "v-show",
+            "description": {
+                "value": "\u6839\u636e\u8868\u8fbe\u5f0f\u4e4b\u771f\u5047\u503c\uff0c\u5207\u6362\u5143\u7d20\u7684 display CSS \u5c5e\u6027\u3002\n\t\t\t\t\t\u5f53\u6761\u4ef6\u53d8\u5316\u65f6\u8be5\u6307\u4ee4\u89e6\u53d1\u8fc7\u6e21\u6548\u679c\u3002\n\t\t\t\t\t<br />\n                \t<b>\u53c2\u8003\uff1a</b>\n                \t<br />\n                \t<a href=\"https://cn.vuejs.org/v2/api/#v-show\">https://cn.vuejs.org/v2/api/#v-show</a>\n\t\t\t\t\n\t\t\t",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "v-if",
+            "description": {
+                "value": "\u6839\u636e\u8868\u8fbe\u5f0f\u7684\u503c\u7684\u771f\u5047\u6761\u4ef6\u6e32\u67d3\u5143\u7d20\u3002\u5728\u5207\u6362\u65f6\u5143\u7d20\u53ca\u5b83\u7684\u6570\u636e\u7ed1\u5b9a / \u7ec4\u4ef6\u88ab\u9500\u6bc1\u5e76\u91cd\u5efa\u3002\u5982\u679c\u5143\u7d20\u662f <template> \uff0c\u5c06\u63d0\u51fa\u5b83\u7684\u5185\u5bb9\u4f5c\u4e3a\u6761\u4ef6\u5757\u3002\n\t\t\t\t\t\u5f53\u6761\u4ef6\u53d8\u5316\u65f6\u8be5\u6307\u4ee4\u89e6\u53d1\u8fc7\u6e21\u6548\u679c\u3002\n\t\t\t\t\t<br />\n                \t<b>\u53c2\u8003\uff1a</b>\n                \t<br />\n                \t<a href=\"https://cn.vuejs.org/v2/api/#v-if\">https://cn.vuejs.org/v2/api/#v-if</a>\n\t\t\t\t\n\t\t\t",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "v-else",
+            "description": {
+                "value": "\u4e0d\u9700\u8981\u8868\u8fbe\u5f0f\uff0c\u524d\u4e00\u5144\u5f1f\u5143\u7d20\u5fc5\u987b\u6709 v-if \u6216 v-else-if\u3002\n\t\t\t\t\t<br />\n                    <b>\u53c2\u8003\uff1a</b>\n                    <br />\n                    <a href=\"https://cn.vuejs.org/v2/api/#v-else\">https://cn.vuejs.org/v2/api/#v-else</a>\n\t\t\t\t\n\t\t\t",
+                "type": "plaintext"
+            },
+            "valueSet": "v"
+        },
+        {
+            "name": "v-else-if",
+            "description": {
+                "value": "\u524d\u4e00\u5144\u5f1f\u5143\u7d20\u5fc5\u987b\u6709 v-if \u6216 v-else-if\u3002\n\t\t\t\t\t<br />\n                    <b>\u53c2\u8003\uff1a</b>\n                    <br />\n                    <a href=\"https://cn.vuejs.org/v2/api/#v-else-if\">https://cn.vuejs.org/v2/api/#v-else-if</a>\n\t\t\t\t\n\t\t\t",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "v-for",
+            "description": {
+                "value": "\u57fa\u4e8e\u6e90\u6570\u636e\u591a\u6b21\u6e32\u67d3\u5143\u7d20\u6216\u6a21\u677f\u5757\u3002\n\t\t\t\t\t<br />\n\t\t\t\t\t<b>\u53c2\u8003\uff1a</b>\n\t\t\t\t\t<br />\n\t\t\t\t\t<a href=\"https://cn.vuejs.org/v2/guide/list.html\">\u5217\u8868\u6e32\u67d3</a>\n\t\t\t\t\t<br />\n\t\t\t\t\t<b>\u53c2\u8003\uff1a</b>\n\t\t\t\t\t<br />\n\t\t\t\t\t<a href=\"https://cn.vuejs.org/v2/api/#v-for\">https://cn.vuejs.org/v2/api/#v-for</a>\n\t\t\t\t\n\t\t\t",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "v-on",
+            "description": {
+                "value": "\u7ed1\u5b9a\u4e8b\u4ef6\u76d1\u542c\u5668\u3002\u4e8b\u4ef6\u7c7b\u578b\u7531\u53c2\u6570\u6307\u5b9a\u3002\u8868\u8fbe\u5f0f\u53ef\u4ee5\u662f\u4e00\u4e2a\u65b9\u6cd5\u7684\u540d\u5b57\u6216\u4e00\u4e2a\u5185\u8054\u8bed\u53e5\uff0c\u5982\u679c\u6ca1\u6709\u4fee\u9970\u7b26\u4e5f\u53ef\u4ee5\u7701\u7565\u3002\n\t\t\t\t\t\t\t<br />\n\t\t\t\t\t\t\t\u7528\u5728\u666e\u901a\u5143\u7d20\u4e0a\u65f6\uff0c\u53ea\u80fd\u76d1\u542c\u539f\u751f DOM \u4e8b\u4ef6\u3002\u7528\u5728\u81ea\u5b9a\u4e49\u5143\u7d20\u7ec4\u4ef6\u4e0a\u65f6\uff0c\u4e5f\u53ef\u4ee5\u76d1\u542c\u5b50\u7ec4\u4ef6\u89e6\u53d1\u7684\u81ea\u5b9a\u4e49\u4e8b\u4ef6\u3002\n\t\t\t\t\t\t\t<br />\n\t\t\t\t\t\t\t\u5728\u76d1\u542c\u539f\u751f DOM \u4e8b\u4ef6\u65f6\uff0c\u65b9\u6cd5\u4ee5\u4e8b\u4ef6\u4e3a\u552f\u4e00\u7684\u53c2\u6570\u3002\u5982\u679c\u4f7f\u7528\u5185\u8054\u8bed\u53e5\uff0c\u8bed\u53e5\u53ef\u4ee5\u8bbf\u95ee\u4e00\u4e2a $event \u5c5e\u6027\uff1av-on:click=\"handle('ok', $event)\"\u3002\n\t\t\t\t\t\t\t<br />\n\t\t\t\t\t\t\t\u4ece 2.4.0 \u5f00\u59cb\uff0cv-on \u540c\u6837\u652f\u6301\u4e0d\u5e26\u53c2\u6570\u7ed1\u5b9a\u4e00\u4e2a\u4e8b\u4ef6/\u76d1\u542c\u5668\u952e\u503c\u5bf9\u7684\u5bf9\u8c61\u3002\u6ce8\u610f\u5f53\u4f7f\u7528\u5bf9\u8c61\u8bed\u6cd5\u65f6\uff0c\u662f\u4e0d\u652f\u6301\u4efb\u4f55\u4fee\u9970\u5668\u7684\u3002\n\t\t\t\t\t\t\t<br />\n\t\t\t\t\t\t\t<b>\u53c2\u8003\uff1a</b>\n\t\t\t\t\t\t\t<br />\n\t\t\t\t\t\t\t<a href=\"https://cn.vuejs.org/v2/api/#v-on\">https://cn.vuejs.org/v2/api/#v-on</a>\n\t\t\t\t\t\t\n\t\t\t\t\t",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "v-bind",
+            "description": {
+                "value": "\u52a8\u6001\u5730\u7ed1\u5b9a\u4e00\u4e2a\u6216\u591a\u4e2a\u7279\u6027\uff0c\u6216\u4e00\u4e2a\u7ec4\u4ef6 prop \u5230\u8868\u8fbe\u5f0f\u3002\n\t\t\t\t\t\t\t<br />\n\t\t\t\t\t\t\t\u5728\u7ed1\u5b9a class \u6216 style \u7279\u6027\u65f6\uff0c\u652f\u6301\u5176\u5b83\u7c7b\u578b\u7684\u503c\uff0c\u5982\u6570\u7ec4\u6216\u5bf9\u8c61\u3002\u53ef\u4ee5\u901a\u8fc7\u4e0b\u9762\u7684\u6559\u7a0b\u94fe\u63a5\u67e5\u770b\u8be6\u60c5\u3002\n\t\t\t\t\t\t\t<br />\n\t\t\t\t\t\t\t\u5728\u7ed1\u5b9a prop \u65f6\uff0cprop \u5fc5\u987b\u5728\u5b50\u7ec4\u4ef6\u4e2d\u58f0\u660e\u3002\u53ef\u4ee5\u7528\u4fee\u9970\u7b26\u6307\u5b9a\u4e0d\u540c\u7684\u7ed1\u5b9a\u7c7b\u578b\u3002\n\t\t\t\t\t\t\t<br />\n\t\t\t\t\t\t\t\u6ca1\u6709\u53c2\u6570\u65f6\uff0c\u53ef\u4ee5\u7ed1\u5b9a\u5230\u4e00\u4e2a\u5305\u542b\u952e\u503c\u5bf9\u7684\u5bf9\u8c61\u3002\u6ce8\u610f\u6b64\u65f6 class \u548c style \u7ed1\u5b9a\u4e0d\u652f\u6301\u6570\u7ec4\u548c\u5bf9\u8c61\u3002\n\t\t\t\t\t\t\t<br />\n                    \t\t<b>\u53c2\u8003\uff1a</b>\n                    \t\t<br />\n                    \t\t<a href=\"https://cn.vuejs.org/v2/api/#v-bind\">https://cn.vuejs.org/v2/api/#v-bind</a>\n\t\t\t\t\t\t\n\t\t\t\t\t",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "v-model",
+            "description": {
+                "value": "\u5728\u8868\u5355\u63a7\u4ef6\u6216\u8005\u7ec4\u4ef6\u4e0a\u521b\u5efa\u53cc\u5411\u7ed1\u5b9a\u3002\u7ec6\u8282\u8bf7\u770b\u4e0b\u9762\u7684\u6559\u7a0b\u94fe\u63a5\u3002\n\t\t\t\t\t\t\t<br />\n\t\t\t\t\t\t\t<b>\u53c2\u8003\uff1a</b>\n\t\t\t\t\t\t\t<br />\n                    \t\t<a href=\"https://cn.vuejs.org/v2/api/#v-model\">https://cn.vuejs.org/v2/api/#v-model</a>\n\t\t\t\t\t\t\t<br />\n\t\t\t\t\t\t\t<b>\u53c2\u8003\uff1a</b>\n\t\t\t\t\t\t\t<br />\n\t\t\t\t\t\t\t<a href=\"https://cn.vuejs.org/v2/guide/forms.html\">\u8868\u5355\u63a7\u4ef6\u7ed1\u5b9a</a>\n\t\t\t\t\t\t\t<br />\n\t\t\t\t\t\t\t<b>\u53c2\u8003\uff1a</b>\n\t\t\t\t\t\t\t<br />\n\t\t\t\t\t\t\t<a href=\"https://cn.vuejs.org/v2/guide/components.html#%E4%BD%BF%E7%94%A8%E8%87%AA%E5%AE%9A%E4%B9%89%E4%BA%8B%E4%BB%B6%E7%9A%84%E8%A1%A8%E5%8D%95%E8%BE%93%E5%85%A5%E7%BB%84%E4%BB%B6\">\u7ec4\u4ef6 - \u5728\u8f93\u5165\u7ec4\u4ef6\u4e0a\u4f7f\u7528\u81ea\u5b9a\u4e49\u4e8b\u4ef6</a>\n\t\t\t\t\t\t\n\t\t\t\t\t",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "v-slot",
+            "description": {
+                "value": "\u63d0\u4f9b\u5177\u540d\u63d2\u69fd\u6216\u9700\u8981\u63a5\u6536 prop \u7684\u63d2\u69fd\u3002\n\t\t\t\t\t\t\t<br />\n                    \t\t<b>\u53c2\u8003\uff1a</b>\n                    \t\t<br />\n                    \t\t<a href=\"https://cn.vuejs.org/v2/api/#v-slot\">https://cn.vuejs.org/v2/api/#v-slot</a>\n\t\t\t\t\t\t]\n\t\t\t\t\t",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "v-pre",
+            "description": {
+                "value": "\u8df3\u8fc7\u8fd9\u4e2a\u5143\u7d20\u548c\u5b83\u7684\u5b50\u5143\u7d20\u7684\u7f16\u8bd1\u8fc7\u7a0b\u3002\u53ef\u4ee5\u7528\u6765\u663e\u793a\u539f\u59cb Mustache \u6807\u7b7e\u3002\u8df3\u8fc7\u5927\u91cf\u6ca1\u6709\u6307\u4ee4\u7684\u8282\u70b9\u4f1a\u52a0\u5feb\u7f16\u8bd1\u3002\n\t\t\t\t\t\t    <br />\n                    \t\t<b>\u53c2\u8003\uff1a</b>\n                    \t\t<br />\n                    \t\t<a href=\"https://cn.vuejs.org/v2/api/#v-pre\">https://cn.vuejs.org/v2/api/#v-pre</a>\n\t\t\t\t\t\t\n\t\t\t\t\t",
+                "type": "plaintext"
+            },
+            "valueSet": "v"
+        },
+        {
+            "name": "v-cloak",
+            "description": {
+                "value": "\u8fd9\u4e2a\u6307\u4ee4\u4fdd\u6301\u5728\u5143\u7d20\u4e0a\u76f4\u5230\u5173\u8054\u5b9e\u4f8b\u7ed3\u675f\u7f16\u8bd1\u3002\u548c CSS \u89c4\u5219\u5982 [v-cloak] { display: none } \u4e00\u8d77\u7528\u65f6\uff0c\u8fd9\u4e2a\u6307\u4ee4\u53ef\u4ee5\u9690\u85cf\u672a\u7f16\u8bd1\u7684 Mustache \u6807\u7b7e\u76f4\u5230\u5b9e\u4f8b\u51c6\u5907\u5b8c\u6bd5\u3002\n\t\t\t\t\t\t    <br />\n                    \t\t<b>\u53c2\u8003\uff1a</b>\n                    \t\t<br />\n                    \t\t<a href=\"https://cn.vuejs.org/v2/api/#v-cloak\">https://cn.vuejs.org/v2/api/#v-cloak</a>\n\t\t\t\t\t\t\n\t\t\t\t\t",
+                "type": "plaintext"
+            },
+            "valueSet": "v"
+        },
+        {
+            "name": "v-once",
+            "description": {
+                "value": "\u53ea\u6e32\u67d3\u5143\u7d20\u548c\u7ec4\u4ef6\u4e00\u6b21\u3002\u968f\u540e\u7684\u91cd\u65b0\u6e32\u67d3\uff0c\u5143\u7d20/\u7ec4\u4ef6\u53ca\u5176\u6240\u6709\u7684\u5b50\u8282\u70b9\u5c06\u88ab\u89c6\u4e3a\u9759\u6001\u5185\u5bb9\u5e76\u8df3\u8fc7\u3002\u8fd9\u53ef\u4ee5\u7528\u4e8e\u4f18\u5316\u66f4\u65b0\u6027\u80fd\u3002\n\t\t\t\t\t\t\t<br />\n\t\t\t\t\t\t\t<b>\u53c2\u8003\uff1a</b>\n\t\t\t\t\t\t\t<br />\n\t\t\t\t\t\t\t<a href=\"https://cn.vuejs.org/v2/api/#v-once\">https://cn.vuejs.org/v2/api/#v-once</a>\n\t\t\t\t\t\t\n\t\t\t\t\t",
+                "type": "plaintext"
+            },
+            "valueSet": "v"
+        },
+        {
+            "name": "key",
+            "description": {
+                "value": "主要用做 Vue 的虚拟 DOM 算法的提示，以在比对新旧节点组时辨识 VNodes。如果不使用 key，Vue 会使用一种算法来最小化元素的移动并且尽可能尝试就地修改/复用相同类型元素。而使用 key 时，它会基于 key 的顺序变化重新排列元素，并且那些使用了已经不存在的 key 的元素将会被移除/销毁。\n<br /><b>参考：</b><br /><a href=\"https://cn.vuejs.org/v2/api/#ref\">https://cn.vuejs.org/v2/api/#key</a>",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "ref",
+            "description": {
+                "value": "ref 被用来给元素或子组件注册引用信息。引用信息将会被注册在父组件的 $refs 对象上。如果在普通的 DOM 元素上使用，引用指向的就是那个 DOM 元素；如果用在子组件上，引用就指向组件实例;\n<br /><b>参考：</b><br /><a href=\"https://cn.vuejs.org/v2/api/#ref\">https://cn.vuejs.org/v2/api/#ref</a>",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "is",
+            "description": {
+                "value": "使用动态组件。\n<br /><b>参考：</b><br /><a href=\"https://cn.vuejs.org/v2/api/#is\">https://cn.vuejs.org/v2/api/#is</a>",
+                "type": "plaintext"
+            }
+        }
+    ],
+    "valueSets": [
+        {
+            "name": "b",
+            "values": [
+                {
+                    "name": "true"
+                },
+                {
+                    "name": "false"
+                }
+            ]
+        }
+    ]
+}

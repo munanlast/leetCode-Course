@@ -1,0 +1,13 @@
+{
+	"name": "hbuilderx-presets",
+	"description": "预置插件集合",
+	"version": "1.0.0.2022010515",
+	"__private": true,
+	"__from": "HBuilderX",
+	"extensionDependencies": [
+		"node",
+		"h5-Extension",
+		"unicloud-dbschema",
+		"flyingBook-Extension"
+	]
+}

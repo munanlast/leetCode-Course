@@ -1,0 +1,52 @@
+{
+  "__private": true,
+  "name": "schema2code_proxy",
+  "version": "1.0.2",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "publisher": "DCloud",
+  "engines": {
+    "HBuilderX": "^2.9.9"
+  },
+  "categories": [
+    "Other"
+  ],
+  "contributes": {
+	  "commandInterceptors":[{
+	  	"id":"interceptor.checkPluginExists",
+		  "patterns":[
+			  "schema2code.*"
+		  ],
+	  	  "args":{
+	  		  "pluginId":"uni-schema2code",
+	  		  "pluginName":"uniSchema2Code插件"
+	  	  }
+	  }],
+    "commands": [
+      {
+        "command": "schema2code.install",
+        "title": "schema2code"
+      }
+    ],
+    "expressions": {
+			"isUniAppSchema2Code": "workspaceFolder.type == 'UniApp_Vue'",
+			"isUniCloudSchemaRootSchema2Code": "workspaceFolderRelativePath =~ /^uniCloud\\-(tcb|aliyun)\\/database/ || workspaceFolderRelativePath =~ /^uni_modules\\/.*\\/uniCloud\\/database/",
+			"isSchemaJson": "expression.isUniAppSchema2Code && expression.isUniCloudSchemaRootSchema2Code && workspaceFolderRelativePath =~ /.*\\.schema\\.json$/",
+      "isSchema2CodeExtensionExists": "plugin.isInstalled <- 'uni-schema2code'"
+    },
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "schema2code.install",
+          "group": "new",
+          "when": "!expression.isSchema2CodeExtensionExists && expression.isSchemaJson && localeId == 'zh_CN'"
+        },
+        {
+          "group": "new"
+        }
+      ]
+    }
+  }
+}

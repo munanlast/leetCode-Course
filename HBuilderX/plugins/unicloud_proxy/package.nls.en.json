@@ -1,0 +1,8 @@
+{
+  "description": "Run cloud functions and jql file locally",
+  "displayName": "uniCloud debugger",
+  "createCloudFunction.command.name":"New Cloud Function",
+  "createCommonModule.command.name":"New Common Module",
+  "dependency-manager.edit-function.command.name":"Manage common module/extension library dependencies",
+  "dependency-manager.edit-common.command.name":"Manage common module dependencies"
+}

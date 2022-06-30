@@ -1,0 +1,2662 @@
+{
+    "tags": [
+        {
+            "name": "a",
+            "description": {
+                "value": "\u7528\u4e8e\u5b9e\u73b0\u9875\u9762\u95f4\u7684\u8df3\u8f6c\u3002\n\t\t\t\t\t<br />\n\t\t\t\t\t<b>\u53c2\u8003\uff1a</b>\n\t\t\t\t\t<br />\n\t\t\t\t\t<a href=\"http://weex.apache.org/cn/references/components/a.html\">http://weex.apache.org/cn/references/components/a.html</a>\n\t\t\t\t\n\t\t\t",
+                "type": "html"
+            },
+            "attributes": [
+                {
+                    "name": "id",
+                    "description": {
+                        "value": "\u5143\u7d20ID\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "class",
+                    "description": {
+                        "value": "\u5143\u7d20\u7c7b\u540d\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "style",
+                    "description": {
+                        "value": "\u5185\u8054\u6837\u5f0f\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "href",
+                    "description": {
+                        "value": "\u5f85\u8df3\u8f6c\u7684\u9875\u9762URL\uff0c\u5f85\u8df3\u8f6c\u9875\u9762\u9700\u8981\u662f\u4e00\u4e2aWeex\u9875\u9762\u3002\u5982\u679c\u5f85\u8df3\u8f6c\u9875\u9762\u662f\u4e00\u4e2a\u666e\u901aHTML\uff0c\u8fd9\u4f1a\u662f\u4e00\u4e2a\u672a\u5b9a\u4e49\u884c\u4e3a\u3002\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]click",
+                    "description": {
+                        "value": "\u5f53\u7ec4\u4ef6\u4e0a\u53d1\u751f\u70b9\u51fb\u624b\u52bf\u65f6\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]longpress",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 longpress \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u7528\u6237\u957f\u6309\u8fd9\u4e2a\u7ec4\u4ef6\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u4f1a\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]appear",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u4f4d\u4e8e\u67d0\u4e2a\u53ef\u6eda\u52a8\u533a\u57df\u5185\u7684\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 appear \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u8fd9\u4e2a\u7ec4\u4ef6\u7684\u72b6\u6001\u53d8\u4e3a\u5728\u5c4f\u5e55\u4e0a\u53ef\u89c1\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]disappear",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u4f4d\u4e8e\u67d0\u4e2a\u53ef\u6eda\u52a8\u533a\u57df\u5185\u7684\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 disappear \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u8fd9\u4e2a\u7ec4\u4ef6\u88ab\u6ed1\u51fa\u5c4f\u5e55\u53d8\u4e3a\u4e0d\u53ef\u89c1\u72b6\u6001\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]viewappear",
+                    "description": {
+                        "value": "viewappear \u4e8b\u4ef6\u4f1a\u5728\u9875\u9762\u5c31\u8981\u663e\u793a\u6216\u914d\u7f6e\u7684\u4efb\u4f55\u9875\u9762\u52a8\u753b\u88ab\u6267\u884c\u524d\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]viewdisappear",
+                    "description": {
+                        "value": "viewdisappear \u4e8b\u4ef6\u4f1a\u5728\u9875\u9762\u5c31\u8981\u5173\u95ed\u65f6\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "barcode",
+            "description": {
+                "value": "app\u7aefnvue\u4e13\u7528\u7684\u626b\u7801\u7ec4\u4ef6\n\t\t\t\t<br/>\n\t\t\t\t<b>\u53c2\u8003</b>\n\t\t\t\t<br/>\n\t\t\t\t<a href=\"https://uniapp.dcloud.io/component/barcode\">https://uniapp.dcloud.io/component/barcode</a>\n\t\t\t\t\n\t\t\t",
+                "type": "html"
+            },
+            "attributes": [
+                {
+                    "name": "id",
+                    "description": {
+                        "value": "\u5143\u7d20ID\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "style",
+                    "description": {
+                        "value": "\u5185\u8054\u6837\u5f0f\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "class",
+                    "description": {
+                        "value": "\u5143\u7d20\u7c7b\u540d\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "autostart",
+                    "description": {
+                        "value": "\u914d\u7f6e\u662f\u5426\u81ea\u52a8\u626b\u63cf\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    },
+                    "valueSet": "b"
+                },
+                {
+                    "name": "background",
+                    "description": {
+                        "value": "\u6761\u7801\u8bc6\u522b\u63a7\u4ef6\u80cc\u666f\u989c\u8272,\u989c\u8272\u503c\u652f\u6301(\u53c2\u8003CSS\u989c\u8272\u89c4\u8303)\uff1a\u989c\u8272\u540d\u79f0(\u53c2\u8003CSS Color Names)/\u5341\u516d\u8fdb\u5236\u503c/rgb\u503c\uff0c\u9ed8\u8ba4\u503c\u4e3a\u9ed1\u8272\u3002\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "frameColor",
+                    "description": {
+                        "value": "\u626b\u7801\u6846\u989c\u8272,\u989c\u8272\u503c\u652f\u6301(\u53c2\u8003CSS\u989c\u8272\u89c4\u8303)\uff1a\u989c\u8272\u540d\u79f0(\u53c2\u8003CSS Color Names)/\u5341\u516d\u8fdb\u5236\u503c/rgb\u503c/rgba\u503c\uff0c\u9ed8\u8ba4\u503c\u4e3a\u7ea2\u8272\u3002\n\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "scanbarColor",
+                    "description": {
+                        "value": "\u626b\u7801\u6761\u989c\u8272,\u989c\u8272\u503c\u652f\u6301(\u53c2\u8003CSS\u989c\u8272\u89c4\u8303)\uff1a\u989c\u8272\u540d\u79f0(\u53c2\u8003CSS Color Names)/\u5341\u516d\u8fdb\u5236\u503c/rgb\u503c/rgba\u503c\uff0c\u9ed8\u8ba4\u503c\u4e3a\u7ea2\u8272\u3002\n\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "filters",
+                    "description": {
+                        "value": "\u6761\u7801\u7c7b\u578b\u8fc7\u6ee4\u5668\uff0c\u6761\u7801\u7c7b\u578b\u5e38\u91cf\u6570\u7ec4\uff0c\u9ed8\u8ba4\u60c5\u51b5\u652f\u6301QR\u3001EAN13\u3001EAN8\u7c7b\u578b\u3002 \u901a\u8fc7\u6b64\u53c2\u6570\u53ef\u8bbe\u7f6e\u626b\u7801\u8bc6\u522b\u652f\u6301\u7684\u6761\u7801\u7c7b\u578b\uff08\u6ce8\u610f\uff1a\u8bbe\u7f6e\u652f\u6301\u7684\u6761\u7801\u7c7b\u578b\u8d8a\u591a\uff0c\u626b\u63cf\u8bc6\u522b\u901f\u5ea6\u53ef\u80fd\u5c06\u4f1a\u964d\u4f4e\uff09\u3002\n\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]marked",
+                    "description": {
+                        "value": "\u6761\u7801\u8bc6\u522b\u6210\u529f\u4e8b\u4ef6\uff0cevent = {type, message, code, file}\n\t\t\t\t\t\n\t\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]error",
+                    "description": {
+                        "value": "\u6761\u7801\u8bc6\u522b\u9519\u8bef\u4e8b\u4ef6\uff0cevent = {type, message, code}\n\t\t\t\t\t\n\t\t\t\t",
+                        "type": "plaintext"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "div",
+            "description": {
+                "value": "div\u7ec4\u4ef6\u662f\u7528\u4e8e\u5305\u88c5\u5176\u5b83\u7ec4\u4ef6\u7684\u6700\u57fa\u672c\u5bb9\u5668\u3002\n\u652f\u6301\u6240\u6709\u7684\u901a\u7528\u6837\u5f0f\u3001\u7279\u6027\u3001flexbox \u5e03\u5c40\u3002\n\u5176\u7c7b\u4f3c\u4e8eHTML\u7684div\u5bb9\u5668\uff0c\u4f46\u4e0d\u80fd\u76f4\u63a5\u5728\u91cc\u9762\u6dfb\u52a0\u6587\u672c\uff08\u5b57\u7b26\u4e32\uff09\uff0c\u5982\u679c\u8981\u5c55\u793a\u6587\u672c\uff0c\u5e94\u8be5\u4f7f\u7528text\u7ec4\u4ef6\u3002\n\u5386\u53f2\u7248\u672c\u4e2d\uff0cdiv\u7684\u522b\u540d\u662fcontainer\uff0c\u76ee\u524d\u5df2\u7ecf\u5f03\u7528\u3002\n<br />\n<b>\u53c2\u8003\uff1a</b>\n<br />\n<a href=\"http://weex.apache.org/cn/references/components/div.html\">http://weex.apache.org/cn/references/components/div.html</a>\n\t\t\t\t\n\t\t\t",
+                "type": "html"
+            },
+            "attributes": [
+                {
+                    "name": "id",
+                    "description": {
+                        "value": "\u5143\u7d20ID\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "class",
+                    "description": {
+                        "value": "\u5143\u7d20\u7c7b\u540d\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "style",
+                    "description": {
+                        "value": "\u5185\u8054\u6837\u5f0f\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]click",
+                    "description": {
+                        "value": "\u5f53\u7ec4\u4ef6\u4e0a\u53d1\u751f\u70b9\u51fb\u624b\u52bf\u65f6\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]longpress",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 longpress \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u7528\u6237\u957f\u6309\u8fd9\u4e2a\u7ec4\u4ef6\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u4f1a\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]appear",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u4f4d\u4e8e\u67d0\u4e2a\u53ef\u6eda\u52a8\u533a\u57df\u5185\u7684\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 appear \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u8fd9\u4e2a\u7ec4\u4ef6\u7684\u72b6\u6001\u53d8\u4e3a\u5728\u5c4f\u5e55\u4e0a\u53ef\u89c1\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]disappear",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u4f4d\u4e8e\u67d0\u4e2a\u53ef\u6eda\u52a8\u533a\u57df\u5185\u7684\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 disappear \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u8fd9\u4e2a\u7ec4\u4ef6\u88ab\u6ed1\u51fa\u5c4f\u5e55\u53d8\u4e3a\u4e0d\u53ef\u89c1\u72b6\u6001\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]viewappear",
+                    "description": {
+                        "value": "viewappear \u4e8b\u4ef6\u4f1a\u5728\u9875\u9762\u5c31\u8981\u663e\u793a\u6216\u914d\u7f6e\u7684\u4efb\u4f55\u9875\u9762\u52a8\u753b\u88ab\u6267\u884c\u524d\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]viewdisappear",
+                    "description": {
+                        "value": "viewdisappear \u4e8b\u4ef6\u4f1a\u5728\u9875\u9762\u5c31\u8981\u5173\u95ed\u65f6\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "image",
+            "description": {
+                "value": "image\u7528\u4e8e\u5728\u754c\u9762\u4e2d\u663e\u793a\u5355\u4e2a\u56fe\u7247\u3002\n<br />\n<b>\u53c2\u8003\uff1a</b>\n<br />\n<a href=\"http://weex.apache.org/cn/references/components/image.html\">http://weex.apache.org/cn/references/components/image.html</a>\n\t\t\t\t\n\t\t\t",
+                "type": "html"
+            },
+            "attributes": [
+                {
+                    "name": "id",
+                    "description": {
+                        "value": "\u5143\u7d20ID\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "class",
+                    "description": {
+                        "value": "\u5143\u7d20\u7c7b\u540d\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "style",
+                    "description": {
+                        "value": "\u5185\u8054\u6837\u5f0f\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "placeholder",
+                    "description": {
+                        "value": "\u5f53\u4f5c\u4e3aimage\u7684\u5c5e\u6027\u65f6\u8868\u793a:<br />\n\t\t\t\t\t\u5360\u4f4d\u56fe\u7684 URL\uff0c\u5f53\u7531 src \u8868\u793a\u7684\u56fe\u7247\u4e0b\u8f7d\u5b8c\u6210\u5e76\u5c55\u793a\u540e\u5c06\u88ab\u5220\u9664\u3002\n\t\t\t\t\t<a href=\"http://dotwe.org/vue/712ef102fc5e073b6c7e3b701545681c\">\u793a\u4f8b</a>\n\t\t\t\t<br />\n\t\t\t\t\u5f53\u4f5c\u4e3ainput\u7684\u5c5e\u6027\u65f6\u8868\u793a:<br />\n\t\t\t\t\u63d0\u793a\u7528\u6237\u53ef\u4ee5\u8f93\u5165\u4ec0\u4e48\u3002 \u63d0\u793a\u6587\u672c\u4e0d\u80fd\u6709\u56de\u8f66\u6216\u6362\u884c\u3002\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "resize",
+                    "values": [
+                        {
+                            "name": "contain",
+                            "description": "\u7f29\u653e\u56fe\u7247\u4ee5\u5b8c\u5168\u88c5\u5165<image>\u533a\u57df\uff0c\u53ef\u80fd\u80cc\u666f\u533a\u90e8\u5206\u7a7a\u767d\u3002"
+                        },
+                        {
+                            "name": "cover",
+                            "description": "\u7f29\u653e\u56fe\u7247\u4ee5\u5b8c\u5168\u8986\u76d6<image>\u533a\u57df\uff0c\u53ef\u80fd\u56fe\u7247\u90e8\u5206\u770b\u4e0d\u89c1\u3002"
+                        },
+                        {
+                            "name": "stretch",
+                            "description": "<b>\u9ed8\u8ba4\u503c</b>. \u6309\u7167<image>\u533a\u57df\u7684\u5bbd\u9ad8\u6bd4\u4f8b\u7f29\u653e\u56fe\u7247\u3002"
+                        }
+                    ]
+                },
+                {
+                    "name": "src",
+                    "description": {
+                        "value": "\u8981\u663e\u793a\u56fe\u7247\u7684 URL\uff0c\u8be5\u5c5e\u6027\u662f &lt;image&gt; \u7ec4\u4ef6\u7684\u5f3a\u5236\u5c5e\u6027\u3002\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]click",
+                    "description": {
+                        "value": "\u5f53\u7ec4\u4ef6\u4e0a\u53d1\u751f\u70b9\u51fb\u624b\u52bf\u65f6\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]longpress",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 longpress \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u7528\u6237\u957f\u6309\u8fd9\u4e2a\u7ec4\u4ef6\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u4f1a\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]appear",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u4f4d\u4e8e\u67d0\u4e2a\u53ef\u6eda\u52a8\u533a\u57df\u5185\u7684\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 appear \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u8fd9\u4e2a\u7ec4\u4ef6\u7684\u72b6\u6001\u53d8\u4e3a\u5728\u5c4f\u5e55\u4e0a\u53ef\u89c1\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]disappear",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u4f4d\u4e8e\u67d0\u4e2a\u53ef\u6eda\u52a8\u533a\u57df\u5185\u7684\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 disappear \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u8fd9\u4e2a\u7ec4\u4ef6\u88ab\u6ed1\u51fa\u5c4f\u5e55\u53d8\u4e3a\u4e0d\u53ef\u89c1\u72b6\u6001\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]viewappear",
+                    "description": {
+                        "value": "viewappear \u4e8b\u4ef6\u4f1a\u5728\u9875\u9762\u5c31\u8981\u663e\u793a\u6216\u914d\u7f6e\u7684\u4efb\u4f55\u9875\u9762\u52a8\u753b\u88ab\u6267\u884c\u524d\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]viewdisappear",
+                    "description": {
+                        "value": "viewdisappear \u4e8b\u4ef6\u4f1a\u5728\u9875\u9762\u5c31\u8981\u5173\u95ed\u65f6\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]load",
+                    "description": {
+                        "value": "\u5f53\u52a0\u8f7d\u5b8c\u6210 src \u6307\u5b9a\u7684\u56fe\u7247\u65f6\uff0cload\u4e8b\u4ef6\u5c06\u88ab\u89e6\u53d1\u3002\n\t\t\t\t \n\t\t\t ",
+                        "type": "plaintext"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "indicator",
+            "description": {
+                "value": "indicator\u7ec4\u4ef6\u901a\u5e38\u7528\u4e8e\u663e\u793a\u8f6e\u64ad\u56fe\u6307\u793a\u5668\u6548\u679c\uff0c\u5fc5\u987b\u5145\u5f53 slider \u7ec4\u4ef6\u7684\u5b50\u7ec4\u4ef6\u4f7f\u7528\u3002\n\t\t\t\t\n\t\t\t",
+                "type": "html"
+            },
+            "attributes": [
+                {
+                    "name": "id",
+                    "description": {
+                        "value": "\u5143\u7d20ID\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "class",
+                    "description": {
+                        "value": "\u5143\u7d20\u7c7b\u540d\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "style",
+                    "description": {
+                        "value": "\u5185\u8054\u6837\u5f0f\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]click",
+                    "description": {
+                        "value": "\u5f53\u7ec4\u4ef6\u4e0a\u53d1\u751f\u70b9\u51fb\u624b\u52bf\u65f6\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]longpress",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 longpress \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u7528\u6237\u957f\u6309\u8fd9\u4e2a\u7ec4\u4ef6\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u4f1a\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]appear",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u4f4d\u4e8e\u67d0\u4e2a\u53ef\u6eda\u52a8\u533a\u57df\u5185\u7684\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 appear \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u8fd9\u4e2a\u7ec4\u4ef6\u7684\u72b6\u6001\u53d8\u4e3a\u5728\u5c4f\u5e55\u4e0a\u53ef\u89c1\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]disappear",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u4f4d\u4e8e\u67d0\u4e2a\u53ef\u6eda\u52a8\u533a\u57df\u5185\u7684\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 disappear \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u8fd9\u4e2a\u7ec4\u4ef6\u88ab\u6ed1\u51fa\u5c4f\u5e55\u53d8\u4e3a\u4e0d\u53ef\u89c1\u72b6\u6001\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]viewappear",
+                    "description": {
+                        "value": "viewappear \u4e8b\u4ef6\u4f1a\u5728\u9875\u9762\u5c31\u8981\u663e\u793a\u6216\u914d\u7f6e\u7684\u4efb\u4f55\u9875\u9762\u52a8\u753b\u88ab\u6267\u884c\u524d\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]viewdisappear",
+                    "description": {
+                        "value": "viewdisappear \u4e8b\u4ef6\u4f1a\u5728\u9875\u9762\u5c31\u8981\u5173\u95ed\u65f6\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "input",
+            "description": {
+                "value": "Weex \u5185\u7f6e\u7684 input \u7ec4\u4ef6\u7528\u6765\u521b\u5efa\u63a5\u6536\u7528\u6237\u8f93\u5165\u5b57\u7b26\u7684\u8f93\u5165\u7ec4\u4ef6\u3002 input \u7ec4\u4ef6\u7684\u5de5\u4f5c\u65b9\u5f0f\u56e0 type \u5c5e\u6027\u7684\u503c\u800c\u5f02\uff0c\u6bd4\u5982 text\uff0c password\uff0curl\uff0cemail\uff0ctel \u7b49\u3002\n<br />\n<b>\u53c2\u8003\uff1a</b>\n<br />\n<a href=\"http://weex.apache.org/cn/references/components/input.html\">http://weex.apache.org/cn/references/components/input.html</a>\n\t\t\t\t\n\t\t\t",
+                "type": "html"
+            },
+            "attributes": [
+                {
+                    "name": "id",
+                    "description": {
+                        "value": "\u5143\u7d20ID\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "class",
+                    "description": {
+                        "value": "\u5143\u7d20\u7c7b\u540d\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "style",
+                    "description": {
+                        "value": "\u5185\u8054\u6837\u5f0f\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "type"
+                },
+                {
+                    "name": "value",
+                    "description": {
+                        "value": "\u7ec4\u4ef6\u7684\u9ed8\u8ba4\u5185\u5bb9\u3002\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "placeholder",
+                    "description": {
+                        "value": "\u5f53\u4f5c\u4e3aimage\u7684\u5c5e\u6027\u65f6\u8868\u793a:<br />\n\t\t\t\t\t\u5360\u4f4d\u56fe\u7684 URL\uff0c\u5f53\u7531 src \u8868\u793a\u7684\u56fe\u7247\u4e0b\u8f7d\u5b8c\u6210\u5e76\u5c55\u793a\u540e\u5c06\u88ab\u5220\u9664\u3002\n\t\t\t\t\t<a href=\"http://dotwe.org/vue/712ef102fc5e073b6c7e3b701545681c\">\u793a\u4f8b</a>\n\t\t\t\t<br />\n\t\t\t\t\u5f53\u4f5c\u4e3ainput\u7684\u5c5e\u6027\u65f6\u8868\u793a:<br />\n\t\t\t\t\u63d0\u793a\u7528\u6237\u53ef\u4ee5\u8f93\u5165\u4ec0\u4e48\u3002 \u63d0\u793a\u6587\u672c\u4e0d\u80fd\u6709\u56de\u8f66\u6216\u6362\u884c\u3002\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "disabled",
+                    "description": {
+                        "value": "\u5e03\u5c14\u7c7b\u578b\u7684\u6570\u636e\uff0c\u8868\u793a\u662f\u5426\u652f\u6301\u8f93\u5165\u3002\u901a\u5e38 click \u4e8b\u4ef6\u5728 disabled \u63a7\u4ef6\u4e0a\u662f\u5931\u6548\u7684\u3002\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    },
+                    "valueSet": "b"
+                },
+                {
+                    "name": "autofocus",
+                    "description": {
+                        "value": "\u5e03\u5c14\u7c7b\u578b\u7684\u6570\u636e\uff0c\u8868\u793a\u662f\u5426\u5728\u9875\u9762\u52a0\u8f7d\u65f6\u63a7\u4ef6\u81ea\u52a8\u83b7\u5f97\u8f93\u5165\u7126\u70b9\u3002\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    },
+                    "valueSet": "b"
+                },
+                {
+                    "name": "maxlength",
+                    "description": {
+                        "value": "\u4e00\u4e2a\u6570\u503c\u7c7b\u578b\u7684\u503c\uff0c\u8868\u793a\u8f93\u5165\u7684\u6700\u5927\u957f\u5ea6\u3002\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "return-key-type",
+                    "description": {
+                        "value": "\u952e\u76d8\u8fd4\u56de\u952e\u7684\u7c7b\u578b,\u652f\u6301 defalut;go;next;search;send,done\u3002\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    },
+                    "values": [
+                        {
+                            "name": "defalut"
+                        },
+                        {
+                            "name": "go"
+                        },
+                        {
+                            "name": "next"
+                        },
+                        {
+                            "name": "search"
+                        },
+                        {
+                            "name": "send"
+                        },
+                        {
+                            "name": "done"
+                        }
+                    ]
+                },
+                {
+                    "name": "singleline",
+                    "description": {
+                        "value": "\u63a7\u5236\u5185\u5bb9\u662f\u5426\u53ea\u5141\u8bb8\u5355\u884c\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    },
+                    "valueSet": "b"
+                },
+                {
+                    "name": "max-length",
+                    "description": {
+                        "value": "\u63a7\u5236\u8f93\u5165\u5185\u5bb9\u7684\u6700\u5927\u957f\u5ea6\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "lines",
+                    "description": {
+                        "value": "\u63a7\u5236\u8f93\u5165\u5185\u5bb9\u7684\u6700\u5927\u884c\u6570\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "max",
+                    "description": {
+                        "value": "\u63a7\u5236\u5f53type\u5c5e\u6027\u4e3adate\u65f6\u9009\u62e9\u65e5\u671f\u7684\u6700\u5927\u65f6\u95f4\uff0c\u683c\u5f0f\u4e3ayyyy-MM-dd\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "min",
+                    "description": {
+                        "value": "\u63a7\u5236\u5f53type\u5c5e\u6027\u4e3adate\u65f6\u9009\u62e9\u65e5\u671f\u7684\u6700\u5c0f\u65f6\u95f4\uff0c\u683c\u5f0f\u4e3ayyyy-MM-dd\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]longpress",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 longpress \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u7528\u6237\u957f\u6309\u8fd9\u4e2a\u7ec4\u4ef6\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u4f1a\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]appear",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u4f4d\u4e8e\u67d0\u4e2a\u53ef\u6eda\u52a8\u533a\u57df\u5185\u7684\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 appear \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u8fd9\u4e2a\u7ec4\u4ef6\u7684\u72b6\u6001\u53d8\u4e3a\u5728\u5c4f\u5e55\u4e0a\u53ef\u89c1\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]disappear",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u4f4d\u4e8e\u67d0\u4e2a\u53ef\u6eda\u52a8\u533a\u57df\u5185\u7684\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 disappear \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u8fd9\u4e2a\u7ec4\u4ef6\u88ab\u6ed1\u51fa\u5c4f\u5e55\u53d8\u4e3a\u4e0d\u53ef\u89c1\u72b6\u6001\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]viewappear",
+                    "description": {
+                        "value": "viewappear \u4e8b\u4ef6\u4f1a\u5728\u9875\u9762\u5c31\u8981\u663e\u793a\u6216\u914d\u7f6e\u7684\u4efb\u4f55\u9875\u9762\u52a8\u753b\u88ab\u6267\u884c\u524d\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]viewdisappear",
+                    "description": {
+                        "value": "viewdisappear \u4e8b\u4ef6\u4f1a\u5728\u9875\u9762\u5c31\u8981\u5173\u95ed\u65f6\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]input",
+                    "description": {
+                        "value": "\u8f93\u5165\u5b57\u7b26\u7684\u503c\u66f4\u6539\u3002\n\t\t\t\t \n\t\t\t ",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]change",
+                    "description": {
+                        "value": "\u5f53\u7528\u6237\u8f93\u5165\u5b8c\u6210\u65f6\u89e6\u53d1\u3002\u901a\u5e38\u5728 blur \u4e8b\u4ef6\u4e4b\u540e\u3002\n\t\t\t\t \n\t\t\t ",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]focus",
+                    "description": {
+                        "value": "\u7ec4\u4ef6\u83b7\u5f97\u8f93\u5165\u7126\u70b9\u3002\n\t\t\t\t \n\t\t\t ",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]blur",
+                    "description": {
+                        "value": "\u7ec4\u4ef6\u5931\u53bb\u8f93\u5165\u7126\u70b9\u3002\n\t\t\t\t \n\t\t\t ",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]return",
+                    "description": {
+                        "value": "\u952e\u76d8\u70b9\u51fb\u8fd4\u56de\u952e\u3002\n\t\t\t\t \n\t\t\t ",
+                        "type": "plaintext"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "list",
+            "description": {
+                "value": "list\u7ec4\u4ef6\u662f\u63d0\u4f9b\u5782\u76f4\u5217\u8868\u529f\u80fd\u7684\u6838\u5fc3\u7ec4\u4ef6\uff0c\u62e5\u6709\u5e73\u6ed1\u7684\u6eda\u52a8\u548c\u9ad8\u6548\u7684\u5185\u5b58\u7ba1\u7406\uff0c\u975e\u5e38\u9002\u5408\u7528\u4e8e\u957f\u5217\u8868\u7684\u5c55\u793a\u3002\u6700\u7b80\u5355\u7684\u4f7f\u7528\u65b9\u6cd5\u662f\u5728 list \u6807\u7b7e\u5185\u4f7f\u7528\u4e00\u7ec4\u7531\u7b80\u5355\u6570\u7ec4 repeat \u751f\u6210\u7684 cell \u6807\u7b7e\u586b\u5145\u3002\n<br />\n<b>\u53c2\u8003\uff1a</b>\n<br />\n<a href=\"http://weex.apache.org/cn/references/components/list.html\">http://weex.apache.org/cn/references/components/list.html</a>\n\t\t\t\t\n\t\t\t",
+                "type": "html"
+            },
+            "attributes": [
+                {
+                    "name": "id",
+                    "description": {
+                        "value": "\u5143\u7d20ID\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "class",
+                    "description": {
+                        "value": "\u5143\u7d20\u7c7b\u540d\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "style",
+                    "description": {
+                        "value": "\u5185\u8054\u6837\u5f0f\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "show-scrollbar",
+                    "description": {
+                        "value": "\u53ef\u9009\u503c\u4e3a true/ false\uff0c\u9ed8\u8ba4\u503c\u4e3a true\u3002\u63a7\u5236\u662f\u5426\u51fa\u73b0\u6eda\u52a8\u6761\u3002\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    },
+                    "values": [
+                        {
+                            "name": "true",
+                            "description": "\u51fa\u73b0\u6eda\u52a8\u6761"
+                        },
+                        {
+                            "name": "false",
+                            "description": "\u4e0d\u51fa\u73b0\u6eda\u52a8\u6761"
+                        }
+                    ]
+                },
+                {
+                    "name": "loadmoreoffset",
+                    "description": {
+                        "value": "\u9ed8\u8ba4\u503c\u4e3a 0\uff0c\u89e6\u53d1 loadmore \u4e8b\u4ef6\u6240\u9700\u8981\u7684\u5782\u76f4\u504f\u79fb\u8ddd\u79bb\uff08\u8bbe\u5907\u5c4f\u5e55\u5e95\u90e8\u4e0e list \u5e95\u90e8\u4e4b\u95f4\u7684\u8ddd\u79bb\uff09\u3002\u5f53 list \u7684\u6eda\u52a8\u6761\u6eda\u52a8\u5230\u8db3\u591f\u63a5\u8fd1 list \u5e95\u90e8\u65f6\u5c06\u4f1a\u89e6\u53d1 loadmore \u8fd9\u4e2a\u4e8b\u4ef6\u3002\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "offset-accuracy",
+                    "description": {
+                        "value": "\u63a7\u5236onscroll\u4e8b\u4ef6\u89e6\u53d1\u7684\u9891\u7387\uff0c\u9ed8\u8ba4\u503c\u4e3a10\uff0c\u8868\u793a\u4e24\u6b21onscroll\u4e8b\u4ef6\u4e4b\u95f4\u5217\u8868\u81f3\u5c11\u6eda\u52a8\u4e8610px\u3002\u6ce8\u610f\uff0c\u5c06\u8be5\u503c\u8bbe\u7f6e\u4e3a\u8f83\u5c0f\u7684\u6570\u503c\u4f1a\u63d0\u9ad8\u6eda\u52a8\u4e8b\u4ef6\u91c7\u6837\u7684\u7cbe\u5ea6\uff0c\u4f46\u540c\u65f6\u4e5f\u4f1a\u964d\u4f4e\u9875\u9762\u7684\u6027\u80fd\u3002\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]click",
+                    "description": {
+                        "value": "\u5f53\u7ec4\u4ef6\u4e0a\u53d1\u751f\u70b9\u51fb\u624b\u52bf\u65f6\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]longpress",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 longpress \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u7528\u6237\u957f\u6309\u8fd9\u4e2a\u7ec4\u4ef6\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u4f1a\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]appear",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u4f4d\u4e8e\u67d0\u4e2a\u53ef\u6eda\u52a8\u533a\u57df\u5185\u7684\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 appear \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u8fd9\u4e2a\u7ec4\u4ef6\u7684\u72b6\u6001\u53d8\u4e3a\u5728\u5c4f\u5e55\u4e0a\u53ef\u89c1\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]disappear",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u4f4d\u4e8e\u67d0\u4e2a\u53ef\u6eda\u52a8\u533a\u57df\u5185\u7684\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 disappear \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u8fd9\u4e2a\u7ec4\u4ef6\u88ab\u6ed1\u51fa\u5c4f\u5e55\u53d8\u4e3a\u4e0d\u53ef\u89c1\u72b6\u6001\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]viewappear",
+                    "description": {
+                        "value": "viewappear \u4e8b\u4ef6\u4f1a\u5728\u9875\u9762\u5c31\u8981\u663e\u793a\u6216\u914d\u7f6e\u7684\u4efb\u4f55\u9875\u9762\u52a8\u753b\u88ab\u6267\u884c\u524d\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]viewdisappear",
+                    "description": {
+                        "value": "viewdisappear \u4e8b\u4ef6\u4f1a\u5728\u9875\u9762\u5c31\u8981\u5173\u95ed\u65f6\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]loadmore",
+                    "description": {
+                        "value": "\u5982\u679c\u5217\u8868\u6eda\u52a8\u5230\u5e95\u90e8\u5c06\u4f1a\u7acb\u5373\u89e6\u53d1\u8fd9\u4e2a\u4e8b\u4ef6\uff0c\u4f60\u53ef\u4ee5\u5728\u8fd9\u4e2a\u4e8b\u4ef6\u7684\u5904\u7406\u51fd\u6570\u4e2d\u52a0\u8f7d\u4e0b\u4e00\u9875\u7684\u5217\u8868\u9879\u3002\n\t\t\t\t \n\t\t\t ",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]scroll",
+                    "description": {
+                        "value": "\u5217\u8868\u53d1\u751f\u6eda\u52a8\u65f6\u5c06\u4f1a\u89e6\u53d1\u8be5\u4e8b\u4ef6\uff0c\u4e8b\u4ef6\u7684\u9ed8\u8ba4\u62bd\u6837\u7387\u4e3a10px\uff0c\u5373\u5217\u8868\u6bcf\u6eda\u52a810px\u89e6\u53d1\u4e00\u6b21\uff0c\u53ef\u901a\u8fc7\u5c5e\u6027offset-accuracy\u8bbe\u7f6e\u62bd\u6837\u7387\u3002\n\t\t\t\t \n\t\t\t ",
+                        "type": "plaintext"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "cell",
+            "description": {
+                "value": "\u7528\u4e8e\u5b9a\u4e49\u5217\u8868\u4e2d\u7684\u5b50\u5217\u8868\u9879\uff0c\u7c7b\u4f3c\u4e8e HTML \u4e2d\u7684 ul \u4e4b\u4e8e li\u3002Weex \u4f1a\u5bf9 cell \u8fdb\u884c\u9ad8\u6548\u7684\u5185\u5b58\u56de\u6536\u4ee5\u8fbe\u5230\u66f4\u597d\u7684\u6027\u80fd\uff0c\u8be5\u7ec4\u4ef6\u5fc5\u987b\u4f5c\u4e3alist recycler waterfall\u7ec4\u4ef6\u7684\u5b50\u7ec4\u4ef6, \u8fd9\u662f\u4e3a\u4e86\u4f18\u5316\u6eda\u52a8\u65f6\u7684\u6027\u80fd\u3002\n<br />\n<b>\u53c2\u8003\uff1a</b>\n<br />\n<a href=\"http://weex.apache.org/cn/references/components/cell.html\">http://weex.apache.org/cn/references/components/cell.html</a>\n\t\t\t\t\n\t\t\t",
+                "type": "html"
+            },
+            "attributes": [
+                {
+                    "name": "id",
+                    "description": {
+                        "value": "\u5143\u7d20ID\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "class",
+                    "description": {
+                        "value": "\u5143\u7d20\u7c7b\u540d\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "style",
+                    "description": {
+                        "value": "\u5185\u8054\u6837\u5f0f\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "keep-scroll-position",
+                    "description": {
+                        "value": "List \u63d2\u5165\u6570\u636e\u540e\u662f\u5426\u4fdd\u6301\u4e0a\u6b21\u6eda\u52a8\u7684\u4f4d\u7f6e\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]click",
+                    "description": {
+                        "value": "\u5f53\u7ec4\u4ef6\u4e0a\u53d1\u751f\u70b9\u51fb\u624b\u52bf\u65f6\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]longpress",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 longpress \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u7528\u6237\u957f\u6309\u8fd9\u4e2a\u7ec4\u4ef6\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u4f1a\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]appear",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u4f4d\u4e8e\u67d0\u4e2a\u53ef\u6eda\u52a8\u533a\u57df\u5185\u7684\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 appear \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u8fd9\u4e2a\u7ec4\u4ef6\u7684\u72b6\u6001\u53d8\u4e3a\u5728\u5c4f\u5e55\u4e0a\u53ef\u89c1\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]disappear",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u4f4d\u4e8e\u67d0\u4e2a\u53ef\u6eda\u52a8\u533a\u57df\u5185\u7684\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 disappear \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u8fd9\u4e2a\u7ec4\u4ef6\u88ab\u6ed1\u51fa\u5c4f\u5e55\u53d8\u4e3a\u4e0d\u53ef\u89c1\u72b6\u6001\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]viewappear",
+                    "description": {
+                        "value": "viewappear \u4e8b\u4ef6\u4f1a\u5728\u9875\u9762\u5c31\u8981\u663e\u793a\u6216\u914d\u7f6e\u7684\u4efb\u4f55\u9875\u9762\u52a8\u753b\u88ab\u6267\u884c\u524d\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]viewdisappear",
+                    "description": {
+                        "value": "viewdisappear \u4e8b\u4ef6\u4f1a\u5728\u9875\u9762\u5c31\u8981\u5173\u95ed\u65f6\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "recycle-list",
+            "description": {
+                "value": "recycle-list\u662f\u4e00\u4e2a\u65b0\u7684\u5217\u8868\u5bb9\u5668\uff0c\u5177\u6709\u56de\u6536\u548c\u590d\u7528\u7684\u80fd\u529b\uff0c\u53ef\u4ee5\u5927\u5e45\u4f18\u5316\u5185\u5b58\u5360\u7528\u548c\u6e32\u67d3\u6027\u80fd\u3002\u53ea\u80fd\u4f7f\u7528 cell-slot \u4f5c\u4e3a\u5176\u76f4\u63a5\u5b50\u8282\u70b9\uff0c\u4f7f\u7528\u5176\u4ed6\u8282\u70b9\u65e0\u6548\u3002\n<br />\n<b>\u53c2\u8003\uff1a</b>\n<br />\n<a href=\"http://weex.apache.org/cn/references/components/recycle-list.html\">http://weex.apache.org/cn/references/components/recycle-list.html</a>\n\t\t\t\t\n\t\t\t",
+                "type": "html"
+            },
+            "attributes": [
+                {
+                    "name": "id",
+                    "description": {
+                        "value": "\u5143\u7d20ID\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "class",
+                    "description": {
+                        "value": "\u5143\u7d20\u7c7b\u540d\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "style",
+                    "description": {
+                        "value": "\u5185\u8054\u6837\u5f0f\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "for",
+                    "description": {
+                        "value": "<pre>\n\u5728 recycle-list \u6dfb\u52a0 for \u5c5e\u6027\u5373\u53ef\u63cf\u8ff0\u5982\u4f55\u5faa\u73af\u5c55\u5f00\u5217\u8868\u7684\u6570\u636e\uff0c\n\u8bed\u6cd5\u548c Vue \u7684 v-for \u6307\u4ee4\u7c7b\u4f3c\uff0c\u4f46\u662f\u5b83\u5faa\u73af\u7684\u662f\u81ea\u5df1\u5185\u90e8\u7684\u5b50\u8282\u70b9\uff0c\u5e76\u4e0d\u662f\u5f53\u524d\u8282\u70b9\u3002\n\nfor \u5c5e\u6027\u652f\u6301\u5982\u4e0b\u4e24\u79cd\u5199\u6cd5\uff1a\n\nalias in expression\n(alias, index) in expression\n</pre>\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "switch",
+                    "description": {
+                        "value": "<p>\n\u5728 recycle-list \u6dfb\u52a0 switch \u5c5e\u6027\u53ef\u4ee5\u7528\u6765\u6307\u5b9a\u6570\u636e\u4e2d\u7528\u4e8e\u533a\u5206\u5b50\u6a21\u677f\u7c7b\u578b\u7684\u5b57\u6bb5\u540d\uff0c\u8bed\u4e49\u548c\u7f16\u7a0b\u8bed\u8a00\u91cc\u7684 switch \u4e00\u81f4\uff0c\u914d\u5408 cell-slot \u4e2d\u7684 case \u548c default \u5c5e\u6027\u4e00\u8d77\u4f7f\u7528\u3002\n</p>\n<p>\n\t\u5982\u679c\u7701\u7565\u4e86 switch \u5c5e\u6027\uff0c\u5219\u53ea\u4f1a\u5c06\u7b2c\u4e00\u4e2a cell-slot \u89c6\u4e3a\u6a21\u677f\uff0c\u591a\u4f59\u7684\u6a21\u677f\u5c06\u4f1a\u88ab\u5ffd\u7565\u3002\n</p>\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]click",
+                    "description": {
+                        "value": "\u5f53\u7ec4\u4ef6\u4e0a\u53d1\u751f\u70b9\u51fb\u624b\u52bf\u65f6\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]longpress",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 longpress \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u7528\u6237\u957f\u6309\u8fd9\u4e2a\u7ec4\u4ef6\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u4f1a\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]appear",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u4f4d\u4e8e\u67d0\u4e2a\u53ef\u6eda\u52a8\u533a\u57df\u5185\u7684\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 appear \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u8fd9\u4e2a\u7ec4\u4ef6\u7684\u72b6\u6001\u53d8\u4e3a\u5728\u5c4f\u5e55\u4e0a\u53ef\u89c1\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]disappear",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u4f4d\u4e8e\u67d0\u4e2a\u53ef\u6eda\u52a8\u533a\u57df\u5185\u7684\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 disappear \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u8fd9\u4e2a\u7ec4\u4ef6\u88ab\u6ed1\u51fa\u5c4f\u5e55\u53d8\u4e3a\u4e0d\u53ef\u89c1\u72b6\u6001\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]viewappear",
+                    "description": {
+                        "value": "viewappear \u4e8b\u4ef6\u4f1a\u5728\u9875\u9762\u5c31\u8981\u663e\u793a\u6216\u914d\u7f6e\u7684\u4efb\u4f55\u9875\u9762\u52a8\u753b\u88ab\u6267\u884c\u524d\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]viewdisappear",
+                    "description": {
+                        "value": "viewdisappear \u4e8b\u4ef6\u4f1a\u5728\u9875\u9762\u5c31\u8981\u5173\u95ed\u65f6\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "cell-slot",
+            "description": {
+                "value": "cell-slot \u4ee3\u8868\u7684\u662f\u5217\u8868\u6bcf\u4e00\u9879\u7684\u6a21\u677f\uff0c\u5b83\u53ea\u7528\u6765\u63cf\u8ff0\u6a21\u677f\u7684\u7ed3\u6784\uff0c\u5e76\u4e0d\u5bf9\u5e94\u5b9e\u9645\u7684\u8282\u70b9\u3002cell-slot \u7684\u4e2a\u6570\u53ea\u8868\u793a\u6a21\u677f\u7684\u79cd\u7c7b\u6570\uff0c\u771f\u5b9e\u5217\u8868\u9879\u7684\u4e2a\u6570\u662f\u7531\u6570\u636e\u51b3\u5b9a\u7684\u3002\n\t\t\t\t\n\t\t\t",
+                "type": "html"
+            },
+            "attributes": [
+                {
+                    "name": "id",
+                    "description": {
+                        "value": "\u5143\u7d20ID\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "class",
+                    "description": {
+                        "value": "\u5143\u7d20\u7c7b\u540d\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "style",
+                    "description": {
+                        "value": "\u5185\u8054\u6837\u5f0f\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "case",
+                    "description": {
+                        "value": "<p>\n\u58f0\u660e\u4e86\u5f53\u524d\u6a21\u677f\u7684\u7c7b\u578b\uff0c\u53ea\u6709\u548c\u6570\u636e\u4e2d\u7684\u7c7b\u578b\u4e0e\u5f53\u524d\u7c7b\u578b\u5339\u914d\u65f6\u624d\u4f1a\u6e32\u67d3\uff0c\u8bed\u4e49\u548c\u7f16\u7a0b\u8bed\u8a00\u91cc\u7684 case \u4e00\u81f4\u3002\n</p>\n<p>\n\u6240\u6709\u6a21\u677f\u4e2d\u6700\u591a\u53ea\u4f1a\u5339\u914d\u5230\u4e00\u9879\uff0c\u6309\u7167\u6a21\u677f\u7684\u987a\u5e8f\u4ece\u4e0a\u5230\u4e0b\u5339\u914d\uff0c\u4e00\u65e6\u5339\u914d\u6210\u529f\u5c31\u4e0d\u5728\u7ee7\u7eed\u5339\u914d\u4e0b\u4e00\u4e2a\u3002\n</p>\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "default",
+                    "description": {
+                        "value": "\u8868\u793a\u5f53\u524d\u6a21\u677f\u4e3a\u9ed8\u8ba4\u6a21\u677f\u7c7b\u578b\uff0c\u4e0d\u9700\u8981\u6307\u5b9a\u503c\u3002\u5982\u679c\u6570\u636e\u9879\u6ca1\u6709\u5339\u914d\u5230\u4efb\u4f55 case \u7c7b\u578b\uff0c\u5219\u6e32\u67d3\u5e26\u6709 default \u6a21\u677f\u3002\u5982\u679c\u5b58\u5728\u591a\u4e2a default\uff0c\u5219\u53ea\u4f1a\u4f7f\u7528\u7b2c\u4e00\u4e2a\u9ed8\u8ba4\u6a21\u677f\u3002\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "key",
+                    "description": {
+                        "value": "\u53ef\u9009\u5c5e\u6027\uff0c\u7528\u4e8e\u6307\u5b9a\u5217\u8868\u6570\u636e\u4e2d\u53ef\u4ee5\u4f5c\u4e3a\u552f\u4e00\u6807\u8bc6\u7684\u952e\u503c\uff0c\u53ef\u4ee5\u4f18\u5316\u6e32\u67d3\u6027\u80fd\u3002\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]click",
+                    "description": {
+                        "value": "\u5f53\u7ec4\u4ef6\u4e0a\u53d1\u751f\u70b9\u51fb\u624b\u52bf\u65f6\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]longpress",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 longpress \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u7528\u6237\u957f\u6309\u8fd9\u4e2a\u7ec4\u4ef6\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u4f1a\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]appear",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u4f4d\u4e8e\u67d0\u4e2a\u53ef\u6eda\u52a8\u533a\u57df\u5185\u7684\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 appear \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u8fd9\u4e2a\u7ec4\u4ef6\u7684\u72b6\u6001\u53d8\u4e3a\u5728\u5c4f\u5e55\u4e0a\u53ef\u89c1\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]disappear",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u4f4d\u4e8e\u67d0\u4e2a\u53ef\u6eda\u52a8\u533a\u57df\u5185\u7684\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 disappear \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u8fd9\u4e2a\u7ec4\u4ef6\u88ab\u6ed1\u51fa\u5c4f\u5e55\u53d8\u4e3a\u4e0d\u53ef\u89c1\u72b6\u6001\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]viewappear",
+                    "description": {
+                        "value": "viewappear \u4e8b\u4ef6\u4f1a\u5728\u9875\u9762\u5c31\u8981\u663e\u793a\u6216\u914d\u7f6e\u7684\u4efb\u4f55\u9875\u9762\u52a8\u753b\u88ab\u6267\u884c\u524d\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]viewdisappear",
+                    "description": {
+                        "value": "viewdisappear \u4e8b\u4ef6\u4f1a\u5728\u9875\u9762\u5c31\u8981\u5173\u95ed\u65f6\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "loading",
+            "description": {
+                "value": "loading \u4e3a\u5bb9\u5668\u63d0\u4f9b\u4e0a\u62c9\u52a0\u8f7d\u529f\u80fd\uff0c\u7528\u6cd5\u548c\u5c5e\u6027\u4e0e refresh \u7c7b\u4f3c\u3002\n<br />\n<b>\u53c2\u8003\uff1a</b>\n<br />\n<a href=\"http://weex.apache.org/cn/references/components/loading.html\">http://weex.apache.org/cn/references/components/loading.html</a>\n\t\t\t\t\n\t\t\t",
+                "type": "html"
+            },
+            "attributes": [
+                {
+                    "name": "id",
+                    "description": {
+                        "value": "\u5143\u7d20ID\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "class",
+                    "description": {
+                        "value": "\u5143\u7d20\u7c7b\u540d\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "style",
+                    "description": {
+                        "value": "\u5185\u8054\u6837\u5f0f\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "display",
+                    "values": [
+                        {
+                            "name": "show"
+                        },
+                        {
+                            "name": "hide"
+                        }
+                    ]
+                },
+                {
+                    "name": "[event]click",
+                    "description": {
+                        "value": "\u5f53\u7ec4\u4ef6\u4e0a\u53d1\u751f\u70b9\u51fb\u624b\u52bf\u65f6\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]longpress",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 longpress \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u7528\u6237\u957f\u6309\u8fd9\u4e2a\u7ec4\u4ef6\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u4f1a\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]appear",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u4f4d\u4e8e\u67d0\u4e2a\u53ef\u6eda\u52a8\u533a\u57df\u5185\u7684\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 appear \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u8fd9\u4e2a\u7ec4\u4ef6\u7684\u72b6\u6001\u53d8\u4e3a\u5728\u5c4f\u5e55\u4e0a\u53ef\u89c1\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]disappear",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u4f4d\u4e8e\u67d0\u4e2a\u53ef\u6eda\u52a8\u533a\u57df\u5185\u7684\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 disappear \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u8fd9\u4e2a\u7ec4\u4ef6\u88ab\u6ed1\u51fa\u5c4f\u5e55\u53d8\u4e3a\u4e0d\u53ef\u89c1\u72b6\u6001\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]viewappear",
+                    "description": {
+                        "value": "viewappear \u4e8b\u4ef6\u4f1a\u5728\u9875\u9762\u5c31\u8981\u663e\u793a\u6216\u914d\u7f6e\u7684\u4efb\u4f55\u9875\u9762\u52a8\u753b\u88ab\u6267\u884c\u524d\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]viewdisappear",
+                    "description": {
+                        "value": "viewdisappear \u4e8b\u4ef6\u4f1a\u5728\u9875\u9762\u5c31\u8981\u5173\u95ed\u65f6\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]loading",
+                    "description": {
+                        "value": "\u88ab\u4e0a\u62c9\u65f6\u89e6\u53d1\u3002\n\t\t\t\t \n\t\t\t ",
+                        "type": "plaintext"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "refresh",
+            "description": {
+                "value": "refresh \u4e3a\u5bb9\u5668\u63d0\u4f9b\u4e0b\u62c9\u5237\u65b0\u529f\u80fd\uff0c\u7528\u6cd5\u548c\u5c5e\u6027\u4e0e loading \u7c7b\u4f3c\u3002\n<br />\n<b>\u53c2\u8003\uff1a</b>\n<br />\n<a href=\"http://weex.apache.org/cn/references/components/refresh.html\">http://weex.apache.org/cn/references/components/refresh.html</a>\n\t\t\t\t\n\t\t\t",
+                "type": "html"
+            },
+            "attributes": [
+                {
+                    "name": "id",
+                    "description": {
+                        "value": "\u5143\u7d20ID\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "class",
+                    "description": {
+                        "value": "\u5143\u7d20\u7c7b\u540d\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "style",
+                    "description": {
+                        "value": "\u5185\u8054\u6837\u5f0f\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "display",
+                    "values": [
+                        {
+                            "name": "show"
+                        },
+                        {
+                            "name": "hide"
+                        }
+                    ]
+                },
+                {
+                    "name": "[event]click",
+                    "description": {
+                        "value": "\u5f53\u7ec4\u4ef6\u4e0a\u53d1\u751f\u70b9\u51fb\u624b\u52bf\u65f6\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]longpress",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 longpress \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u7528\u6237\u957f\u6309\u8fd9\u4e2a\u7ec4\u4ef6\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u4f1a\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]appear",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u4f4d\u4e8e\u67d0\u4e2a\u53ef\u6eda\u52a8\u533a\u57df\u5185\u7684\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 appear \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u8fd9\u4e2a\u7ec4\u4ef6\u7684\u72b6\u6001\u53d8\u4e3a\u5728\u5c4f\u5e55\u4e0a\u53ef\u89c1\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]disappear",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u4f4d\u4e8e\u67d0\u4e2a\u53ef\u6eda\u52a8\u533a\u57df\u5185\u7684\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 disappear \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u8fd9\u4e2a\u7ec4\u4ef6\u88ab\u6ed1\u51fa\u5c4f\u5e55\u53d8\u4e3a\u4e0d\u53ef\u89c1\u72b6\u6001\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]viewappear",
+                    "description": {
+                        "value": "viewappear \u4e8b\u4ef6\u4f1a\u5728\u9875\u9762\u5c31\u8981\u663e\u793a\u6216\u914d\u7f6e\u7684\u4efb\u4f55\u9875\u9762\u52a8\u753b\u88ab\u6267\u884c\u524d\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]viewdisappear",
+                    "description": {
+                        "value": "viewdisappear \u4e8b\u4ef6\u4f1a\u5728\u9875\u9762\u5c31\u8981\u5173\u95ed\u65f6\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]refresh",
+                    "description": {
+                        "value": "\u88ab\u4e0b\u62c9\u65f6\u89e6\u53d1\u3002\n\t\t\t\t \n\t\t\t ",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]pullingdown",
+                    "description": {
+                        "value": "\u88ab\u4e0b\u62c9\u65f6\u89e6\u53d1\uff0c\u53ef\u4ee5\u4ece event \u53c2\u6570\u5bf9\u8c61\u4e2d\u83b7\u53d6 dy, pullingDistance, viewHeight, type\n<pre>\ndy: \u524d\u540e\u4e24\u6b21\u56de\u8c03\u6ed1\u52a8\u8ddd\u79bb\u7684\u5dee\u503c\npullingDistance: \u4e0b\u62c9\u7684\u8ddd\u79bb\nviewHeight: refresh \u7ec4\u4ef6\u9ad8\u5ea6\ntype: \u201cpullingdown\u201d \u5e38\u6570\u5b57\u7b26\u4e32\n</pre>\n\t\t\t\t \n\t\t\t ",
+                        "type": "plaintext"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "scroller",
+            "description": {
+                "value": "scroller \u662f\u4e00\u4e2a\u7ad6\u76f4\u7684\uff0c\u53ef\u4ee5\u5bb9\u7eb3\u591a\u4e2a\u6392\u6210\u4e00\u5217\u7684\u5b50\u7ec4\u4ef6\u7684\u6eda\u52a8\u5668\u3002\u5982\u679c\u5b50\u7ec4\u4ef6\u7684\u603b\u9ad8\u5ea6\u9ad8\u4e8e\u5176\u672c\u8eab\uff0c\u90a3\u4e48\u6240\u6709\u7684\u5b50\u7ec4\u4ef6\u90fd\u53ef\u6eda\u52a8\u3002\n<br />\n<b>\u53c2\u8003\uff1a</b>\n<br />\n<a href=\"http://weex.apache.org/cn/references/components/scroller.html\">http://weex.apache.org/cn/references/components/scroller.html</a>\n\t\t\t\t\n\t\t\t",
+                "type": "html"
+            },
+            "attributes": [
+                {
+                    "name": "id",
+                    "description": {
+                        "value": "\u5143\u7d20ID\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "class",
+                    "description": {
+                        "value": "\u5143\u7d20\u7c7b\u540d\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "style",
+                    "description": {
+                        "value": "\u5185\u8054\u6837\u5f0f\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "show-scrollbar",
+                    "description": {
+                        "value": "\u53ef\u9009\u503c\u4e3a true/ false\uff0c\u9ed8\u8ba4\u503c\u4e3a true\u3002\u63a7\u5236\u662f\u5426\u51fa\u73b0\u6eda\u52a8\u6761\u3002\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    },
+                    "values": [
+                        {
+                            "name": "true",
+                            "description": "\u51fa\u73b0\u6eda\u52a8\u6761"
+                        },
+                        {
+                            "name": "false",
+                            "description": "\u4e0d\u51fa\u73b0\u6eda\u52a8\u6761"
+                        }
+                    ]
+                },
+                {
+                    "name": "scroll-direction",
+                    "description": {
+                        "value": "\u53ef\u9009\u4e3a horizontal \u6216\u8005 vertical\uff0c\u9ed8\u8ba4\u503c\u4e3a vertical \u3002\u5b9a\u4e49\u6eda\u52a8\u7684\u65b9\u5411\u3002\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    },
+                    "values": [
+                        {
+                            "name": "horizontal",
+                            "description": "\u6a2a\u5411\u6eda\u52a8\u6761"
+                        },
+                        {
+                            "name": "vertical",
+                            "description": "\u7ad6\u5411\u6eda\u52a8\u6761"
+                        }
+                    ]
+                },
+                {
+                    "name": "loadmoreoffset",
+                    "description": {
+                        "value": "\u9ed8\u8ba4\u503c\u4e3a 0\uff0c\u89e6\u53d1 loadmore \u4e8b\u4ef6\u6240\u9700\u8981\u7684\u5782\u76f4\u504f\u79fb\u8ddd\u79bb\uff08\u8bbe\u5907\u5c4f\u5e55\u5e95\u90e8\u4e0e list \u5e95\u90e8\u4e4b\u95f4\u7684\u8ddd\u79bb\uff09\u3002\u5f53 list \u7684\u6eda\u52a8\u6761\u6eda\u52a8\u5230\u8db3\u591f\u63a5\u8fd1 list \u5e95\u90e8\u65f6\u5c06\u4f1a\u89e6\u53d1 loadmore \u8fd9\u4e2a\u4e8b\u4ef6\u3002\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "offset-accuracy",
+                    "description": {
+                        "value": "\u63a7\u5236onscroll\u4e8b\u4ef6\u89e6\u53d1\u7684\u9891\u7387\uff0c\u9ed8\u8ba4\u503c\u4e3a10\uff0c\u8868\u793a\u4e24\u6b21onscroll\u4e8b\u4ef6\u4e4b\u95f4\u5217\u8868\u81f3\u5c11\u6eda\u52a8\u4e8610px\u3002\u6ce8\u610f\uff0c\u5c06\u8be5\u503c\u8bbe\u7f6e\u4e3a\u8f83\u5c0f\u7684\u6570\u503c\u4f1a\u63d0\u9ad8\u6eda\u52a8\u4e8b\u4ef6\u91c7\u6837\u7684\u7cbe\u5ea6\uff0c\u4f46\u540c\u65f6\u4e5f\u4f1a\u964d\u4f4e\u9875\u9762\u7684\u6027\u80fd\u3002\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]click",
+                    "description": {
+                        "value": "\u5f53\u7ec4\u4ef6\u4e0a\u53d1\u751f\u70b9\u51fb\u624b\u52bf\u65f6\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]longpress",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 longpress \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u7528\u6237\u957f\u6309\u8fd9\u4e2a\u7ec4\u4ef6\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u4f1a\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]appear",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u4f4d\u4e8e\u67d0\u4e2a\u53ef\u6eda\u52a8\u533a\u57df\u5185\u7684\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 appear \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u8fd9\u4e2a\u7ec4\u4ef6\u7684\u72b6\u6001\u53d8\u4e3a\u5728\u5c4f\u5e55\u4e0a\u53ef\u89c1\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]disappear",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u4f4d\u4e8e\u67d0\u4e2a\u53ef\u6eda\u52a8\u533a\u57df\u5185\u7684\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 disappear \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u8fd9\u4e2a\u7ec4\u4ef6\u88ab\u6ed1\u51fa\u5c4f\u5e55\u53d8\u4e3a\u4e0d\u53ef\u89c1\u72b6\u6001\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]viewappear",
+                    "description": {
+                        "value": "viewappear \u4e8b\u4ef6\u4f1a\u5728\u9875\u9762\u5c31\u8981\u663e\u793a\u6216\u914d\u7f6e\u7684\u4efb\u4f55\u9875\u9762\u52a8\u753b\u88ab\u6267\u884c\u524d\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]viewdisappear",
+                    "description": {
+                        "value": "viewdisappear \u4e8b\u4ef6\u4f1a\u5728\u9875\u9762\u5c31\u8981\u5173\u95ed\u65f6\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]loadmore",
+                    "description": {
+                        "value": "\u5982\u679c\u5217\u8868\u6eda\u52a8\u5230\u5e95\u90e8\u5c06\u4f1a\u7acb\u5373\u89e6\u53d1\u8fd9\u4e2a\u4e8b\u4ef6\uff0c\u4f60\u53ef\u4ee5\u5728\u8fd9\u4e2a\u4e8b\u4ef6\u7684\u5904\u7406\u51fd\u6570\u4e2d\u52a0\u8f7d\u4e0b\u4e00\u9875\u7684\u5217\u8868\u9879\u3002\n\t\t\t\t \n\t\t\t ",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]scroll",
+                    "description": {
+                        "value": "\u5217\u8868\u53d1\u751f\u6eda\u52a8\u65f6\u5c06\u4f1a\u89e6\u53d1\u8be5\u4e8b\u4ef6\uff0c\u4e8b\u4ef6\u7684\u9ed8\u8ba4\u62bd\u6837\u7387\u4e3a10px\uff0c\u5373\u5217\u8868\u6bcf\u6eda\u52a810px\u89e6\u53d1\u4e00\u6b21\uff0c\u53ef\u901a\u8fc7\u5c5e\u6027offset-accuracy\u8bbe\u7f6e\u62bd\u6837\u7387\u3002\n\t\t\t\t \n\t\t\t ",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]scrollstart",
+                    "description": {
+                        "value": "\u5f53\u5217\u8868\u5f00\u59cb\u6eda\u52a8\u7684\u65f6\u5019\u89e6\u53d1.\n\t\t\t\t \n\t\t\t ",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]scrollend",
+                    "description": {
+                        "value": "\u5f53\u5217\u8868\u7ed3\u675f\u6eda\u52a8\u7684\u65f6\u5019\u89e6\u53d1.\n\t\t\t\t \n\t\t\t ",
+                        "type": "plaintext"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "slider",
+            "description": {
+                "value": "slider \u7ec4\u4ef6\u7528\u4e8e\u5728\u4e00\u4e2a\u9875\u9762\u4e2d\u5c55\u793a\u591a\u4e2a\u56fe\u7247\uff0c\u5728\u524d\u7aef\uff0c\u8fd9\u79cd\u6548\u679c\u88ab\u79f0\u4e3a \u8f6e\u64ad\u56fe\u3002\n<br />\n<b>\u53c2\u8003\uff1a</b>\n<br />\n<a href=\"http://weex.apache.org/cn/references/components/slider.html\">http://weex.apache.org/cn/references/components/slider.html</a>\n\t\t\t\t\n\t\t\t",
+                "type": "html"
+            },
+            "attributes": [
+                {
+                    "name": "id",
+                    "description": {
+                        "value": "\u5143\u7d20ID\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "class",
+                    "description": {
+                        "value": "\u5143\u7d20\u7c7b\u540d\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "style",
+                    "description": {
+                        "value": "\u5185\u8054\u6837\u5f0f\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "auto-play",
+                    "description": {
+                        "value": "\u53ef\u9009\u503c\u4e3a true/false\uff0c\u9ed8\u8ba4\u7684\u662f false\u3002\u8be5\u503c\u51b3\u5b9a\u662f\u5426\u81ea\u52a8\u64ad\u653e\u8f6e\u64ad\u3002\u91cd\u7f6e loadmore \u76f8\u5173\u7684 UI\uff0c\u503c\u4e0d\u4e00\u6837\u5c31\u4f1a\u91cd\u7f6e\u3002\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    },
+                    "values": [
+                        {
+                            "name": "true"
+                        },
+                        {
+                            "name": "false"
+                        }
+                    ]
+                },
+                {
+                    "name": "interval",
+                    "description": {
+                        "value": "\u503c\u4e3a\u6beb\u79d2\u6570\uff0c\u6b64\u503c\u8bbe\u5b9a slider \u5207\u6362\u65f6\u95f4\u95f4\u9694\u3002\u5f53 auto-play \u503c\u4e3a true \u65f6\u751f\u6548\u3002\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "infinite",
+                    "description": {
+                        "value": "\u5faa\u73af\u64ad\u653e\uff0c\u53ef\u9009\u503c\u4e3a true/false\uff0c\u9ed8\u8ba4\u7684\u662f true\u3002\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    },
+                    "values": [
+                        {
+                            "name": "true"
+                        },
+                        {
+                            "name": "false"
+                        }
+                    ]
+                },
+                {
+                    "name": "offset-x-accuracy",
+                    "description": {
+                        "value": "\u63a7\u5236onscroll\u4e8b\u4ef6\u89e6\u53d1\u7684\u9891\u7387\uff0c\u9ed8\u8ba4\u503c\u4e3a10\uff0c\u8868\u793a\u4e24\u6b21onscroll\u4e8b\u4ef6\u4e4b\u95f4Slider Page\u81f3\u5c11\u6eda\u52a8\u4e8610px\u3002\u6ce8\u610f\uff0c\u5c06\u8be5\u503c\u8bbe\u7f6e\u4e3a\u8f83\u5c0f\u7684\u6570\u503c\u4f1a\u63d0\u9ad8\u6eda\u52a8\u4e8b\u4ef6\u91c7\u6837\u7684\u7cbe\u5ea6\uff0c\u4f46\u540c\u65f6\u4e5f\u4f1a\u964d\u4f4e\u9875\u9762\u7684\u6027\u80fd\u3002\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "show-indicators",
+                    "description": {
+                        "value": "\u8bbe\u7f6e\u662f\u5426\u663e\u793aindicator\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    },
+                    "values": [
+                        {
+                            "name": "true"
+                        },
+                        {
+                            "name": "false"
+                        }
+                    ]
+                },
+                {
+                    "name": "index",
+                    "description": {
+                        "value": "\u8bbe\u7f6e\u663e\u793aslider\u7684\u7b2c\u51e0\u4e2a\u9875\u9762\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "scrollable",
+                    "description": {
+                        "value": "\u8bbe\u7f6e\u662f\u5426\u53ef\u4ee5\u901a\u8fc7\u6ed1\u52a8\u624b\u52bf\u6765\u5207\u6362slider\u9875\u9762\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    },
+                    "values": [
+                        {
+                            "name": "true"
+                        },
+                        {
+                            "name": "false"
+                        }
+                    ]
+                },
+                {
+                    "name": "keep-index",
+                    "description": {
+                        "value": "\u8bbe\u7f6eslider\u4e2d\u7684\u6570\u636e\u53d1\u751f\u53d8\u5316\u540e\u662f\u5426\u4fdd\u6301\u53d8\u5316\u524d\u7684\u9875\u9762index\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    },
+                    "values": [
+                        {
+                            "name": "true"
+                        },
+                        {
+                            "name": "false"
+                        }
+                    ]
+                },
+                {
+                    "name": "[event]click",
+                    "description": {
+                        "value": "\u5f53\u7ec4\u4ef6\u4e0a\u53d1\u751f\u70b9\u51fb\u624b\u52bf\u65f6\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]longpress",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 longpress \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u7528\u6237\u957f\u6309\u8fd9\u4e2a\u7ec4\u4ef6\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u4f1a\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]appear",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u4f4d\u4e8e\u67d0\u4e2a\u53ef\u6eda\u52a8\u533a\u57df\u5185\u7684\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 appear \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u8fd9\u4e2a\u7ec4\u4ef6\u7684\u72b6\u6001\u53d8\u4e3a\u5728\u5c4f\u5e55\u4e0a\u53ef\u89c1\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]disappear",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u4f4d\u4e8e\u67d0\u4e2a\u53ef\u6eda\u52a8\u533a\u57df\u5185\u7684\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 disappear \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u8fd9\u4e2a\u7ec4\u4ef6\u88ab\u6ed1\u51fa\u5c4f\u5e55\u53d8\u4e3a\u4e0d\u53ef\u89c1\u72b6\u6001\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]viewappear",
+                    "description": {
+                        "value": "viewappear \u4e8b\u4ef6\u4f1a\u5728\u9875\u9762\u5c31\u8981\u663e\u793a\u6216\u914d\u7f6e\u7684\u4efb\u4f55\u9875\u9762\u52a8\u753b\u88ab\u6267\u884c\u524d\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]viewdisappear",
+                    "description": {
+                        "value": "viewdisappear \u4e8b\u4ef6\u4f1a\u5728\u9875\u9762\u5c31\u8981\u5173\u95ed\u65f6\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]change",
+                    "description": {
+                        "value": "\u5f53\u7528\u6237\u8f93\u5165\u5b8c\u6210\u65f6\u89e6\u53d1\u3002\u901a\u5e38\u5728 blur \u4e8b\u4ef6\u4e4b\u540e\u3002\n\t\t\t\t \n\t\t\t ",
+                        "type": "plaintext"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "text",
+            "description": {
+                "value": "text\u662f Weex \u5185\u7f6e\u7684\u7ec4\u4ef6\uff0c\u7528\u6765\u5c06\u6587\u672c\u6309\u7167\u6307\u5b9a\u7684\u6837\u5f0f\u6e32\u67d3\u51fa\u6765\u3002text \u53ea\u80fd\u5305\u542b\u6587\u672c\u503c\uff0c\u4f60\u53ef\u4ee5\u4f7f\u7528 {{}} \u6807\u8bb0\u63d2\u5165\u53d8\u91cf\u503c\u4f5c\u4e3a\u6587\u672c\u5185\u5bb9\u3002\n<br />\n<b>\u53c2\u8003\uff1a</b>\n<br />\n<a href=\"http://weex.apache.org/cn/references/components/text.html\">http://weex.apache.org/cn/references/components/text.html</a>\n\t\t\t\t\n\t\t\t",
+                "type": "html"
+            },
+            "attributes": [
+                {
+                    "name": "id",
+                    "description": {
+                        "value": "\u5143\u7d20ID\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "class",
+                    "description": {
+                        "value": "\u5143\u7d20\u7c7b\u540d\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "style",
+                    "description": {
+                        "value": "\u5185\u8054\u6837\u5f0f\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "value",
+                    "description": {
+                        "value": "\u7ec4\u4ef6\u7684\u9ed8\u8ba4\u5185\u5bb9\u3002\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]click",
+                    "description": {
+                        "value": "\u5f53\u7ec4\u4ef6\u4e0a\u53d1\u751f\u70b9\u51fb\u624b\u52bf\u65f6\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]longpress",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 longpress \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u7528\u6237\u957f\u6309\u8fd9\u4e2a\u7ec4\u4ef6\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u4f1a\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]appear",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u4f4d\u4e8e\u67d0\u4e2a\u53ef\u6eda\u52a8\u533a\u57df\u5185\u7684\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 appear \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u8fd9\u4e2a\u7ec4\u4ef6\u7684\u72b6\u6001\u53d8\u4e3a\u5728\u5c4f\u5e55\u4e0a\u53ef\u89c1\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]disappear",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u4f4d\u4e8e\u67d0\u4e2a\u53ef\u6eda\u52a8\u533a\u57df\u5185\u7684\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 disappear \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u8fd9\u4e2a\u7ec4\u4ef6\u88ab\u6ed1\u51fa\u5c4f\u5e55\u53d8\u4e3a\u4e0d\u53ef\u89c1\u72b6\u6001\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]viewappear",
+                    "description": {
+                        "value": "viewappear \u4e8b\u4ef6\u4f1a\u5728\u9875\u9762\u5c31\u8981\u663e\u793a\u6216\u914d\u7f6e\u7684\u4efb\u4f55\u9875\u9762\u52a8\u753b\u88ab\u6267\u884c\u524d\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]viewdisappear",
+                    "description": {
+                        "value": "viewdisappear \u4e8b\u4ef6\u4f1a\u5728\u9875\u9762\u5c31\u8981\u5173\u95ed\u65f6\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "textarea",
+            "description": {
+                "value": "textarea \u662f Weex \u5185\u7f6e\u7684\u4e00\u4e2a\u7ec4\u4ef6\uff0c\u7528\u4e8e\u7528\u6237\u4ea4\u4e92\uff0c\u63a5\u53d7\u7528\u6237\u8f93\u5165\u6570\u636e\u3002 \u53ef\u4ee5\u8ba4\u4e3a\u662f\u5141\u8bb8\u591a\u884c\u7684 input\n<br />\n<b>\u53c2\u8003\uff1a</b>\n<br />\n<a href=\"http://weex.apache.org/cn/references/components/textarea.html\">http://weex.apache.org/cn/references/components/textarea.html</a>\n\t\t\t\t\n\t\t\t",
+                "type": "html"
+            },
+            "attributes": [
+                {
+                    "name": "id",
+                    "description": {
+                        "value": "\u5143\u7d20ID\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "class",
+                    "description": {
+                        "value": "\u5143\u7d20\u7c7b\u540d\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "style",
+                    "description": {
+                        "value": "\u5185\u8054\u6837\u5f0f\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "value",
+                    "description": {
+                        "value": "\u7ec4\u4ef6\u7684\u9ed8\u8ba4\u5185\u5bb9\u3002\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "rows",
+                    "description": {
+                        "value": "\u63a5\u6536 number \u7c7b\u578b\u7684\u6570\u636e\uff0c\u6307\u5b9a\u7ec4\u4ef6\u7684\u9ad8\u5ea6\uff0c\u9ed8\u8ba4\u503c\u662f 2\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]longpress",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 longpress \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u7528\u6237\u957f\u6309\u8fd9\u4e2a\u7ec4\u4ef6\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u4f1a\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]appear",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u4f4d\u4e8e\u67d0\u4e2a\u53ef\u6eda\u52a8\u533a\u57df\u5185\u7684\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 appear \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u8fd9\u4e2a\u7ec4\u4ef6\u7684\u72b6\u6001\u53d8\u4e3a\u5728\u5c4f\u5e55\u4e0a\u53ef\u89c1\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]disappear",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u4f4d\u4e8e\u67d0\u4e2a\u53ef\u6eda\u52a8\u533a\u57df\u5185\u7684\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 disappear \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u8fd9\u4e2a\u7ec4\u4ef6\u88ab\u6ed1\u51fa\u5c4f\u5e55\u53d8\u4e3a\u4e0d\u53ef\u89c1\u72b6\u6001\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]viewappear",
+                    "description": {
+                        "value": "viewappear \u4e8b\u4ef6\u4f1a\u5728\u9875\u9762\u5c31\u8981\u663e\u793a\u6216\u914d\u7f6e\u7684\u4efb\u4f55\u9875\u9762\u52a8\u753b\u88ab\u6267\u884c\u524d\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]viewdisappear",
+                    "description": {
+                        "value": "viewdisappear \u4e8b\u4ef6\u4f1a\u5728\u9875\u9762\u5c31\u8981\u5173\u95ed\u65f6\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]input",
+                    "description": {
+                        "value": "\u8f93\u5165\u5b57\u7b26\u7684\u503c\u66f4\u6539\u3002\n\t\t\t\t \n\t\t\t ",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]change",
+                    "description": {
+                        "value": "\u5f53\u7528\u6237\u8f93\u5165\u5b8c\u6210\u65f6\u89e6\u53d1\u3002\u901a\u5e38\u5728 blur \u4e8b\u4ef6\u4e4b\u540e\u3002\n\t\t\t\t \n\t\t\t ",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]focus",
+                    "description": {
+                        "value": "\u7ec4\u4ef6\u83b7\u5f97\u8f93\u5165\u7126\u70b9\u3002\n\t\t\t\t \n\t\t\t ",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]blur",
+                    "description": {
+                        "value": "\u7ec4\u4ef6\u5931\u53bb\u8f93\u5165\u7126\u70b9\u3002\n\t\t\t\t \n\t\t\t ",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]return",
+                    "description": {
+                        "value": "\u952e\u76d8\u70b9\u51fb\u8fd4\u56de\u952e\u3002\n\t\t\t\t \n\t\t\t ",
+                        "type": "plaintext"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "video",
+            "description": {
+                "value": "video \u7ec4\u4ef6\u53ef\u4ee5\u8ba9\u6211\u4eec\u5728 Weex \u9875\u9762\u4e2d\u5d4c\u5165\u89c6\u9891\u5185\u5bb9\u3002\n<br />\n<b>\u53c2\u8003\uff1a</b>\n<br />\n<a href=\"http://weex.apache.org/cn/references/components/video.html\">http://weex.apache.org/cn/references/components/video.html</a>\n\t\t\t\t\n\t\t\t",
+                "type": "html"
+            },
+            "attributes": [
+                {
+                    "name": "id",
+                    "description": {
+                        "value": "\u5143\u7d20ID\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "class",
+                    "description": {
+                        "value": "\u5143\u7d20\u7c7b\u540d\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "style",
+                    "description": {
+                        "value": "\u5185\u8054\u6837\u5f0f\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "src",
+                    "description": {
+                        "value": "\u8981\u663e\u793a\u56fe\u7247\u7684 URL\uff0c\u8be5\u5c5e\u6027\u662f &lt;image&gt; \u7ec4\u4ef6\u7684\u5f3a\u5236\u5c5e\u6027\u3002\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "play-status",
+                    "description": {
+                        "value": "\u53ef\u9009\u503c\u4e3a play | pause\uff0c\u7528\u6765\u63a7\u5236\u89c6\u9891\u7684\u64ad\u653e\u72b6\u6001\uff0cplay \u6216\u8005 pause\uff0c\u9ed8\u8ba4\u503c\u662f pause\u3002\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    },
+                    "values": [
+                        {
+                            "name": "play"
+                        },
+                        {
+                            "name": "pause"
+                        }
+                    ]
+                },
+                {
+                    "name": "auto-play",
+                    "description": {
+                        "value": "\u53ef\u9009\u503c\u4e3a true/false\uff0c\u9ed8\u8ba4\u7684\u662f false\u3002\u8be5\u503c\u51b3\u5b9a\u662f\u5426\u81ea\u52a8\u64ad\u653e\u8f6e\u64ad\u3002\u91cd\u7f6e loadmore \u76f8\u5173\u7684 UI\uff0c\u503c\u4e0d\u4e00\u6837\u5c31\u4f1a\u91cd\u7f6e\u3002\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    },
+                    "values": [
+                        {
+                            "name": "true"
+                        },
+                        {
+                            "name": "false"
+                        }
+                    ]
+                },
+                {
+                    "name": "[event]click",
+                    "description": {
+                        "value": "\u5f53\u7ec4\u4ef6\u4e0a\u53d1\u751f\u70b9\u51fb\u624b\u52bf\u65f6\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]longpress",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 longpress \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u7528\u6237\u957f\u6309\u8fd9\u4e2a\u7ec4\u4ef6\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u4f1a\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]appear",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u4f4d\u4e8e\u67d0\u4e2a\u53ef\u6eda\u52a8\u533a\u57df\u5185\u7684\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 appear \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u8fd9\u4e2a\u7ec4\u4ef6\u7684\u72b6\u6001\u53d8\u4e3a\u5728\u5c4f\u5e55\u4e0a\u53ef\u89c1\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]disappear",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u4f4d\u4e8e\u67d0\u4e2a\u53ef\u6eda\u52a8\u533a\u57df\u5185\u7684\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 disappear \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u8fd9\u4e2a\u7ec4\u4ef6\u88ab\u6ed1\u51fa\u5c4f\u5e55\u53d8\u4e3a\u4e0d\u53ef\u89c1\u72b6\u6001\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]viewappear",
+                    "description": {
+                        "value": "viewappear \u4e8b\u4ef6\u4f1a\u5728\u9875\u9762\u5c31\u8981\u663e\u793a\u6216\u914d\u7f6e\u7684\u4efb\u4f55\u9875\u9762\u52a8\u753b\u88ab\u6267\u884c\u524d\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]viewdisappear",
+                    "description": {
+                        "value": "viewdisappear \u4e8b\u4ef6\u4f1a\u5728\u9875\u9762\u5c31\u8981\u5173\u95ed\u65f6\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]start",
+                    "description": {
+                        "value": "\u5f53 playback \u7684\u72b6\u6001\u662f Playing \u65f6\u89e6\u53d1\n\t\t\t\t \n\t\t\t ",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]pause",
+                    "description": {
+                        "value": "\u5f53 playback \u7684\u72b6\u6001\u662f Paused \u65f6\u89e6\u53d1\n\t\t\t\t \n\t\t\t ",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]finish",
+                    "description": {
+                        "value": "\u5f53 playback \u7684\u72b6\u6001\u662f Finished \u65f6\u89e6\u53d1\n\t\t\t\t \n\t\t\t ",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]fail",
+                    "description": {
+                        "value": "\u5f53 playback \u72b6\u6001\u662f Failed \u65f6\u89e6\u53d1\n\t\t\t\t \n\t\t\t ",
+                        "type": "plaintext"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "waterfall",
+            "description": {
+                "value": "\u63d0\u4f9b\u7011\u5e03\u6d41\u5e03\u5c40\u7684\u7ec4\u4ef6\n<br />\n<b>\u53c2\u8003\uff1a</b>\n<br />\n<a href=\"http://weex.apache.org/cn/references/components/waterfall.html\">http://weex.apache.org/cn/references/components/waterfall.html</a>\n\t\t\t\t\n\t\t\t",
+                "type": "html"
+            },
+            "attributes": [
+                {
+                    "name": "id",
+                    "description": {
+                        "value": "\u5143\u7d20ID\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "class",
+                    "description": {
+                        "value": "\u5143\u7d20\u7c7b\u540d\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "style",
+                    "description": {
+                        "value": "\u5185\u8054\u6837\u5f0f\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "show-scrollbar",
+                    "description": {
+                        "value": "\u53ef\u9009\u503c\u4e3a true/ false\uff0c\u9ed8\u8ba4\u503c\u4e3a true\u3002\u63a7\u5236\u662f\u5426\u51fa\u73b0\u6eda\u52a8\u6761\u3002\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    },
+                    "values": [
+                        {
+                            "name": "true",
+                            "description": "\u51fa\u73b0\u6eda\u52a8\u6761"
+                        },
+                        {
+                            "name": "false",
+                            "description": "\u4e0d\u51fa\u73b0\u6eda\u52a8\u6761"
+                        }
+                    ]
+                },
+                {
+                    "name": "column-width",
+                    "description": {
+                        "value": "\u63cf\u8ff0\u7011\u5e03\u6d41\u6bcf\u4e00\u5217\u7684\u5217\u5bbd\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "column-count",
+                    "description": {
+                        "value": "\u63cf\u8ff0\u7011\u5e03\u6d41\u7684\u5217\u6570\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "column-gap",
+                    "description": {
+                        "value": "\u5217\u4e0e\u5217\u7684\u95f4\u9699. \u5982\u679c\u6307\u5b9a\u4e86 normal \uff0c\u5219\u5bf9\u5e94 32.\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "left-gap",
+                    "description": {
+                        "value": "\u5de6\u8fb9cell\u548c\u5217\u8868\u7684\u95f4\u9699. \u5982\u679c\u672a\u6307\u5b9a \uff0c\u5219\u5bf9\u5e94 0\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "right-gap",
+                    "description": {
+                        "value": "\u53f3\u8fb9cell\u548c\u5217\u8868\u7684\u95f4\u9699. \u5982\u679c\u672a\u6307\u5b9a\uff0c\u5219\u5bf9\u5e94 0\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "loadmoreoffset",
+                    "description": {
+                        "value": "\u9ed8\u8ba4\u503c\u4e3a 0\uff0c\u89e6\u53d1 loadmore \u4e8b\u4ef6\u6240\u9700\u8981\u7684\u5782\u76f4\u504f\u79fb\u8ddd\u79bb\uff08\u8bbe\u5907\u5c4f\u5e55\u5e95\u90e8\u4e0e list \u5e95\u90e8\u4e4b\u95f4\u7684\u8ddd\u79bb\uff09\u3002\u5f53 list \u7684\u6eda\u52a8\u6761\u6eda\u52a8\u5230\u8db3\u591f\u63a5\u8fd1 list \u5e95\u90e8\u65f6\u5c06\u4f1a\u89e6\u53d1 loadmore \u8fd9\u4e2a\u4e8b\u4ef6\u3002\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "offset-accuracy",
+                    "description": {
+                        "value": "\u63a7\u5236onscroll\u4e8b\u4ef6\u89e6\u53d1\u7684\u9891\u7387\uff0c\u9ed8\u8ba4\u503c\u4e3a10\uff0c\u8868\u793a\u4e24\u6b21onscroll\u4e8b\u4ef6\u4e4b\u95f4\u5217\u8868\u81f3\u5c11\u6eda\u52a8\u4e8610px\u3002\u6ce8\u610f\uff0c\u5c06\u8be5\u503c\u8bbe\u7f6e\u4e3a\u8f83\u5c0f\u7684\u6570\u503c\u4f1a\u63d0\u9ad8\u6eda\u52a8\u4e8b\u4ef6\u91c7\u6837\u7684\u7cbe\u5ea6\uff0c\u4f46\u540c\u65f6\u4e5f\u4f1a\u964d\u4f4e\u9875\u9762\u7684\u6027\u80fd\u3002\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]click",
+                    "description": {
+                        "value": "\u5f53\u7ec4\u4ef6\u4e0a\u53d1\u751f\u70b9\u51fb\u624b\u52bf\u65f6\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]longpress",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 longpress \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u7528\u6237\u957f\u6309\u8fd9\u4e2a\u7ec4\u4ef6\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u4f1a\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]appear",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u4f4d\u4e8e\u67d0\u4e2a\u53ef\u6eda\u52a8\u533a\u57df\u5185\u7684\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 appear \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u8fd9\u4e2a\u7ec4\u4ef6\u7684\u72b6\u6001\u53d8\u4e3a\u5728\u5c4f\u5e55\u4e0a\u53ef\u89c1\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]disappear",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u4f4d\u4e8e\u67d0\u4e2a\u53ef\u6eda\u52a8\u533a\u57df\u5185\u7684\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 disappear \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u8fd9\u4e2a\u7ec4\u4ef6\u88ab\u6ed1\u51fa\u5c4f\u5e55\u53d8\u4e3a\u4e0d\u53ef\u89c1\u72b6\u6001\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]viewappear",
+                    "description": {
+                        "value": "viewappear \u4e8b\u4ef6\u4f1a\u5728\u9875\u9762\u5c31\u8981\u663e\u793a\u6216\u914d\u7f6e\u7684\u4efb\u4f55\u9875\u9762\u52a8\u753b\u88ab\u6267\u884c\u524d\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]viewdisappear",
+                    "description": {
+                        "value": "viewdisappear \u4e8b\u4ef6\u4f1a\u5728\u9875\u9762\u5c31\u8981\u5173\u95ed\u65f6\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "web",
+            "description": {
+                "value": "web \u7528\u4e8e\u5728 weex \u9875\u9762\u4e2d\u663e\u793a\u7531 src \u5c5e\u6027\u6307\u5b9a\u7684\u9875\u9762\u5185\u5bb9\u3002\u60a8\u8fd8\u53ef\u4ee5\u4f7f\u7528 webview \u6a21\u5757\u6765\u63a7\u5236 WebView \u7684\u884c\u4e3a\uff0c\u4f8b\u5982\u56de\u9000\u3001\u524d\u8fdb\u548c\u91cd\u65b0\u52a0\u8f7d\uff0c\u66f4\u591a\u4fe1\u606f\u8bf7\u53c2\u89c1 webview module\u3002\n<br />\n<b>\u53c2\u8003\uff1a</b>\n<br />\n<a href=\"http://weex.apache.org/cn/references/components/web.html\">http://weex.apache.org/cn/references/components/web.html</a>\n\t\t\t\t\n\t\t\t",
+                "type": "html"
+            },
+            "attributes": [
+                {
+                    "name": "id",
+                    "description": {
+                        "value": "\u5143\u7d20ID\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "class",
+                    "description": {
+                        "value": "\u5143\u7d20\u7c7b\u540d\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "style",
+                    "description": {
+                        "value": "\u5185\u8054\u6837\u5f0f\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "src",
+                    "description": {
+                        "value": "\u8981\u663e\u793a\u56fe\u7247\u7684 URL\uff0c\u8be5\u5c5e\u6027\u662f &lt;image&gt; \u7ec4\u4ef6\u7684\u5f3a\u5236\u5c5e\u6027\u3002\n\t\t\t\t\n\t\t\t",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]appear",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u4f4d\u4e8e\u67d0\u4e2a\u53ef\u6eda\u52a8\u533a\u57df\u5185\u7684\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 appear \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u8fd9\u4e2a\u7ec4\u4ef6\u7684\u72b6\u6001\u53d8\u4e3a\u5728\u5c4f\u5e55\u4e0a\u53ef\u89c1\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]disappear",
+                    "description": {
+                        "value": "\u5982\u679c\u4e00\u4e2a\u4f4d\u4e8e\u67d0\u4e2a\u53ef\u6eda\u52a8\u533a\u57df\u5185\u7684\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 disappear \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u8fd9\u4e2a\u7ec4\u4ef6\u88ab\u6ed1\u51fa\u5c4f\u5e55\u53d8\u4e3a\u4e0d\u53ef\u89c1\u72b6\u6001\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u88ab\u89e6\u53d1\u3002",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]pagestart",
+                    "description": {
+                        "value": "pagestart \u4e8b\u4ef6\uff0c\u4f1a\u5728 Web \u9875\u9762\u5f00\u59cb\u52a0\u8f7d\u65f6\u8c03\u7528\u3002\n\t\t\t\t \n\t\t\t ",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]pagefinish",
+                    "description": {
+                        "value": "pagefinish \u4e8b\u4ef6\uff0c\u4f1a\u5728 Web \u9875\u9762\u5b8c\u6210\u52a0\u8f7d\u65f6\u8c03\u7528\u3002\n\t\t\t\t \n\t\t\t ",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]error",
+                    "description": {
+                        "value": "error \u4e8b\u4ef6\uff0c\u4f1a\u5728 Web \u9875\u9762\u52a0\u8f7d\u5931\u8d25\u65f6\u8c03\u7528\u3002\n\t\t\t\t \n\t\t\t ",
+                        "type": "plaintext"
+                    }
+                },
+                {
+                    "name": "[event]receivedtitle",
+                    "description": {
+                        "value": "receivedtitle \u4e8b\u4ef6\uff0c\u4f1a\u5728 Web \u9875\u9762\u7684\u6807\u9898\u53d1\u751f\u6539\u53d8\u65f6\u8c03\u7528\uff08\u4ec5\u9650 Android \u5e73\u53f0\uff09\u3002\n\t\t\t\t \n\t\t\t ",
+                        "type": "plaintext"
+                    }
+                }
+            ]
+        }
+    ],
+    "globalAttributes": [
+        {
+            "name": "href",
+            "description": {
+                "value": "\u5f85\u8df3\u8f6c\u7684\u9875\u9762URL\uff0c\u5f85\u8df3\u8f6c\u9875\u9762\u9700\u8981\u662f\u4e00\u4e2aWeex\u9875\u9762\u3002\u5982\u679c\u5f85\u8df3\u8f6c\u9875\u9762\u662f\u4e00\u4e2a\u666e\u901aHTML\uff0c\u8fd9\u4f1a\u662f\u4e00\u4e2a\u672a\u5b9a\u4e49\u884c\u4e3a\u3002\n\t\t\t",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "id",
+            "description": {
+                "value": "\u5143\u7d20ID\n\t\t\t",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "class",
+            "description": {
+                "value": "\u5143\u7d20\u7c7b\u540d\n\t\t\t",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "style",
+            "description": {
+                "value": "\u5185\u8054\u6837\u5f0f\n\t\t\t",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "placeholder",
+            "description": {
+                "value": "\u5f53\u4f5c\u4e3aimage\u7684\u5c5e\u6027\u65f6\u8868\u793a:<br />\n\t\t\t\t\t\u5360\u4f4d\u56fe\u7684 URL\uff0c\u5f53\u7531 src \u8868\u793a\u7684\u56fe\u7247\u4e0b\u8f7d\u5b8c\u6210\u5e76\u5c55\u793a\u540e\u5c06\u88ab\u5220\u9664\u3002\n\t\t\t\t\t<a href=\"http://dotwe.org/vue/712ef102fc5e073b6c7e3b701545681c\">\u793a\u4f8b</a>\n\t\t\t\t<br />\n\t\t\t\t\u5f53\u4f5c\u4e3ainput\u7684\u5c5e\u6027\u65f6\u8868\u793a:<br />\n\t\t\t\t\u63d0\u793a\u7528\u6237\u53ef\u4ee5\u8f93\u5165\u4ec0\u4e48\u3002 \u63d0\u793a\u6587\u672c\u4e0d\u80fd\u6709\u56de\u8f66\u6216\u6362\u884c\u3002\n\t\t\t\t\n\t\t\t",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "resize",
+            "values": [
+                {
+                    "name": "contain",
+                    "description": "\u7f29\u653e\u56fe\u7247\u4ee5\u5b8c\u5168\u88c5\u5165<image>\u533a\u57df\uff0c\u53ef\u80fd\u80cc\u666f\u533a\u90e8\u5206\u7a7a\u767d\u3002"
+                },
+                {
+                    "name": "cover",
+                    "description": "\u7f29\u653e\u56fe\u7247\u4ee5\u5b8c\u5168\u8986\u76d6<image>\u533a\u57df\uff0c\u53ef\u80fd\u56fe\u7247\u90e8\u5206\u770b\u4e0d\u89c1\u3002"
+                },
+                {
+                    "name": "stretch",
+                    "description": "<b>\u9ed8\u8ba4\u503c</b>. \u6309\u7167<image>\u533a\u57df\u7684\u5bbd\u9ad8\u6bd4\u4f8b\u7f29\u653e\u56fe\u7247\u3002"
+                }
+            ]
+        },
+        {
+            "name": "src",
+            "description": {
+                "value": "\u8981\u663e\u793a\u56fe\u7247\u7684 URL\uff0c\u8be5\u5c5e\u6027\u662f &lt;image&gt; \u7ec4\u4ef6\u7684\u5f3a\u5236\u5c5e\u6027\u3002\n\t\t\t\t\n\t\t\t",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "value",
+            "description": {
+                "value": "\u7ec4\u4ef6\u7684\u9ed8\u8ba4\u5185\u5bb9\u3002\n\t\t\t\t\n\t\t\t",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "rows",
+            "description": {
+                "value": "\u63a5\u6536 number \u7c7b\u578b\u7684\u6570\u636e\uff0c\u6307\u5b9a\u7ec4\u4ef6\u7684\u9ad8\u5ea6\uff0c\u9ed8\u8ba4\u503c\u662f 2\n\t\t\t\t\n\t\t\t",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "disabled",
+            "description": {
+                "value": "\u5e03\u5c14\u7c7b\u578b\u7684\u6570\u636e\uff0c\u8868\u793a\u662f\u5426\u652f\u6301\u8f93\u5165\u3002\u901a\u5e38 click \u4e8b\u4ef6\u5728 disabled \u63a7\u4ef6\u4e0a\u662f\u5931\u6548\u7684\u3002\n\t\t\t\t\n\t\t\t",
+                "type": "plaintext"
+            },
+            "valueSet": "b"
+        },
+        {
+            "name": "autofocus",
+            "description": {
+                "value": "\u5e03\u5c14\u7c7b\u578b\u7684\u6570\u636e\uff0c\u8868\u793a\u662f\u5426\u5728\u9875\u9762\u52a0\u8f7d\u65f6\u63a7\u4ef6\u81ea\u52a8\u83b7\u5f97\u8f93\u5165\u7126\u70b9\u3002\n\t\t\t\t\n\t\t\t",
+                "type": "plaintext"
+            },
+            "valueSet": "b"
+        },
+        {
+            "name": "maxlength",
+            "description": {
+                "value": "\u4e00\u4e2a\u6570\u503c\u7c7b\u578b\u7684\u503c\uff0c\u8868\u793a\u8f93\u5165\u7684\u6700\u5927\u957f\u5ea6\u3002\n\t\t\t\t\n\t\t\t",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "return-key-type",
+            "description": {
+                "value": "\u952e\u76d8\u8fd4\u56de\u952e\u7684\u7c7b\u578b,\u652f\u6301 defalut;go;next;search;send,done\u3002\n\t\t\t\t\n\t\t\t",
+                "type": "plaintext"
+            },
+            "values": [
+                {
+                    "name": "defalut"
+                },
+                {
+                    "name": "go"
+                },
+                {
+                    "name": "next"
+                },
+                {
+                    "name": "search"
+                },
+                {
+                    "name": "send"
+                },
+                {
+                    "name": "done"
+                }
+            ]
+        },
+        {
+            "name": "singleline",
+            "description": {
+                "value": "\u63a7\u5236\u5185\u5bb9\u662f\u5426\u53ea\u5141\u8bb8\u5355\u884c\n\t\t\t\t\n\t\t\t",
+                "type": "plaintext"
+            },
+            "valueSet": "b"
+        },
+        {
+            "name": "max-length",
+            "description": {
+                "value": "\u63a7\u5236\u8f93\u5165\u5185\u5bb9\u7684\u6700\u5927\u957f\u5ea6\n\t\t\t\t\n\t\t\t",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "lines",
+            "description": {
+                "value": "\u63a7\u5236\u8f93\u5165\u5185\u5bb9\u7684\u6700\u5927\u884c\u6570\n\t\t\t\t\n\t\t\t",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "max",
+            "description": {
+                "value": "\u63a7\u5236\u5f53type\u5c5e\u6027\u4e3adate\u65f6\u9009\u62e9\u65e5\u671f\u7684\u6700\u5927\u65f6\u95f4\uff0c\u683c\u5f0f\u4e3ayyyy-MM-dd\n\t\t\t\t\n\t\t\t",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "min",
+            "description": {
+                "value": "\u63a7\u5236\u5f53type\u5c5e\u6027\u4e3adate\u65f6\u9009\u62e9\u65e5\u671f\u7684\u6700\u5c0f\u65f6\u95f4\uff0c\u683c\u5f0f\u4e3ayyyy-MM-dd\n\t\t\t\t\n\t\t\t",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "show-scrollbar",
+            "description": {
+                "value": "\u53ef\u9009\u503c\u4e3a true/ false\uff0c\u9ed8\u8ba4\u503c\u4e3a true\u3002\u63a7\u5236\u662f\u5426\u51fa\u73b0\u6eda\u52a8\u6761\u3002\n\t\t\t\t\n\t\t\t",
+                "type": "plaintext"
+            },
+            "values": [
+                {
+                    "name": "true",
+                    "description": "\u51fa\u73b0\u6eda\u52a8\u6761"
+                },
+                {
+                    "name": "false",
+                    "description": "\u4e0d\u51fa\u73b0\u6eda\u52a8\u6761"
+                }
+            ]
+        },
+        {
+            "name": "column-width",
+            "description": {
+                "value": "\u63cf\u8ff0\u7011\u5e03\u6d41\u6bcf\u4e00\u5217\u7684\u5217\u5bbd\n\t\t\t\t\n\t\t\t",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "column-count",
+            "description": {
+                "value": "\u63cf\u8ff0\u7011\u5e03\u6d41\u7684\u5217\u6570\n\t\t\t\t\n\t\t\t",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "column-gap",
+            "description": {
+                "value": "\u5217\u4e0e\u5217\u7684\u95f4\u9699. \u5982\u679c\u6307\u5b9a\u4e86 normal \uff0c\u5219\u5bf9\u5e94 32.\n\t\t\t\t\n\t\t\t",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "left-gap",
+            "description": {
+                "value": "\u5de6\u8fb9cell\u548c\u5217\u8868\u7684\u95f4\u9699. \u5982\u679c\u672a\u6307\u5b9a \uff0c\u5219\u5bf9\u5e94 0\n\t\t\t\t\n\t\t\t",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "right-gap",
+            "description": {
+                "value": "\u53f3\u8fb9cell\u548c\u5217\u8868\u7684\u95f4\u9699. \u5982\u679c\u672a\u6307\u5b9a\uff0c\u5219\u5bf9\u5e94 0\n\t\t\t\t\n\t\t\t",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "scroll-direction",
+            "description": {
+                "value": "\u53ef\u9009\u4e3a horizontal \u6216\u8005 vertical\uff0c\u9ed8\u8ba4\u503c\u4e3a vertical \u3002\u5b9a\u4e49\u6eda\u52a8\u7684\u65b9\u5411\u3002\n\t\t\t\t\n\t\t\t",
+                "type": "plaintext"
+            },
+            "values": [
+                {
+                    "name": "horizontal",
+                    "description": "\u6a2a\u5411\u6eda\u52a8\u6761"
+                },
+                {
+                    "name": "vertical",
+                    "description": "\u7ad6\u5411\u6eda\u52a8\u6761"
+                }
+            ]
+        },
+        {
+            "name": "loadmoreoffset",
+            "description": {
+                "value": "\u9ed8\u8ba4\u503c\u4e3a 0\uff0c\u89e6\u53d1 loadmore \u4e8b\u4ef6\u6240\u9700\u8981\u7684\u5782\u76f4\u504f\u79fb\u8ddd\u79bb\uff08\u8bbe\u5907\u5c4f\u5e55\u5e95\u90e8\u4e0e list \u5e95\u90e8\u4e4b\u95f4\u7684\u8ddd\u79bb\uff09\u3002\u5f53 list \u7684\u6eda\u52a8\u6761\u6eda\u52a8\u5230\u8db3\u591f\u63a5\u8fd1 list \u5e95\u90e8\u65f6\u5c06\u4f1a\u89e6\u53d1 loadmore \u8fd9\u4e2a\u4e8b\u4ef6\u3002\n\t\t\t\t\n\t\t\t",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "offset-accuracy",
+            "description": {
+                "value": "\u63a7\u5236onscroll\u4e8b\u4ef6\u89e6\u53d1\u7684\u9891\u7387\uff0c\u9ed8\u8ba4\u503c\u4e3a10\uff0c\u8868\u793a\u4e24\u6b21onscroll\u4e8b\u4ef6\u4e4b\u95f4\u5217\u8868\u81f3\u5c11\u6eda\u52a8\u4e8610px\u3002\u6ce8\u610f\uff0c\u5c06\u8be5\u503c\u8bbe\u7f6e\u4e3a\u8f83\u5c0f\u7684\u6570\u503c\u4f1a\u63d0\u9ad8\u6eda\u52a8\u4e8b\u4ef6\u91c7\u6837\u7684\u7cbe\u5ea6\uff0c\u4f46\u540c\u65f6\u4e5f\u4f1a\u964d\u4f4e\u9875\u9762\u7684\u6027\u80fd\u3002\n\t\t\t\t\n\t\t\t",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "keep-scroll-position",
+            "description": {
+                "value": "List \u63d2\u5165\u6570\u636e\u540e\u662f\u5426\u4fdd\u6301\u4e0a\u6b21\u6eda\u52a8\u7684\u4f4d\u7f6e\n\t\t\t\t\n\t\t\t",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "for",
+            "description": {
+                "value": "<pre>\n\u5728 recycle-list \u6dfb\u52a0 for \u5c5e\u6027\u5373\u53ef\u63cf\u8ff0\u5982\u4f55\u5faa\u73af\u5c55\u5f00\u5217\u8868\u7684\u6570\u636e\uff0c\n\u8bed\u6cd5\u548c Vue \u7684 v-for \u6307\u4ee4\u7c7b\u4f3c\uff0c\u4f46\u662f\u5b83\u5faa\u73af\u7684\u662f\u81ea\u5df1\u5185\u90e8\u7684\u5b50\u8282\u70b9\uff0c\u5e76\u4e0d\u662f\u5f53\u524d\u8282\u70b9\u3002\n\nfor \u5c5e\u6027\u652f\u6301\u5982\u4e0b\u4e24\u79cd\u5199\u6cd5\uff1a\n\nalias in expression\n(alias, index) in expression\n</pre>\n\t\t\t\t\n\t\t\t",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "switch",
+            "description": {
+                "value": "<p>\n\u5728 recycle-list \u6dfb\u52a0 switch \u5c5e\u6027\u53ef\u4ee5\u7528\u6765\u6307\u5b9a\u6570\u636e\u4e2d\u7528\u4e8e\u533a\u5206\u5b50\u6a21\u677f\u7c7b\u578b\u7684\u5b57\u6bb5\u540d\uff0c\u8bed\u4e49\u548c\u7f16\u7a0b\u8bed\u8a00\u91cc\u7684 switch \u4e00\u81f4\uff0c\u914d\u5408 cell-slot \u4e2d\u7684 case \u548c default \u5c5e\u6027\u4e00\u8d77\u4f7f\u7528\u3002\n</p>\n<p>\n\t\u5982\u679c\u7701\u7565\u4e86 switch \u5c5e\u6027\uff0c\u5219\u53ea\u4f1a\u5c06\u7b2c\u4e00\u4e2a cell-slot \u89c6\u4e3a\u6a21\u677f\uff0c\u591a\u4f59\u7684\u6a21\u677f\u5c06\u4f1a\u88ab\u5ffd\u7565\u3002\n</p>\n\t\t\t\t\n\t\t\t",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "case",
+            "description": {
+                "value": "<p>\n\u58f0\u660e\u4e86\u5f53\u524d\u6a21\u677f\u7684\u7c7b\u578b\uff0c\u53ea\u6709\u548c\u6570\u636e\u4e2d\u7684\u7c7b\u578b\u4e0e\u5f53\u524d\u7c7b\u578b\u5339\u914d\u65f6\u624d\u4f1a\u6e32\u67d3\uff0c\u8bed\u4e49\u548c\u7f16\u7a0b\u8bed\u8a00\u91cc\u7684 case \u4e00\u81f4\u3002\n</p>\n<p>\n\u6240\u6709\u6a21\u677f\u4e2d\u6700\u591a\u53ea\u4f1a\u5339\u914d\u5230\u4e00\u9879\uff0c\u6309\u7167\u6a21\u677f\u7684\u987a\u5e8f\u4ece\u4e0a\u5230\u4e0b\u5339\u914d\uff0c\u4e00\u65e6\u5339\u914d\u6210\u529f\u5c31\u4e0d\u5728\u7ee7\u7eed\u5339\u914d\u4e0b\u4e00\u4e2a\u3002\n</p>\n\t\t\t\t\n\t\t\t",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "default",
+            "description": {
+                "value": "\u8868\u793a\u5f53\u524d\u6a21\u677f\u4e3a\u9ed8\u8ba4\u6a21\u677f\u7c7b\u578b\uff0c\u4e0d\u9700\u8981\u6307\u5b9a\u503c\u3002\u5982\u679c\u6570\u636e\u9879\u6ca1\u6709\u5339\u914d\u5230\u4efb\u4f55 case \u7c7b\u578b\uff0c\u5219\u6e32\u67d3\u5e26\u6709 default \u6a21\u677f\u3002\u5982\u679c\u5b58\u5728\u591a\u4e2a default\uff0c\u5219\u53ea\u4f1a\u4f7f\u7528\u7b2c\u4e00\u4e2a\u9ed8\u8ba4\u6a21\u677f\u3002\n\t\t\t\t\n\t\t\t",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "key",
+            "description": {
+                "value": "\u53ef\u9009\u5c5e\u6027\uff0c\u7528\u4e8e\u6307\u5b9a\u5217\u8868\u6570\u636e\u4e2d\u53ef\u4ee5\u4f5c\u4e3a\u552f\u4e00\u6807\u8bc6\u7684\u952e\u503c\uff0c\u53ef\u4ee5\u4f18\u5316\u6e32\u67d3\u6027\u80fd\u3002\n\t\t\t\t\n\t\t\t",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "display",
+            "values": [
+                {
+                    "name": "show"
+                },
+                {
+                    "name": "hide"
+                }
+            ]
+        },
+        {
+            "name": "auto-play",
+            "description": {
+                "value": "\u53ef\u9009\u503c\u4e3a true/false\uff0c\u9ed8\u8ba4\u7684\u662f false\u3002\u8be5\u503c\u51b3\u5b9a\u662f\u5426\u81ea\u52a8\u64ad\u653e\u8f6e\u64ad\u3002\u91cd\u7f6e loadmore \u76f8\u5173\u7684 UI\uff0c\u503c\u4e0d\u4e00\u6837\u5c31\u4f1a\u91cd\u7f6e\u3002\n\t\t\t\t\n\t\t\t",
+                "type": "plaintext"
+            },
+            "values": [
+                {
+                    "name": "true"
+                },
+                {
+                    "name": "false"
+                }
+            ]
+        },
+        {
+            "name": "interval",
+            "description": {
+                "value": "\u503c\u4e3a\u6beb\u79d2\u6570\uff0c\u6b64\u503c\u8bbe\u5b9a slider \u5207\u6362\u65f6\u95f4\u95f4\u9694\u3002\u5f53 auto-play \u503c\u4e3a true \u65f6\u751f\u6548\u3002\n\t\t\t\t\n\t\t\t",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "infinite",
+            "description": {
+                "value": "\u5faa\u73af\u64ad\u653e\uff0c\u53ef\u9009\u503c\u4e3a true/false\uff0c\u9ed8\u8ba4\u7684\u662f true\u3002\n\t\t\t\t\n\t\t\t",
+                "type": "plaintext"
+            },
+            "values": [
+                {
+                    "name": "true"
+                },
+                {
+                    "name": "false"
+                }
+            ]
+        },
+        {
+            "name": "show-indicators",
+            "description": {
+                "value": "\u8bbe\u7f6e\u662f\u5426\u663e\u793aindicator\n\t\t\t\t\n\t\t\t",
+                "type": "plaintext"
+            },
+            "values": [
+                {
+                    "name": "true"
+                },
+                {
+                    "name": "false"
+                }
+            ]
+        },
+        {
+            "name": "scrollable",
+            "description": {
+                "value": "\u8bbe\u7f6e\u662f\u5426\u53ef\u4ee5\u901a\u8fc7\u6ed1\u52a8\u624b\u52bf\u6765\u5207\u6362slider\u9875\u9762\n\t\t\t\t\n\t\t\t",
+                "type": "plaintext"
+            },
+            "values": [
+                {
+                    "name": "true"
+                },
+                {
+                    "name": "false"
+                }
+            ]
+        },
+        {
+            "name": "keep-index",
+            "description": {
+                "value": "\u8bbe\u7f6eslider\u4e2d\u7684\u6570\u636e\u53d1\u751f\u53d8\u5316\u540e\u662f\u5426\u4fdd\u6301\u53d8\u5316\u524d\u7684\u9875\u9762index\n\t\t\t\t\n\t\t\t",
+                "type": "plaintext"
+            },
+            "values": [
+                {
+                    "name": "true"
+                },
+                {
+                    "name": "false"
+                }
+            ]
+        },
+        {
+            "name": "offset-x-accuracy",
+            "description": {
+                "value": "\u63a7\u5236onscroll\u4e8b\u4ef6\u89e6\u53d1\u7684\u9891\u7387\uff0c\u9ed8\u8ba4\u503c\u4e3a10\uff0c\u8868\u793a\u4e24\u6b21onscroll\u4e8b\u4ef6\u4e4b\u95f4Slider Page\u81f3\u5c11\u6eda\u52a8\u4e8610px\u3002\u6ce8\u610f\uff0c\u5c06\u8be5\u503c\u8bbe\u7f6e\u4e3a\u8f83\u5c0f\u7684\u6570\u503c\u4f1a\u63d0\u9ad8\u6eda\u52a8\u4e8b\u4ef6\u91c7\u6837\u7684\u7cbe\u5ea6\uff0c\u4f46\u540c\u65f6\u4e5f\u4f1a\u964d\u4f4e\u9875\u9762\u7684\u6027\u80fd\u3002\n\t\t\t\t\n\t\t\t",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "index",
+            "description": {
+                "value": "\u8bbe\u7f6e\u663e\u793aslider\u7684\u7b2c\u51e0\u4e2a\u9875\u9762\n\t\t\t\t\n\t\t\t",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "play-status",
+            "description": {
+                "value": "\u53ef\u9009\u503c\u4e3a play | pause\uff0c\u7528\u6765\u63a7\u5236\u89c6\u9891\u7684\u64ad\u653e\u72b6\u6001\uff0cplay \u6216\u8005 pause\uff0c\u9ed8\u8ba4\u503c\u662f pause\u3002\n\t\t\t\t\n\t\t\t",
+                "type": "plaintext"
+            },
+            "values": [
+                {
+                    "name": "play"
+                },
+                {
+                    "name": "pause"
+                }
+            ]
+        },
+        {
+            "name": "[event]click",
+            "description": {
+                "value": "\u5f53\u7ec4\u4ef6\u4e0a\u53d1\u751f\u70b9\u51fb\u624b\u52bf\u65f6\u88ab\u89e6\u53d1\u3002",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "[event]longpress",
+            "description": {
+                "value": "\u5982\u679c\u4e00\u4e2a\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 longpress \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u7528\u6237\u957f\u6309\u8fd9\u4e2a\u7ec4\u4ef6\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u4f1a\u88ab\u89e6\u53d1\u3002",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "[event]appear",
+            "description": {
+                "value": "\u5982\u679c\u4e00\u4e2a\u4f4d\u4e8e\u67d0\u4e2a\u53ef\u6eda\u52a8\u533a\u57df\u5185\u7684\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 appear \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u8fd9\u4e2a\u7ec4\u4ef6\u7684\u72b6\u6001\u53d8\u4e3a\u5728\u5c4f\u5e55\u4e0a\u53ef\u89c1\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u88ab\u89e6\u53d1\u3002",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "[event]disappear",
+            "description": {
+                "value": "\u5982\u679c\u4e00\u4e2a\u4f4d\u4e8e\u67d0\u4e2a\u53ef\u6eda\u52a8\u533a\u57df\u5185\u7684\u7ec4\u4ef6\u88ab\u7ed1\u5b9a\u4e86 disappear \u4e8b\u4ef6\uff0c\u90a3\u4e48\u5f53\u8fd9\u4e2a\u7ec4\u4ef6\u88ab\u6ed1\u51fa\u5c4f\u5e55\u53d8\u4e3a\u4e0d\u53ef\u89c1\u72b6\u6001\u65f6\uff0c\u8be5\u4e8b\u4ef6\u5c06\u88ab\u89e6\u53d1\u3002",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "[event]viewappear",
+            "description": {
+                "value": "viewappear \u4e8b\u4ef6\u4f1a\u5728\u9875\u9762\u5c31\u8981\u663e\u793a\u6216\u914d\u7f6e\u7684\u4efb\u4f55\u9875\u9762\u52a8\u753b\u88ab\u6267\u884c\u524d\u89e6\u53d1\u3002",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "[event]viewdisappear",
+            "description": {
+                "value": "viewdisappear \u4e8b\u4ef6\u4f1a\u5728\u9875\u9762\u5c31\u8981\u5173\u95ed\u65f6\u88ab\u89e6\u53d1\u3002",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "[event]load",
+            "description": {
+                "value": "\u5f53\u52a0\u8f7d\u5b8c\u6210 src \u6307\u5b9a\u7684\u56fe\u7247\u65f6\uff0cload\u4e8b\u4ef6\u5c06\u88ab\u89e6\u53d1\u3002\n\t\t\t\t \n\t\t\t ",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "[event]input",
+            "description": {
+                "value": "\u8f93\u5165\u5b57\u7b26\u7684\u503c\u66f4\u6539\u3002\n\t\t\t\t \n\t\t\t ",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "[event]change",
+            "description": {
+                "value": "\u5f53\u7528\u6237\u8f93\u5165\u5b8c\u6210\u65f6\u89e6\u53d1\u3002\u901a\u5e38\u5728 blur \u4e8b\u4ef6\u4e4b\u540e\u3002\n\t\t\t\t \n\t\t\t ",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "[event]focus",
+            "description": {
+                "value": "\u7ec4\u4ef6\u83b7\u5f97\u8f93\u5165\u7126\u70b9\u3002\n\t\t\t\t \n\t\t\t ",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "[event]blur",
+            "description": {
+                "value": "\u7ec4\u4ef6\u5931\u53bb\u8f93\u5165\u7126\u70b9\u3002\n\t\t\t\t \n\t\t\t ",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "[event]return",
+            "description": {
+                "value": "\u952e\u76d8\u70b9\u51fb\u8fd4\u56de\u952e\u3002\n\t\t\t\t \n\t\t\t ",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "[event]start",
+            "description": {
+                "value": "\u5f53 playback \u7684\u72b6\u6001\u662f Playing \u65f6\u89e6\u53d1\n\t\t\t\t \n\t\t\t ",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "[event]pause",
+            "description": {
+                "value": "\u5f53 playback \u7684\u72b6\u6001\u662f Paused \u65f6\u89e6\u53d1\n\t\t\t\t \n\t\t\t ",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "[event]finish",
+            "description": {
+                "value": "\u5f53 playback \u7684\u72b6\u6001\u662f Finished \u65f6\u89e6\u53d1\n\t\t\t\t \n\t\t\t ",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "[event]fail",
+            "description": {
+                "value": "\u5f53 playback \u72b6\u6001\u662f Failed \u65f6\u89e6\u53d1\n\t\t\t\t \n\t\t\t ",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "[event]loadmore",
+            "description": {
+                "value": "\u5982\u679c\u5217\u8868\u6eda\u52a8\u5230\u5e95\u90e8\u5c06\u4f1a\u7acb\u5373\u89e6\u53d1\u8fd9\u4e2a\u4e8b\u4ef6\uff0c\u4f60\u53ef\u4ee5\u5728\u8fd9\u4e2a\u4e8b\u4ef6\u7684\u5904\u7406\u51fd\u6570\u4e2d\u52a0\u8f7d\u4e0b\u4e00\u9875\u7684\u5217\u8868\u9879\u3002\n\t\t\t\t \n\t\t\t ",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "[event]scroll",
+            "description": {
+                "value": "\u5217\u8868\u53d1\u751f\u6eda\u52a8\u65f6\u5c06\u4f1a\u89e6\u53d1\u8be5\u4e8b\u4ef6\uff0c\u4e8b\u4ef6\u7684\u9ed8\u8ba4\u62bd\u6837\u7387\u4e3a10px\uff0c\u5373\u5217\u8868\u6bcf\u6eda\u52a810px\u89e6\u53d1\u4e00\u6b21\uff0c\u53ef\u901a\u8fc7\u5c5e\u6027offset-accuracy\u8bbe\u7f6e\u62bd\u6837\u7387\u3002\n\t\t\t\t \n\t\t\t ",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "[event]scrollstart",
+            "description": {
+                "value": "\u5f53\u5217\u8868\u5f00\u59cb\u6eda\u52a8\u7684\u65f6\u5019\u89e6\u53d1.\n\t\t\t\t \n\t\t\t ",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "[event]scrollend",
+            "description": {
+                "value": "\u5f53\u5217\u8868\u7ed3\u675f\u6eda\u52a8\u7684\u65f6\u5019\u89e6\u53d1.\n\t\t\t\t \n\t\t\t ",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "[event]loading",
+            "description": {
+                "value": "\u88ab\u4e0a\u62c9\u65f6\u89e6\u53d1\u3002\n\t\t\t\t \n\t\t\t ",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "[event]refresh",
+            "description": {
+                "value": "\u88ab\u4e0b\u62c9\u65f6\u89e6\u53d1\u3002\n\t\t\t\t \n\t\t\t ",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "[event]pagestart",
+            "description": {
+                "value": "pagestart \u4e8b\u4ef6\uff0c\u4f1a\u5728 Web \u9875\u9762\u5f00\u59cb\u52a0\u8f7d\u65f6\u8c03\u7528\u3002\n\t\t\t\t \n\t\t\t ",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "[event]pagefinish",
+            "description": {
+                "value": "pagefinish \u4e8b\u4ef6\uff0c\u4f1a\u5728 Web \u9875\u9762\u5b8c\u6210\u52a0\u8f7d\u65f6\u8c03\u7528\u3002\n\t\t\t\t \n\t\t\t ",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "[event]error",
+            "description": {
+                "value": "error \u4e8b\u4ef6\uff0c\u4f1a\u5728 Web \u9875\u9762\u52a0\u8f7d\u5931\u8d25\u65f6\u8c03\u7528\u3002\n\t\t\t\t \n\t\t\t ",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "[event]receivedtitle",
+            "description": {
+                "value": "receivedtitle \u4e8b\u4ef6\uff0c\u4f1a\u5728 Web \u9875\u9762\u7684\u6807\u9898\u53d1\u751f\u6539\u53d8\u65f6\u8c03\u7528\uff08\u4ec5\u9650 Android \u5e73\u53f0\uff09\u3002\n\t\t\t\t \n\t\t\t ",
+                "type": "plaintext"
+            }
+        },
+        {
+            "name": "[event]pullingdown",
+            "description": {
+                "value": "\u88ab\u4e0b\u62c9\u65f6\u89e6\u53d1\uff0c\u53ef\u4ee5\u4ece event \u53c2\u6570\u5bf9\u8c61\u4e2d\u83b7\u53d6 dy, pullingDistance, viewHeight, type\n<pre>\ndy: \u524d\u540e\u4e24\u6b21\u56de\u8c03\u6ed1\u52a8\u8ddd\u79bb\u7684\u5dee\u503c\npullingDistance: \u4e0b\u62c9\u7684\u8ddd\u79bb\nviewHeight: refresh \u7ec4\u4ef6\u9ad8\u5ea6\ntype: \u201cpullingdown\u201d \u5e38\u6570\u5b57\u7b26\u4e32\n</pre>\n\t\t\t\t \n\t\t\t ",
+                "type": "plaintext"
+            }
+        }
+    ],
+    "valueSets": [
+        {
+            "name": "b",
+            "values": [
+                {
+                    "name": "true"
+                },
+                {
+                    "name": "false"
+                }
+            ]
+        }
+    ]
+}

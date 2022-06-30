@@ -1,0 +1,322 @@
+{
+    "@-webkit-keyframes": {
+        "body": [
+            "@-webkit-keyframes ${1:name}{",
+            "\tfrom{$2}",
+            "\tto{$3}",
+            "}"
+        ],
+        "triggerAssist": false,
+        "prefix": "@keyframes",
+        "scope": "source ! meta.property-list"
+    },
+    "height px": {
+        "body": [
+            "height: ${1}px;$0"
+        ],
+        "triggerAssist": false,
+        "prefix": "hpx",
+        "scope": "source meta.property-list ! (meta.property-value|punctuation.terminator.rule)"
+    },
+    "width upx": {
+        "body": [
+            "width: ${1}upx;$0"
+        ],
+        "triggerAssist": false,
+        "prefix": "wupx",
+        "project": "UniApp_Vue",
+        "scope": "source meta.property-list ! (meta.property-value|punctuation.terminator.rule)"
+    },
+    "height --status-bar-height": {
+        "body": [
+            "height: var(--status-bar-height);"
+        ],
+        "prefix": "heightstatusbar",
+        "project": "UniApp_Vue",
+        "scope": "source meta.property-list ! (meta.property-value|punctuation.terminator.rule)"
+    },
+    "height --window-top": {
+        "body": [
+            "height: var(--window-top);"
+        ],
+        "prefix": "heightwindowtop",
+        "project": "UniApp_Vue",
+        "scope": "source meta.property-list ! (meta.property-value|punctuation.terminator.rule)"
+    },
+    "height --window-bottom": {
+        "body": [
+            "height: var(--window-bottom);"
+        ],
+        "prefix": "heightwindowbottom",
+        "project": "UniApp_Vue",
+        "scope": "source meta.property-list! (meta.property-value|punctuation.terminator.rule)"
+    },
+    "user-select:none (List)": {
+        "body": [
+            "-webkit-user-select: none;",
+            "-moz-user-select: none;",
+            "-ms-user-select: none;",
+            "user-select: none;"
+        ],
+        "triggerAssist": false,
+        "prefix": "usn",
+        "scope": "source meta.property-list! (meta.property-value|punctuation.terminator.rule)"
+    },
+    "-ms-": {
+        "body": [
+            "-ms-"
+        ],
+        "triggerAssist": true,
+        "prefix": "ms",
+        "scope": "source meta.property-list! (meta.property-value|punctuation.terminator.rule)"
+    },
+    "border-style": {
+        "body": [
+            "border-style: $1"
+        ],
+        "triggerAssist": true,
+        "prefix": "bs",
+        "scope": "source meta.property-list! (meta.property-value|punctuation.terminator.rule)"
+    },
+    "background-color: #": {
+        "body": [
+            "background-color: #$1"
+        ],
+        "triggerAssist": true,
+        "prefix": "bch",
+        "scope": "source meta.property-list! (meta.property-value|punctuation.terminator.rule)"
+    },
+    "@-moz-keyframes": {
+        "body": [
+            "@-moz-keyframes ${1:name}{",
+            "\tfrom{$2}",
+            "\tto{$3}",
+            "}"
+        ],
+        "triggerAssist": false,
+        "prefix": "@keyframes",
+        "scope": "source ! meta.property-list"
+    },
+    "@charset": {
+        "body": [
+            "@charset \"${1:utf-8}\";"
+        ],
+        "triggerAssist": false,
+        "prefix": "@charset",
+        "scope": "source ! meta.property-list"
+    },
+    "scrollbar": {
+        "body": [
+            "scrollbar-base-color:       ${1:#CCCCCC};",
+            "scrollbar-arrow-color:      ${2:#000000};",
+            "scrollbar-track-color:      ${3:#999999};",
+            "scrollbar-3dlight-color:    ${4:#EEEEEE};",
+            "scrollbar-highlight-color:  ${5:#FFFFFF};",
+            "scrollbar-face-color:       ${6:#CCCCCC};",
+            "scrollbar-shadow-color:     ${7:#999999};",
+            "scrollbar-darkshadow-color: ${8:#666666};"
+        ],
+        "triggerAssist": false,
+        "prefix": "scrollbarr",
+        "scope": "source meta.property-list ! (meta.property-value|punctuation.terminator.rule)"
+    },
+    "@document": {
+        "body": [
+            "@document ${1:url}(\"$2\") {",
+            "\t$3",
+            "}"
+        ],
+        "triggerAssist": false,
+        "prefix": "@document",
+        "scope": "source ! meta.property-list"
+    },
+    "list-style-image: url": {
+        "body": [
+            "list-style-image: url($1);"
+        ],
+        "triggerAssist": true,
+        "prefix": "lsi",
+        "scope": "source meta.property-list ! (meta.property-value|punctuation.terminator.rule)"
+    },
+    "background: image repeat attachment position": {
+        "body": [
+            "background: url($1) ${2:repeat} ${3:fixed} ${4:center};$0"
+        ],
+        "triggerAssist": true,
+        "prefix": "bg",
+        "scope": "source meta.property-list ! (meta.property-value|punctuation.terminator.rule)"
+    },
+    "background-color: rgb": {
+        "body": [
+            "background-color: rgb(${1:255},${2:255},${3:255})"
+        ],
+        "triggerAssist": false,
+        "prefix": "bcr",
+        "scope": "source meta.property-list ! (meta.property-value|punctuation.terminator.rule)"
+    },
+    "background-position": {
+        "body": [
+            "background-position: $1"
+        ],
+        "triggerAssist": true,
+        "prefix": "bp",
+        "scope": "source meta.property-list ! (meta.property-value|punctuation.terminator.rule)"
+    },
+    "background-image": {
+        "body": [
+            "background-image: $1"
+        ],
+        "triggerAssist": true,
+        "prefix": "bi",
+        "scope": "source meta.property-list ! (meta.property-value|punctuation.terminator.rule)"
+    },
+    "@keyframes": {
+        "body": [
+            "@keyframes ${1:name}{",
+            "\tfrom{$2}",
+            "\tto{$3}",
+            "}"
+        ],
+        "triggerAssist": false,
+        "prefix": "@keyframes",
+        "scope": "source ! meta.property-list"
+    },
+    "-moz-": {
+        "body": [
+            "-moz-"
+        ],
+        "triggerAssist": true,
+        "prefix": "moz",
+        "scope": "source meta.property-list ! (meta.property-value|punctuation.terminator.rule)"
+    },
+    "background-image: url": {
+        "body": [
+            "background-image: url($1)"
+        ],
+        "triggerAssist": true,
+        "prefix": "biu",
+        "scope": "source meta.property-list ! (meta.property-value|punctuation.terminator.rule)"
+    },
+    "border-color": {
+        "body": [
+            "border-color: $1"
+        ],
+        "triggerAssist": true,
+        "prefix": "boc",
+        "scope": "source meta.property-list ! (meta.property-value|punctuation.terminator.rule)"
+    },
+    "width length": {
+        "body": [
+            "width: ${1}px;$0"
+        ],
+        "triggerAssist": false,
+        "prefix": "widthlength",
+        "scope": "source meta.property-list ! (meta.property-value|punctuation.terminator.rule)"
+    },
+    "@font-face": {
+        "body": [
+            "@font-face {",
+            "\tfont-family:$1;",
+            "\tsrc: url($2);",
+            "}"
+        ],
+        "triggerAssist": false,
+        "prefix": "@fontface",
+        "scope": "source ! meta.property-list"
+    },
+    "font-family": {
+        "body": [
+            "font-family: $1"
+        ],
+        "triggerAssist": true,
+        "prefix": "ff",
+        "scope": "source meta.property-list ! (meta.property-value|punctuation.terminator.rule)"
+    },
+    "@supports": {
+        "body": [
+            "@supports(${1:prop}:${2:value}) {",
+            "\t$3",
+            "}"
+        ],
+        "triggerAssist": false,
+        "prefix": "@supports",
+        "scope": "source ! meta.property-list"
+    },
+    "font-size": {
+        "body": [
+            "font-size: $1"
+        ],
+        "triggerAssist": true,
+        "prefix": "fsize",
+        "scope": "source meta.property-list ! (meta.property-value|punctuation.terminator.rule)"
+    },
+    "@namespace": {
+        "body": [
+            "@namespace ${1:prefix} \"$2\";"
+        ],
+        "triggerAssist": false,
+        "prefix": "@namespace",
+        "scope": "source ! meta.property-list"
+    },
+    "text-align: left": {
+        "body": [
+            "text-align: left;"
+        ],
+        "triggerAssist": false,
+        "prefix": "tal",
+        "scope": "source meta.property-list ! (meta.property-value|punctuation.terminator.rule)"
+    },
+    "@import": {
+        "body": [
+            "@import url(\"$1\");"
+        ],
+        "triggerAssist": true,
+        "prefix": "@import",
+        "scope": "source ! meta.property-list"
+    },
+    "text-transform": {
+        "body": [
+            "text-transform: $1"
+        ],
+        "triggerAssist": true,
+        "prefix": "tt",
+        "scope": "source meta.property-list ! (meta.property-value|punctuation.terminator.rule)"
+    },
+    "@page": {
+        "body": [
+            "@page:${1:first}{",
+            "\t",
+            "}"
+        ],
+        "triggerAssist": false,
+        "prefix": "@page",
+        "scope": "source ! meta.property-list"
+    },
+    "flex-direction: row": {
+        "body": [
+            "flex-direction: row;"
+        ],
+        "triggerAssist": false,
+        "prefix": "fdr",
+        "scope": "source meta.property-list ! (meta.property-value|punctuation.terminator.rule)"
+    },
+    "-webkit-": {
+        "body": [
+            "-webkit-"
+        ],
+        "triggerAssist": true,
+        "prefix": "webkit",
+        "scope": "source meta.property-list ! (meta.property-value|punctuation.terminator.rule)"
+    },
+    "@-ms-keyframes": {
+        "body": [
+            "@-ms-keyframes ${1:name}{",
+            "\tfrom{$2}",
+            "\tto{$3}",
+            "}"
+        ],
+        "triggerAssist": false,
+        "prefix": "@keyframes",
+        "scope": "source ! meta.property-list"
+    }
+}

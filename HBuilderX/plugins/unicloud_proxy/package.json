@@ -1,0 +1,100 @@
+{
+	"name": "unicloud_proxy",
+	"version": "0.0.3.2022032111",
+	"description": "%description%",
+	"scripts": {},
+	"keywords": [],
+	"author": "",
+	"displayName": "%displayName%",
+	"publisher": "HBuilderX",
+	"__private": true,
+	"engines": {
+		"HBuilderX": "^3.0.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"contributes": {
+		"commandInterceptors": [{
+			"id": "interceptor.checkPluginExists",
+			"patterns": [
+				"unicloud.createCloudFunctionObject.proxy",
+				"unicloud.createCommonModule.proxy",
+				"unicloud-dependency-manager.edit-function.proxy",
+				"unicloud-dependency-manager.edit-common.proxy"
+			],
+			"args": {
+				"pluginId": "unicloud",
+				"pluginName": "unicloud"
+			}
+		}],
+		"commands": [{
+				"command": "unicloud.createCloudFunctionObject.proxy",
+				"title": "%createCloudFunction.command.name%"
+			},
+			{
+				"command": "unicloud.createCommonModule.proxy",
+				"title": "%createCommonModule.command.name%"
+			},
+			{
+				"command": "unicloud-dependency-manager.edit-function.proxy",
+				"title": "%dependency-manager.edit-function.command.name%"
+			},
+			{
+				"command": "unicloud-dependency-manager.edit-common.proxy",
+				"title": "%dependency-manager.edit-common.command.name%"
+			}
+		],
+		"expressions": {
+			"isUnicloudExtendionExists": "plugin.isInstalled <- 'unicloud'",
+			"isCfChild": "...workspaceFolderRelativePath =~ /uniCloud(-aliyun|-tcb|)\\/cloudfunctions\\/[a-zA-Z0-9-_]+$/",
+			"isOtherCfChild": "...workspaceFolderRelativePath =~ /uniCloud(-aliyun|-tcb|)\\/cloudfunctions\\/(common|uni-clientDB-actions)$/",
+			"isCloudFunction": "expression.isCfChild && !expression.isOtherCfChild",
+			"isCommonModule": "...workspaceFolderRelativePath =~ /uniCloud(-aliyun|-tcb|)\\/cloudfunctions\\/common\\/(.*?)$/",
+            "isCloudFunctionDir": "...workspaceFolderRelativePath =~ /^uniCloud\\-(tcb|aliyun)\\/cloudfunctions$/",
+            "isUniModuleCloudFunctionDir": "...workspaceFolderRelativePath =~ /^uni_modules\\/.*\\/uniCloud\\/cloudfunctions$/",
+            "isCliUniModuleCloudFunctionDir": "...workspaceFolderRelativePath =~ /^src\\/uni_modules\\/.*\\/uniCloud\\/cloudfunctions$/",
+            "isCommonDir":"...workspaceFolderRelativePath =~ /^uniCloud\\-(tcb|aliyun)\\/cloudfunctions\\/common$/",
+            "isUniModuleCommonDir":"...workspaceFolderRelativePath =~ /^uni_modules\\/.*\\/uniCloud\\/cloudfunctions\\/common$/",
+            "isCliUniModuleCommonDir":"...workspaceFolderRelativePath =~ /^src\\/uni_modules\\/.*\\/uniCloud\\/cloudfunctions\\/common$/"
+		},
+		"menus": {
+			"explorer/context": [{
+					"command": "unicloud.createCloudFunctionObject.proxy",
+					"group": "_top",
+					"when": "!expression.isUnicloudExtendionExists && explorerResourceCount == 1 && (expression.isCloudFunctionDir || expression.isUniModuleCloudFunctionDir || expression.isCliUniModuleCloudFunctionDir)"
+				},
+				{
+					"command": "unicloud.createCommonModule.proxy",
+					"group": "_top",
+					"when": "!expression.isUnicloudExtendionExists && explorerResourceCount == 1 && (expression.isCommonDir || expression.isUniModuleCommonDir || expression.isCliUniModuleCommonDir)"
+				},
+				{
+				  "command": "unicloud-dependency-manager.edit-function.proxy",
+				  "group": "new",
+				  "when": "!expression.isUnicloudExtendionExists && explorerResourceCount== 1 && canShowCommonDependenceManager && expression.isCloudFunction"
+				},
+				{
+				  "command": "unicloud-dependency-manager.edit-common.proxy",
+				  "group": "new",
+				  "when": "!expression.isUnicloudExtendionExists && explorerResourceCount== 1 && canShowCommonDependenceManager && expression.isCommonModule"
+				},
+				{
+					"separator": true,
+					"group": "new",
+					"when":"!expression.isUnicloudExtendionExists && explorerResourceCount== 1 && canShowCommonDependenceManager"
+				}
+			],
+			"editor/context": [{
+				"command": "unicloud-dependency-manager.edit-function.proxy",
+				"group": "openfile",
+				"when": "!expression.isUnicloudExtendionExists && canShowCommonDependenceManager && expression.isCloudFunction"
+			},
+			{
+			  "command": "unicloud-dependency-manager.edit-common.proxy",
+			  "group": "openfile",
+			  "when": "!expression.isUnicloudExtendionExists && canShowCommonDependenceManager && expression.isCommonModule"
+			}]
+		}
+	}
+}

@@ -1,0 +1,37 @@
+{
+	"id": "flyingBook-Extension",
+	"name": "%flyingBook.plugin.name%",
+	"description": "%flyingBook.plugin.description%",
+	"displayName": "flyingBook.plugin.displayName",
+	"version": "0.0.4",
+	"publisher": "HBuilderX",
+	"__private": true,
+	"engines": {
+		"HBuilderX": "^3.2.10"
+	},
+	"categories": [
+		"Other"
+	],
+	"main": "./out/extension.js",
+	"activationEvents": [
+		"onLaunch:uniapp.publish.flyingBook"
+	],
+	"contributes": {
+		"launchers": [
+			{
+				"type": "uniapp.publish.flyingBook",
+				"label": "飞书小程序发行(仅适用于uni-app)(&F).",
+				"when": "workspaceFolder.type == 'UniApp_Vue'",
+				"mode": "custom"
+			}
+		]
+	},
+	"extensionDependencies": [
+		"plugin-manager"
+	],
+	"dependencies": {
+		"gulp": "^4.0.2",
+		"gulp-rename": "^2.0.0",
+		"vscode-nls-dev": "^3.3.2"
+	}
+}

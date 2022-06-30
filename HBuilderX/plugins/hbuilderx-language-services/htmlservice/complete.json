@@ -1,0 +1,26 @@
+{
+	"version": 1.1,
+	"tags": [
+		{
+			"name": "testDiv",
+			"description": {
+				"kind": "markdown",
+				"value": "Test custom html element"
+			},
+			"attributes": [
+				{
+					"name": "id",
+					"description": {
+						"kind": "markdown",
+						"value": "Input id elementd"
+					}
+				}
+			],
+			"references": [
+				{
+					"name": "No Reference",
+					"url": "https://developer.mozilla.org/docs/Web/HTML/Element/html"
+				}
+			]
+		}]
+}

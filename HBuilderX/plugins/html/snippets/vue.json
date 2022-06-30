@@ -1,0 +1,49 @@
+{
+	"Vue Base": {
+		"prefix": "vbase",
+		"body": [
+			"<template>",
+			"\t<${1:div}>",
+			"",
+			"\t</${1:div}>",
+			"</template>",
+			"",
+			"<script>",
+			"\texport default {",
+			"\t\t${0}",
+			"\t}",
+			"</script>",
+			"",
+			"<style scoped>",
+			"",
+			"</style>"
+		],
+		"description": "Base for Vue File",
+		"scope": "text.html.vue ! expression"
+	},
+	"view_class": {
+		"prefix": "viewclass",
+		"triggerAssist": true,
+		"body": [
+			"<view class=\"$1\">",
+			"\t$0",
+			"</view>"
+		],
+		"scope": "text.html.vue ! expression"
+	},
+	"view for": {
+		"prefix": "viewfor",
+		"body": ["<view v-for=\"(item,index) in ${1:data}\" :key=\"index\">", "\t$0", "</view>"],
+		"project": "uni-app",
+		"scope": "text.html.vue ! expression",
+		"description": "view带for循环"
+	},
+  "v-for": {
+    "body": [
+      "v-for=\"(${1:item},${2:index}) in ${3:Data}\""
+    ],
+    "triggerAssist": false,
+    "prefix": "v-for",
+    "scope": "(text.html.vue meta.tag,text.html.vue punctuation.definition.tag.end)! expression"
+  }
+}

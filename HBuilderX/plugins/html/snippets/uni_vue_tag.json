@@ -1,0 +1,602 @@
+{
+    "uSwiper": {
+        "body": [
+            "<swiper :indicator-dots=\"true\" :autoplay=\"true\" :interval=\"3000\" :duration=\"1000\">",
+            "\t<swiper-item>",
+            "\t\t<view class=\"swiper-item\">$1</view>",
+            "\t</swiper-item>",
+            "\t<swiper-item>",
+            "\t\t<view class=\"swiper-item\">$2</view>",
+            "\t</swiper-item>",
+            "</swiper>"
+        ],
+        "triggerAssist": false,
+        "prefix": "uswiper"
+    },
+    "uGrid": {
+        "body": [
+            "<uni-grid :column=\"$1\">",
+            "\t<uni-grid-item>$2</uni-grid-item>",
+            "\t<uni-grid-item>$3</uni-grid-item>",
+            "</uni-grid>"
+        ],
+        "triggerAssist": false,
+        "prefix": "ugrid"
+    },
+    "uList": {
+        "body": [
+            "<uni-list>",
+            "\t<uni-list-item title=\"$1\" note=\"$2\"></uni-list-item>",
+            "\t<uni-list-item title=\"$3\" note=\"$4\"></uni-list-item>",
+            "</uni-list>"
+        ],
+        "triggerAssist": false,
+        "prefix": "ulist"
+    },
+    "uListFor": {
+        "body": [
+            "<uni-list>",
+            "\t<uni-list-item v-for=\"$1\" :key=\"$2\" title=\"$3\"></uni-list-item>",
+            "</uni-list>"
+        ],
+        "triggerAssist": false,
+        "prefix": "ulistfor"
+    },
+    "uCheckbox": {
+        "body": [
+            "<label>",
+            "\t<checkbox :value=\"$1\" /><text>$0</text>",
+            "</label>"
+        ],
+        "triggerAssist": false,
+        "prefix": "ucheckbox"
+    },
+    "uCheckboxGroup": {
+        "body": [
+            "<checkbox-group name=\"$1\">",
+            "\t<label>",
+            "\t\t<checkbox :value=\"$2\" /><text>$0</text>",
+            "\t</label>",
+            "</checkbox-group>"
+        ],
+        "triggerAssist": false,
+        "prefix": "ucheckboxgroup"
+    },
+    "uRadio": {
+        "body": [
+            "<label class=\"radio\">",
+            "\t<radio value=\"$1\" /><text>$0</text>",
+            "</label>"
+        ],
+        "triggerAssist": false,
+        "prefix": "uradio"
+    },
+    "uRadioGroup": {
+        "body": [
+            "<radio-group name=\"$1\">",
+            "\t<label>",
+            "\t\t<radio :value=\"$2\" /><text>$3</text>",
+            "\t</label>",
+            "\t<label>",
+            "\t\t<radio :value=\"$4\" /><text>$5</text>",
+            "\t</label>",
+            "</radio-group>"
+        ],
+        "prefix": "uradiogroup",
+        "project": "uni-app"
+    },
+    "uSwitch": {
+        "body": [
+            "<switch checked=\"true\" @change=\"$1\" />"
+        ],
+        "triggerAssist": false,
+        "prefix": "uswitch"
+    },
+    "uButton": {
+        "body": [
+            "<button type=\"default\">$1</button>"
+        ],
+        "triggerAssist": false,
+        "prefix": "ubutton"
+    },
+    "uSlider": {
+        "body": [
+            "<slider @change=\"$1\"/>"
+        ],
+        "triggerAssist": false,
+        "prefix": "uslider"
+    },
+    "uTemplate": {
+        "body": [
+            "<template>",
+            "\t<view>$0</view>",
+            "</template>"
+        ],
+        "triggerAssist": false,
+        "prefix": "utemplate"
+    },
+    "uView": {
+        "body": [
+            "<view class=\"$1\">$0</view>"
+        ],
+        "triggerAssist": false,
+        "prefix": "uview"
+    },
+    "uScrollView": {
+        "body": [
+            "<scroll-view scroll-y=\"true\" $1>",
+            "\t<view>$0</view>",
+            "</scroll-view>"
+        ],
+        "triggerAssist": false,
+        "prefix": "uscrollview"
+    },
+    "uImage": {
+        "body": [
+            "<image src=\"$1\" mode=\"$2\"></image>"
+        ],
+        "triggerAssist": true,
+        "prefix": "uimage"
+    },
+    "uInput": {
+        "body": [
+            "<input type=\"text\" value=\"$0\" />"
+        ],
+        "triggerAssist": false,
+        "prefix": "uinput"
+    },
+    "uTextarea": {
+        "body": [
+            "<textarea value=\"$1\" placeholder=\"$0\" />"
+        ],
+        "triggerAssist": false,
+        "prefix": "utextarea"
+    },
+    "uPicker": {
+        "body": [
+            "<picker mode=\"$1\" :range=\"$2\" @change=\"$3\">",
+            "\t<view>{{$0}}</view>",
+            "</picker>"
+        ],
+        "triggerAssist": true,
+        "prefix": "upicker"
+    },
+    "uForms": {
+        "body": [
+            "<uni-forms ref=\"form\" :rules=\"\">",
+            "\t<uni-forms-item label=\"\" name=\"\">",
+            "\t\t$1",
+            "\t</uni-forms-item>",
+            "</uni-forms>"
+        ],
+        "prefix": "uforms",
+        "project": "uni-app"
+    },
+    "uFormsItem": {
+        "body": [
+            "<uni-forms-item label=\"\" name=\"\">",
+            "\t$1",
+            "</uni-forms-item>"
+        ],
+        "prefix": "uformsItem",
+        "project": "uni-app"
+    },
+    "uText": {
+        "body": [
+            "<text>$0</text>"
+        ],
+        "triggerAssist": false,
+        "prefix": "utext"
+    },
+    "uRichText": {
+        "body": [
+            "<rich-text :nodes=\"$1\"></rich-text>"
+        ],
+        "triggerAssist": false,
+        "prefix": "urichtext"
+    },
+    "uProgress": {
+        "body": [
+            "<progress percent=\"$1\" show-info$0 />"
+        ],
+        "prefix": "uprogress",
+        "project": "uni-app"
+    },
+    "uDateformat": {
+        "body": [
+            "<uni-dateformat date=\"$1\" />"
+        ],
+        "prefix": "udateformat",
+        "project": "uni-app"
+    },
+    "uPickerView": {
+        "body": [
+            "<picker-view indicator-style=\"height: 50px;\" :value=\"value$1\" @change=\"bindChange\">",
+            "\t<picker-view-column>",
+            "\t\t$0",
+            "\t</picker-view-column>",
+            "\t<picker-view-column>",
+            "\t\t$2",
+            "\t</picker-view-column>",
+            "\t<picker-view-column>",
+            "\t\t",
+            "\t</picker-view-column>",
+            "</picker-view>"
+        ],
+        "triggerAssist": false,
+        "prefix": "upickerview"
+    },
+    "uWebView": {
+        "body": [
+            "<web-view src=\"$1\"></web-view>"
+        ],
+        "triggerAssist": false,
+        "prefix": "uwebview"
+    },
+    "uMap": {
+        "body": [
+            "<map :latitude=\"$1\" :longitude=\"$0\"></map>"
+        ],
+        "triggerAssist": false,
+        "prefix": "umap"
+    },
+    "uVideo": {
+        "body": [
+            "<video src=\"$1\" controls></video>"
+        ],
+        "triggerAssist": false,
+        "prefix": "uvideo"
+    },
+    "uAudio": {
+        "body": [
+            "<audio :src=\"$1\" :poster=\"$0\" :name=\"$2\" :author=\"$3\" :action=\"$4\" controls></audio>"
+        ],
+        "triggerAssist": false,
+        "prefix": "uaudio"
+    },
+    "uNavigator": {
+        "body": [
+            "<navigator url=\"$1\">$0</navigator>"
+        ],
+        "triggerAssist": true,
+        "prefix": "unavigator"
+    },
+    "uEditor": {
+        "body": [
+            "<editor placeholder=\"$1\"></editor>"
+        ],
+        "triggerAssist": false,
+        "prefix": "uEditor"
+    },
+    "uBadge": {
+        "body": [
+            "<uni-badge text=\"$1\" type=\"$2\"></uni-badge>"
+        ],
+        "triggerAssist": false,
+        "prefix": "ubadge"
+    },
+    "uTag": {
+        "body": [
+            "<uni-tag text=\"$1\" type=\"$2\"></uni-tag>"
+        ],
+        "triggerAssist": false,
+        "prefix": "utag"
+    },
+    "uNumberBox": {
+        "body": [
+            "<uni-number-box @change=\"$1\"></uni-number-box>"
+        ],
+        "triggerAssist": false,
+        "prefix": "unumberbox"
+    },
+    "uIcons": {
+        "body": [
+            "<uni-icons type=\"$1\"></uni-icons>"
+        ],
+        "triggerAssist": false,
+        "prefix": "uicons"
+    },
+    "uIndexedList": {
+        "body": [
+            "<uni-indexed-list :options=\"$1\" :showSelect=\"$1\" @click=\"$1\"></uni-indexed-list>"
+        ],
+        "triggerAssist": false,
+        "prefix": "uindexedlist"
+    },
+    "uLoadMore": {
+        "body": [
+            "<uni-load-more :status=\"$1\"></uni-load-more>"
+        ],
+        "triggerAssist": false,
+        "prefix": "uloadmore"
+    },
+    "uNavBar": {
+        "body": [
+            "<uni-nav-bar left-icon=\"back\" left-text=\"%uNavBar.body.text1%\" right-text=\"%uNavBar.body.text2%\" title=\"%uNavBar.body.text3%$1\"></uni-nav-bar>"
+        ],
+        "triggerAssist": false,
+        "prefix": "unavbar"
+    },
+    "uPopup": {
+        "body": [
+            "<uni-popup ref=\"popup\" type=\"top$1\"></uni-popup>"
+        ],
+        "triggerAssist": false,
+        "prefix": "upopup"
+    },
+    "uDrawer": {
+        "body": [
+            "<uni-drawer :visible=\"$1\">",
+            "\t<view style=\"padding:30rpx;\">",
+            "\t\t$2",
+            "\t</view>",
+            "</uni-drawer>"
+        ],
+        "triggerAssist": false,
+        "prefix": "udrawer"
+    },
+    "uFab": {
+        "body": [
+            "<uni-fab @fabClick=\"$6\"></uni-fab>"
+        ],
+        "triggerAssist": false,
+        "prefix": "ufab"
+    },
+    "uFav": {
+        "body": [
+            "<uni-fav :checked=\"$1\" @click=\"$2\"></uni-fav>"
+        ],
+        "triggerAssist": false,
+        "prefix": "ufav"
+    },
+    "uGoodsNav": {
+        "body": [
+            "<uni-goods-nav :fill=\"$1\" :options=\"$2\" :button-group=\"$3\" @click=\"$4\" @buttonClick=\"$5\" />"
+        ],
+        "triggerAssist": false,
+        "prefix": "ugoodsnav"
+    },
+    "uSegmentedControl": {
+        "body": [
+            "<uni-segmented-control :current=\"current$1\" :values=\"$0\" @clickItem=\"$2\"></uni-segmented-control>",
+            "<view class=\"content\">",
+            "\t<view v-show=\"current === 0\">",
+            "\t\t%uSegmentedControl.body.text1%",
+            "\t</view>",
+            "\t<view v-show=\"current === 1\">",
+            "\t\t%uSegmentedControl.body.text2%",
+            "\t</view>",
+            "\t<view v-show=\"current === 2\">",
+            "\t\t%uSegmentedControl.body.text3%",
+            "\t</view>",
+            "</view>"
+        ],
+        "triggerAssist": false,
+        "prefix": "usegmentedcontrol"
+    },
+    "uCountDown": {
+        "body": [
+            "<uni-countdown color=\"$1\" background-color=\"$2\" :day=\"$3\" :hour=\"$4\" :minute=\"$5\" :second=\"$6\"></uni-countdown>"
+        ],
+        "triggerAssist": false,
+        "prefix": "ucountdown"
+    },
+    "uCard": {
+        "body": [
+            "<uni-card title=\"%uCard.body.text1%\" thumbnail=\"$1\" extra=\"%uCard.body.text2%$2\" note=\"Tips$3\">",
+            "\t%uCard.body.text3%$4",
+            "</uni-card>"
+        ],
+        "triggerAssist": false,
+        "prefix": "ucard"
+    },
+    "uSteps": {
+        "body": [
+            "<uni-steps :options=\"$1\" :active=\"0$2\"></uni-steps>"
+        ],
+        "triggerAssist": false,
+        "prefix": "usteps"
+    },
+    "uCalendar": {
+        "body": [
+            "<uni-calendar lunar=\"\" @change=\"$1\"></uni-calendar>"
+        ],
+        "triggerAssist": false,
+        "prefix": "ucalendar"
+    },
+    "uCollapse": {
+        "body": [
+            "<uni-collapse>",
+            "\t<uni-collapse-item title=\"$2\">",
+            "\t\t%uCollapse.body.text%$3",
+            "\t</uni-collapse-item>",
+            "</uni-collapse>"
+        ],
+        "triggerAssist": false,
+        "prefix": "ucollapse"
+    },
+    "uNoticeBar": {
+        "body": [
+            "<uni-notice-bar single=\"$1\" text=\"$2\"></uni-notice-bar>"
+        ],
+        "triggerAssist": false,
+        "prefix": "unoticebar"
+    },
+    "uPagination": {
+        "body": [
+            "<uni-pagination title=\"$1\" show-icon=\"$2\" total=\"$3\" current=\"$4\"></uni-pagination>"
+        ],
+        "triggerAssist": false,
+        "prefix": "upagination"
+    },
+    "uRate": {
+        "body": [
+            "<uni-rate value=\"$1\"></uni-rate>"
+        ],
+        "triggerAssist": false,
+        "prefix": "uRate"
+    },
+    "uSearchBar": {
+        "body": [
+            "<uni-search-bar @confirm=\"$1\" @input=\"$2\" />"
+        ],
+        "triggerAssist": false,
+        "prefix": "usearchbar"
+    },
+    "uSwipeAction": {
+        "body": [
+            "<uni-swipe-action>",
+            "\t<uni-swipe-action-item :options=\"$1\" @click=\"$2\"></uni-swipe-action-item>",
+            "</uni-swipe-action>"
+        ],
+        "triggerAssist": false,
+        "prefix": "uswipeaction"
+    },
+    "uSwiperDot": {
+        "body": [
+            "<uni-swiper-dot :info=\"$1\" :current=\"$2\" field=\"$3\" :mode=\"$4\"></uni-swiper-dot>"
+        ],
+        "triggerAssist": false,
+        "prefix": "uswiperdot"
+    },
+    "uCombox": {
+        "body": [
+            "<uni-combox label=\"$1\" :candidates=\"$2\" placeholder=\"$3\" v-model=\"$4\"></uni-combox>"
+        ],
+        "triggerAssist": false,
+        "prefix": "ucombox"
+    },
+    "uTitle": {
+        "body": [
+            "<uni-title title=\"$1\"></uni-title>"
+        ],
+        "triggerAssist": false,
+        "prefix": "utitle"
+    },
+    "uTransition": {
+        "body": [
+            "<uni-transition :mode-class=\"$1\" :show=\"$2\" />"
+        ],
+        "triggerAssist": false,
+        "prefix": "utransition"
+    },
+    "uField": {
+        "body": [
+            "<uni-field label=\"$1\" name=\"$2\" v-model=\"$3\" placeholder=\"$4\" />"
+        ],
+        "prefix": "ufield",
+        "project": "uni-app"
+    },
+    "uGroup": {
+        "body": [
+            "<uni-group title=\"$1\" margin-top=\"$2\">",
+            "\t%uGroup.body.text%$3",
+            "</uni-group>"
+        ],
+        "prefix": "ugroup",
+        "project": "uni-app"
+    },
+    "uSection": {
+        "body": [
+            "<uni-section title=\"$1\" sub-title=\"$2\" type=\"$3\">",
+            "\t%uSection.body.text%$4",
+            "</uni-section>"
+        ],
+        "prefix": "usection",
+        "project": "uni-app"
+    },
+    "uLink": {
+        "body": [
+            "<uni-link href=\"$1\" text=\"$2\">$3</uni-link>"
+        ],
+        "prefix": "ulink",
+        "project": "uni-app"
+    },
+    "uniClouddb": {
+        "body": [
+          "<unicloud-db v-slot:default=\"{data, loading, error, options}\" collection=\"$0\">",
+          "\t<view v-if=\"error\">{{error.message}}</view>",
+          "\t<view v-else>",
+          "\t\t",
+          "\t</view>",
+          "</unicloud-db>"
+        ],
+        "prefix": "udb",
+        "project": "uni-app",
+        "triggerAssist": true
+    },
+    "uNavigationBar": {
+        "body": [
+            "<navigation-bar :title=\"$0\"/>"
+        ],
+        "prefix": "navigationbar",        
+        "triggerAssist": true
+    },
+    "uPageMeta": {
+        "body": [
+            "<page-meta :background-text-style=\"$0\" :background-color=\"$1\">",
+            "\t$0",
+            "</page-meta>"
+        ],
+        "prefix": "pagemeta",
+        "triggerAssist": true
+    },
+    "uCustomTabBar": {
+        "body": [
+            "<custom-tab-bar direction=\"$1\" :show-icon=\"$2\" :selected=\"$3\" @onTabItemTap=\"$4\" />"
+        ],
+        "prefix": "customtabbar",
+        "triggerAssist": true
+    },
+    "uEasyinput": {
+        "body": [
+            "<uni-easyinput  v-model=\"$1\" placeholder=\"$2\" />"
+        ],
+        "prefix": "uEasyinput",
+        "project": "uni-app"
+    },
+    "uDataCheckbox": {
+        "body": [
+            "<uni-data-checkbox  v-model=\"$1\" :multiple=\"$2\" :localdata=\"$3\" />"
+        ],
+        "prefix": "uDataCheckbox",
+        "project": "uni-app"
+    },
+    "uTable": {
+        "body": [
+            "<uni-table stripe emptyText=\"%uTable.body.text%\">",
+            "\t<uni-tr>",
+            "\t\t<uni-th align=\"center\">$1</uni-th>",
+            "\t</uni-tr>",
+            "\t<uni-tr>",
+            "\t\t<uni-td>$2</uni-td>",
+            "\t</uni-tr>",
+            "</uni-table>"
+        ],
+        "prefix": "uTable",
+        "project": "uni-app"
+    },
+    "uRow": {
+        "body": [
+            "<uni-row$1>",
+            "\t<uni-col$2>$3</uni-col>",
+            "</uni-row>"
+        ],
+        "prefix": "urow",
+        "project": "uni-app"
+     },
+     "uCol": {
+        "body": [
+            "<uni-col$1>$2</uni-col>"
+        ],
+        "prefix": "ucol",
+        "project": "uni-app"
+     },
+     "uFilePicker": {
+        "body": [
+            "<uni-file-picker v-model=\"$1\" title=\"$2\" limit=\"$3\" file-mediatype=\"$4\"></uni-file-picker>"
+        ],
+        "prefix": "uFilePicker",
+        "project": "uni-app"
+    }
+}

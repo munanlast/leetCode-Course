@@ -1,0 +1,9 @@
+{
+	"newschema.title": "New schema file",
+	"newschema.defualtTemplateName": "Default template",
+	"newschema.customTemplateName": "Custom template",
+	"newschema.plesaseInputFileName": "Please enter a schema file name",
+	"newschema.plesaseSelectPath": "Please select a file path",
+	"newschema.plesaseSelectTemplate": "Please select a template",
+	"newschema.locationSmameSchema": "A schema with the same name already exists in the selected location"
+}

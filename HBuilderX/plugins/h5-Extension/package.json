@@ -1,0 +1,119 @@
+{
+  "id": "h5-Extension",
+  "name": "uni-app",
+  "description": "uni-app发行插件(支持H5、微信、京东、百度、支付宝、字节跳动、QQ、360、快手、华为、快应用)",
+  "displayName": "uni-app发行插件",
+  "version": "0.2.10-2022042219",
+  "publisher": "HBuilderX",
+  "engines": {
+    "HBuilderX": "^3.3.7"
+  },
+  "categories": [
+    "Other"
+  ],
+  "__private": true,
+  "main": "./out.js",
+  "activationEvents": [
+    "onLaunch:uniapp.publish.weapp",
+    "onLaunch:uniapp.publish.h5",
+    "onLaunch:uniapp.publish.jingdong",
+    "onLaunch:uniapp.publish.baidu",
+    "onLaunch:uniapp.publish.alipay",
+    "onLaunch:uniapp.publish.bytedance",
+    "onLaunch:uniapp.publish.qq",
+    "onLaunch:uniapp.publish.360",
+    "onLaunch:uniapp.publish.kuaishou",
+    "onLaunch:uniapp.publish.huawei",
+    "onLaunch:uniapp.publish.quickappunion",
+    "onLaunch:uniapp.publish.nApp.export.wgt",
+    "onLaunch:uniapp.publish.nApp.export.resource"
+  ],
+  "contributes": {
+    "launchers": [
+      {
+        "type": "uniapp.publish.weapp",
+        "label": "小程序-微信(仅适用于uni-app)(&W)",
+        "when": "workspaceFolder.type == 'UniApp_Vue'",
+        "mode": "custom"
+      },
+      {
+        "type": "uniapp.publish.h5",
+        "label": "网站-PC Web或手机H5(仅适用于uni-app)(&H)",
+        "when": "workspaceFolder.type == 'UniApp_Vue'",
+        "mode": "custom"
+      },
+      {
+        "type": "uniapp.publish.jingdong",
+        "label": "小程序-京东(仅适用于uni-app)(&D)",
+        "when": "workspaceFolder.type == 'UniApp_Vue'",
+        "mode": "custom"
+      },
+      {
+        "type": "uniapp.publish.baidu",
+        "label": "小程序-百度(仅适用于uni-app)(&B)",
+        "when": "workspaceFolder.type == 'UniApp_Vue'",
+        "mode": "custom"
+      },
+      {
+        "type": "uniapp.publish.alipay",
+        "label": "小程序-支付宝(仅适用于uni-app)(&M)",
+        "when": "workspaceFolder.type == 'UniApp_Vue'",
+        "mode": "custom"
+      },
+      {
+        "type": "uniapp.publish.bytedance",
+        "label": "小程序-字节跳动(仅适用于uni-app)(&T)",
+        "when": "workspaceFolder.type == 'UniApp_Vue'",
+        "mode": "custom"
+      },
+      {
+        "type": "uniapp.publish.qq",
+        "label": "小程序-QQ(仅适用于uni-app)(&Q)",
+        "when": "workspaceFolder.type == 'UniApp_Vue'",
+        "mode": "custom"
+      },
+      {
+        "type": "uniapp.publish.360",
+        "label": "小程序-360(仅适用于uni-app)(&S)",
+        "when": "workspaceFolder.type == 'UniApp_Vue'",
+        "mode": "custom"
+      },
+      {
+        "type": "uniapp.publish.kuaishou",
+        "label": "小程序-快手(仅适用于uni-app)(&J)",
+        "when": "workspaceFolder.type == 'UniApp_Vue'",
+        "mode": "custom"
+      },
+      {
+        "type": "uniapp.publish.huawei",
+        "label": "快应用-华为(仅适用于uni-app)(&U)",
+        "when": "workspaceFolder.type == 'UniApp_Vue'",
+        "mode": "custom"
+      },
+      {
+        "type": "uniapp.publish.quickappunion",
+        "label": "快应用-联盟(仅适用于uni-app)(&K)",
+        "when": "workspaceFolder.type == 'UniApp_Vue'",
+        "mode": "custom"
+      },
+      {
+        "type": "uniapp.publish.nApp.export.wgt",
+        "label": "原生App-制作应用wgt包(&G)",
+        "when": "workspaceFolder.type == 'UniApp_Vue' || workspaceFolder.type == 'App' || workspaceFolder.type == 'Wap2App'",
+        "mode": "custom"
+      },
+      {
+        "type": "uniapp.publish.nApp.export.resource",
+        "label": "原生App-本地打包-生成本地打包App资源(&R)",
+        "when": "workspaceFolder.type == 'UniApp_Vue' || workspaceFolder.type == 'App' || workspaceFolder.type == 'Wap2App'",
+        "mode": "custom"
+      }
+    ]
+  },
+  "extensionDependencies": [
+    "plugin-manager"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "_dc_signatures": "826693fdd8c9a18cc6e3edbaa35fa150d1354a9380cbc279da52a4c23f4ebed7cc922f83e9f170369ca0bf6bed8b80e6"
+}

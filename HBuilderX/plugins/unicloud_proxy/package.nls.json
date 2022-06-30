@@ -1,0 +1,8 @@
+{
+  "description": "uniCloud本地调试插件，支持云函数右键本地运行、客户端调用本地云函数",
+  "displayName": "uniCloud本地调试运行插件",
+  "createCloudFunction.command.name":"新建云函数/云对象",
+  "createCommonModule.command.name":"新建公共模块",
+  "dependency-manager.edit-function.command.name":"管理公共模块或扩展库依赖",
+  "dependency-manager.edit-common.command.name":"管理公共模块依赖"
+}

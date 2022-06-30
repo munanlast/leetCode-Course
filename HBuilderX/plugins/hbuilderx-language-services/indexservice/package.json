@@ -1,0 +1,23 @@
+{
+	"name": "hbuilderx-language-index-services",
+	"displayName": "hbuilderx-language-index-services",
+	"description": "HBuilderX常用语言索引服务",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.61.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"activationEvents": [
+		"*"
+	],
+	"main": "./out/extension.js",
+	"contributes": {},
+	"scripts": {
+	},
+	"dependencies": {
+	},
+	"devDependencies": {
+	}
+}

@@ -1,0 +1,6 @@
+{
+	"uniclouddbschema.plugin.name": "unicloud-dbschema plugin",
+	"uniclouddbschema.plugin.description": "unicloud-dbschema plugin(support dbschema)",
+	"uniclouddbschema.plugin.displayName":"unicloud-dbschema plugin",
+	"uniclouddbschema.command.newdbSchemaResource":"New DB &Schema"
+ }
